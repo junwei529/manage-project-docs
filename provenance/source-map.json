@@ -1,0 +1,628 @@
+{
+  "entries": [
+    {
+      "destination": ".gitattributes",
+      "kind": "standalone-normalized-text-rewrite",
+      "note": "Standalone LF checkout policy protects exact Git-blob equivalence across platforms",
+      "sources": [
+        {
+          "source_blob": "c5366d63a139eb9458c2cca313a7759dd6f64770",
+          "source_normalized_sha256": "f1fe95c2b78b2ec3ae0b2192aa619700391d4719d6a3a9078576cd9aed2942b4",
+          "source_path": ".gitignore"
+        },
+        {
+          "source_blob": "27bd3764c71465bb5efaf849cc79f68fbb200924",
+          "source_normalized_sha256": "0cadb2d0b0b94223edb7cb4504ae210c5cf0723197966178e62ed33035151fc6",
+          "source_path": "docs/PROVENANCE.md"
+        }
+      ],
+      "target_normalized_sha256": "d60f352d0db1404c70afb4bb8b2ca3fd1c610572aa40720e8a0b7baa7885418c",
+      "target_sha256": "d60f352d0db1404c70afb4bb8b2ca3fd1c610572aa40720e8a0b7baa7885418c",
+      "transform": "UTF-8 without BOM, LF newlines, standalone ownership and links; product package behavior unchanged"
+    },
+    {
+      "destination": ".gitignore",
+      "kind": "exact-git-blob",
+      "source_blob": "c5366d63a139eb9458c2cca313a7759dd6f64770",
+      "source_path": ".gitignore",
+      "source_sha256": "f1fe95c2b78b2ec3ae0b2192aa619700391d4719d6a3a9078576cd9aed2942b4",
+      "target_sha256": "f1fe95c2b78b2ec3ae0b2192aa619700391d4719d6a3a9078576cd9aed2942b4"
+    },
+    {
+      "destination": "AGENTS.md",
+      "kind": "standalone-normalized-text-rewrite",
+      "note": "Standalone single-product development instructions",
+      "sources": [
+        {
+          "source_blob": "c1d7ce2cd6fa9be8027fd6ab0120ea9ebcab08c3",
+          "source_normalized_sha256": "04160e49e779de415459cf46561c9544bb4121fb7e00bb6aa96e87b7bb7386cf",
+          "source_path": "AGENTS.md"
+        }
+      ],
+      "target_normalized_sha256": "c9a53395dd71798f4e3e12777fbb4e06822526c15158e8ed71acc3f02ce25128",
+      "target_sha256": "c9a53395dd71798f4e3e12777fbb4e06822526c15158e8ed71acc3f02ce25128",
+      "transform": "UTF-8 without BOM, LF newlines, standalone ownership and links; product package behavior unchanged"
+    },
+    {
+      "destination": "LICENSE",
+      "kind": "exact-git-blob",
+      "source_blob": "8dcfbf5c796ecf4dddf5dff2a1ce9fb891966414",
+      "source_path": "LICENSE",
+      "source_sha256": "42a9bc89d4a9211a97ed82563b70a6a0b6160d7d709b0f83f0a659c9c570a647",
+      "target_sha256": "42a9bc89d4a9211a97ed82563b70a6a0b6160d7d709b0f83f0a659c9c570a647"
+    },
+    {
+      "destination": "PROVENANCE.md",
+      "kind": "standalone-normalized-text-rewrite",
+      "note": "Standalone provenance and publication boundary",
+      "sources": [
+        {
+          "source_blob": "27bd3764c71465bb5efaf849cc79f68fbb200924",
+          "source_normalized_sha256": "0cadb2d0b0b94223edb7cb4504ae210c5cf0723197966178e62ed33035151fc6",
+          "source_path": "docs/PROVENANCE.md"
+        }
+      ],
+      "target_normalized_sha256": "e3c23024ef7242b449e4feadaf90809311dcbe82953cfba82503002f79b8ccdd",
+      "target_sha256": "e3c23024ef7242b449e4feadaf90809311dcbe82953cfba82503002f79b8ccdd",
+      "transform": "UTF-8 without BOM, LF newlines, standalone ownership and links; product package behavior unchanged"
+    },
+    {
+      "destination": "README.md",
+      "kind": "standalone-normalized-text-rewrite",
+      "note": "Standalone English repository entry",
+      "sources": [
+        {
+          "source_blob": "783ccd5f1ff593b1cbe6fe9df307aea18bdc0577",
+          "source_normalized_sha256": "53d9ac132e83fcd43fd23ef4f4b8542c3af79ca37a46325d7bd53d3c30de28dc",
+          "source_path": "docs/skills/manage-project-docs/README.md"
+        }
+      ],
+      "target_normalized_sha256": "6cacb13c244a45c6d80b9788f60d324cb29d446d93eaa9acbfe3e5c9786c3e69",
+      "target_sha256": "6cacb13c244a45c6d80b9788f60d324cb29d446d93eaa9acbfe3e5c9786c3e69",
+      "transform": "UTF-8 without BOM, LF newlines, standalone ownership and links; product package behavior unchanged"
+    },
+    {
+      "destination": "README.zh-CN.md",
+      "kind": "standalone-normalized-text-rewrite",
+      "note": "Standalone Chinese repository entry",
+      "sources": [
+        {
+          "source_blob": "7405f7fae51955a3324c71930f9098c479713fc6",
+          "source_normalized_sha256": "d862981a6123e5a2be65bfed8ca3daa3c32a2cd19ed86fab20f8aded75ac9246",
+          "source_path": "docs/skills/manage-project-docs/README.zh-CN.md"
+        }
+      ],
+      "target_normalized_sha256": "76d8db7f57453e427aece084fd66dd75e81a4dbe06244f72d1ce50055d56bd87",
+      "target_sha256": "76d8db7f57453e427aece084fd66dd75e81a4dbe06244f72d1ce50055d56bd87",
+      "transform": "UTF-8 without BOM, LF newlines, standalone ownership and links; product package behavior unchanged"
+    },
+    {
+      "destination": "docs/skills/manage-project-docs/DESIGN.md",
+      "kind": "standalone-normalized-text-rewrite",
+      "note": "Standalone design summary; historical monorepo decisions omitted",
+      "sources": [
+        {
+          "source_blob": "c2bff440c184538cae95f2600174fa1f4ede18ca",
+          "source_normalized_sha256": "8a68d23d31e8145c5da0a6ee7969ecf4e60dd32b4028c94328c046f43ad7d07a",
+          "source_path": "docs/skills/manage-project-docs/DESIGN.md"
+        }
+      ],
+      "target_normalized_sha256": "08f3521830ccbb35ecf358d1e62360cbed88c06f98d86a3b68687e5536a6e3ae",
+      "target_sha256": "08f3521830ccbb35ecf358d1e62360cbed88c06f98d86a3b68687e5536a6e3ae",
+      "transform": "UTF-8 without BOM, LF newlines, standalone ownership and links; product package behavior unchanged"
+    },
+    {
+      "destination": "docs/skills/manage-project-docs/README.md",
+      "kind": "standalone-normalized-text-rewrite",
+      "note": "Standalone product guide",
+      "sources": [
+        {
+          "source_blob": "783ccd5f1ff593b1cbe6fe9df307aea18bdc0577",
+          "source_normalized_sha256": "53d9ac132e83fcd43fd23ef4f4b8542c3af79ca37a46325d7bd53d3c30de28dc",
+          "source_path": "docs/skills/manage-project-docs/README.md"
+        }
+      ],
+      "target_normalized_sha256": "9f24b86d68af47144a59311c136c6f43009759dab744d6aada1fda0c7d3fff3a",
+      "target_sha256": "9f24b86d68af47144a59311c136c6f43009759dab744d6aada1fda0c7d3fff3a",
+      "transform": "UTF-8 without BOM, LF newlines, standalone ownership and links; product package behavior unchanged"
+    },
+    {
+      "destination": "docs/skills/manage-project-docs/README.zh-CN.md",
+      "kind": "standalone-normalized-text-rewrite",
+      "note": "Standalone product guide mirror",
+      "sources": [
+        {
+          "source_blob": "7405f7fae51955a3324c71930f9098c479713fc6",
+          "source_normalized_sha256": "d862981a6123e5a2be65bfed8ca3daa3c32a2cd19ed86fab20f8aded75ac9246",
+          "source_path": "docs/skills/manage-project-docs/README.zh-CN.md"
+        }
+      ],
+      "target_normalized_sha256": "0c847283131c0ccb27da4331a77bf10de29e939d939302157ece52b5e804088b",
+      "target_sha256": "0c847283131c0ccb27da4331a77bf10de29e939d939302157ece52b5e804088b",
+      "transform": "UTF-8 without BOM, LF newlines, standalone ownership and links; product package behavior unchanged"
+    },
+    {
+      "destination": "docs/skills/manage-project-docs/STATE.md",
+      "kind": "standalone-normalized-text-rewrite",
+      "note": "Migration-forward current state; monorepo writer history omitted",
+      "sources": [
+        {
+          "source_blob": "1c30aa06e3ceef6bc0fef338f0c3213b344246eb",
+          "source_normalized_sha256": "73cc826c506d77b08ac2f5404b561fffd7f9a0e02d3c9bfdc81e8493d3639d55",
+          "source_path": "docs/skills/manage-project-docs/STATE.md"
+        }
+      ],
+      "target_normalized_sha256": "045a4821329242ec33ebdb6d27b110766cd2630f539102b8a3b540255c6c6a6d",
+      "target_sha256": "045a4821329242ec33ebdb6d27b110766cd2630f539102b8a3b540255c6c6a6d",
+      "transform": "UTF-8 without BOM, LF newlines, standalone ownership and links; product package behavior unchanged"
+    },
+    {
+      "destination": "docs/skills/manage-project-docs/VERIFICATION.md",
+      "kind": "standalone-normalized-text-rewrite",
+      "note": "Standalone evidence summary and limits",
+      "sources": [
+        {
+          "source_blob": "27c3c6f10cd6c988e6481370ca907cc142690c2a",
+          "source_normalized_sha256": "2f3fa97d5496e684ae4290e92485c8e28af9ec1356703fc5439b813a07dc8aa5",
+          "source_path": "docs/skills/manage-project-docs/VERIFICATION.md"
+        }
+      ],
+      "target_normalized_sha256": "04a0c7cfaf95227d1e506272c8c7f571c79bab11bd0cb7a6f53627453d97b634",
+      "target_sha256": "04a0c7cfaf95227d1e506272c8c7f571c79bab11bd0cb7a6f53627453d97b634",
+      "transform": "UTF-8 without BOM, LF newlines, standalone ownership and links; product package behavior unchanged"
+    },
+    {
+      "destination": "evals/README.md",
+      "kind": "standalone-normalized-text-rewrite",
+      "note": "Product-specific evaluation index",
+      "sources": [
+        {
+          "source_blob": "cf7c1e6d85142ff3758b366fcea25508be412ceb",
+          "source_normalized_sha256": "02a1521ae371897ab929ff41558c0f30c0a0b14d575ad185bdae5f49ac4697d3",
+          "source_path": "evals/README.md"
+        }
+      ],
+      "target_normalized_sha256": "67913ffcf3551af69a33e263d66a3542ce70ea4e487c235df2eb5044560a2b25",
+      "target_sha256": "67913ffcf3551af69a33e263d66a3542ce70ea4e487c235df2eb5044560a2b25",
+      "transform": "UTF-8 without BOM, LF newlines, standalone ownership and links; product package behavior unchanged"
+    },
+    {
+      "destination": "evals/cases/project-docs-adopt.md",
+      "kind": "exact-git-blob",
+      "source_blob": "06add788960ad5dd639cdf9cd870fa743809101e",
+      "source_path": "evals/cases/project-docs-adopt.md",
+      "source_sha256": "5dcdcb3d87550ea9b1d78be25ee8f1ea826c015f26a04e5ec887d7aaf6966a60",
+      "target_sha256": "5dcdcb3d87550ea9b1d78be25ee8f1ea826c015f26a04e5ec887d7aaf6966a60"
+    },
+    {
+      "destination": "evals/cases/project-docs-conflict.md",
+      "kind": "exact-git-blob",
+      "source_blob": "0d4a2822072e56575eff43576090af79edd61bad",
+      "source_path": "evals/cases/project-docs-conflict.md",
+      "source_sha256": "3810adea40c1c5455e2b7f8ee61931fb7b35f489d3b44f0814a7420139364b96",
+      "target_sha256": "3810adea40c1c5455e2b7f8ee61931fb7b35f489d3b44f0814a7420139364b96"
+    },
+    {
+      "destination": "evals/cases/project-docs-continuity.md",
+      "kind": "exact-git-blob",
+      "source_blob": "61d8b5e35f0857c806b8efbfbbf3ca0307896235",
+      "source_path": "evals/cases/project-docs-continuity.md",
+      "source_sha256": "3d9daa60795da7408ab4865246bcca2632d412c93cbfb39fc941c875d8917863",
+      "target_sha256": "3d9daa60795da7408ab4865246bcca2632d412c93cbfb39fc941c875d8917863"
+    },
+    {
+      "destination": "evals/cases/project-docs-mature-noop.md",
+      "kind": "exact-git-blob",
+      "source_blob": "fda63e6595301b710e15447e56922d367ba785f4",
+      "source_path": "evals/cases/project-docs-mature-noop.md",
+      "source_sha256": "b4af52f3a2c25801882ac1eabc3ee82b01b675cee49afa1d1dcd3e1e0f30c886",
+      "target_sha256": "b4af52f3a2c25801882ac1eabc3ee82b01b675cee49afa1d1dcd3e1e0f30c886"
+    },
+    {
+      "destination": "evals/cases/project-docs-safety-boundaries.md",
+      "kind": "exact-git-blob",
+      "source_blob": "aabc428ae96a0fbcd72987c7c9d80ae0645b1334",
+      "source_path": "evals/cases/project-docs-safety-boundaries.md",
+      "source_sha256": "efe1c676f666bc37279d5f6f76cd48aeb02692bc6e7159749c2663e41d2e3e15",
+      "target_sha256": "efe1c676f666bc37279d5f6f76cd48aeb02692bc6e7159749c2663e41d2e3e15"
+    },
+    {
+      "destination": "evals/fixtures/project-docs-adopt/AGENTS.md",
+      "kind": "exact-git-blob",
+      "source_blob": "3b5a94c0ba3849921764898f0c239c766ea3f067",
+      "source_path": "evals/fixtures/project-docs-adopt/AGENTS.md",
+      "source_sha256": "6233154e445b20de8cb8d5429317b166cf91b198c31757e040bc65e1441e0e67",
+      "target_sha256": "6233154e445b20de8cb8d5429317b166cf91b198c31757e040bc65e1441e0e67"
+    },
+    {
+      "destination": "evals/fixtures/project-docs-adopt/README.md",
+      "kind": "exact-git-blob",
+      "source_blob": "312335eea4c69bf6a2ed45e8d06666fbcdf678a2",
+      "source_path": "evals/fixtures/project-docs-adopt/README.md",
+      "source_sha256": "f66e96ecc3f4f1de135ccbd1510f6c396943e79eca05db4682a54c3dfdaa1c34",
+      "target_sha256": "f66e96ecc3f4f1de135ccbd1510f6c396943e79eca05db4682a54c3dfdaa1c34"
+    },
+    {
+      "destination": "evals/fixtures/project-docs-adopt/src/__init__.py",
+      "kind": "exact-git-blob",
+      "source_blob": "d97d3464a3820d658be39c7b1af96ab5574f7581",
+      "source_path": "evals/fixtures/project-docs-adopt/src/__init__.py",
+      "source_sha256": "17f1b133a9f7d995468bafecc42f55bdcd881a3c14956af4e3cb6abacdaaafba",
+      "target_sha256": "17f1b133a9f7d995468bafecc42f55bdcd881a3c14956af4e3cb6abacdaaafba"
+    },
+    {
+      "destination": "evals/fixtures/project-docs-adopt/src/slug_seed.py",
+      "kind": "exact-git-blob",
+      "source_blob": "542250c035cc4eb5d7858c0f802bb5fbf497a48a",
+      "source_path": "evals/fixtures/project-docs-adopt/src/slug_seed.py",
+      "source_sha256": "a7b0f0f4e397f94fcd25405a0558768f3a7ae7251ccf4941f664aabdd29f6785",
+      "target_sha256": "a7b0f0f4e397f94fcd25405a0558768f3a7ae7251ccf4941f664aabdd29f6785"
+    },
+    {
+      "destination": "evals/fixtures/project-docs-adopt/tests/test_slug_seed.py",
+      "kind": "exact-git-blob",
+      "source_blob": "bab40ae39470ae9b64b1b0241504bd7647081c5a",
+      "source_path": "evals/fixtures/project-docs-adopt/tests/test_slug_seed.py",
+      "source_sha256": "a780952ef7b04c702a4829ffad0f18ae3b09c7fed730ab4c21e3b09df0619956",
+      "target_sha256": "a780952ef7b04c702a4829ffad0f18ae3b09c7fed730ab4c21e3b09df0619956"
+    },
+    {
+      "destination": "evals/fixtures/project-docs-conflict/AGENTS.md",
+      "kind": "exact-git-blob",
+      "source_blob": "7e2fa004a94a181443bcaf08e8a0f5a05d969887",
+      "source_path": "evals/fixtures/project-docs-conflict/AGENTS.md",
+      "source_sha256": "ec2220184da74239cb9984caf6af24a25e1fb3b109738efdcbbed68a77dd7a6b",
+      "target_sha256": "ec2220184da74239cb9984caf6af24a25e1fb3b109738efdcbbed68a77dd7a6b"
+    },
+    {
+      "destination": "evals/fixtures/project-docs-conflict/README.md",
+      "kind": "exact-git-blob",
+      "source_blob": "cd2020025babec234431c9b2be4caf0d959ec237",
+      "source_path": "evals/fixtures/project-docs-conflict/README.md",
+      "source_sha256": "8a65990933a78f6a5b0fd4f29ce422460d626b4d9d54ea1e7aab1920b6a43d0c",
+      "target_sha256": "8a65990933a78f6a5b0fd4f29ce422460d626b4d9d54ea1e7aab1920b6a43d0c"
+    },
+    {
+      "destination": "evals/fixtures/project-docs-conflict/docs/CHECKS.md",
+      "kind": "exact-git-blob",
+      "source_blob": "85190e5b22ee40b66fd62ffb5e6b08344527c8f7",
+      "source_path": "evals/fixtures/project-docs-conflict/docs/CHECKS.md",
+      "source_sha256": "0012d65415e4601bd11a9dc8894c88a10e6a132445996ad0089e9a0bf2629aab",
+      "target_sha256": "0012d65415e4601bd11a9dc8894c88a10e6a132445996ad0089e9a0bf2629aab"
+    },
+    {
+      "destination": "evals/fixtures/project-docs-conflict/docs/CONTINUE.md",
+      "kind": "exact-git-blob",
+      "source_blob": "32f05fb750ec58d33f5bfeb740825feae54faa08",
+      "source_path": "evals/fixtures/project-docs-conflict/docs/CONTINUE.md",
+      "source_sha256": "f67dbb2577d881872c9b8202d4b45f827241d624a8ead7206b7c4de8c3b5199c",
+      "target_sha256": "f67dbb2577d881872c9b8202d4b45f827241d624a8ead7206b7c4de8c3b5199c"
+    },
+    {
+      "destination": "evals/fixtures/project-docs-conflict/docs/MAP.md",
+      "kind": "exact-git-blob",
+      "source_blob": "682a48b4fb81d43ffb4901af17467881ad5a0e5a",
+      "source_path": "evals/fixtures/project-docs-conflict/docs/MAP.md",
+      "source_sha256": "4d154180a5d1cd8629d0be63e09d813417125cf167f43b8d61a00b354aa67059",
+      "target_sha256": "4d154180a5d1cd8629d0be63e09d813417125cf167f43b8d61a00b354aa67059"
+    },
+    {
+      "destination": "evals/fixtures/project-docs-conflict/docs/NOW.md",
+      "kind": "exact-git-blob",
+      "source_blob": "93b22d04a684c7d93f31e3b2dcac59c855409c44",
+      "source_path": "evals/fixtures/project-docs-conflict/docs/NOW.md",
+      "source_sha256": "f649902cb02b8febc3a16997ef28f0aead10c444e31897255730b2fdd355aabc",
+      "target_sha256": "f649902cb02b8febc3a16997ef28f0aead10c444e31897255730b2fdd355aabc"
+    },
+    {
+      "destination": "evals/fixtures/project-docs-conflict/docs/PRODUCT.md",
+      "kind": "exact-git-blob",
+      "source_blob": "03f60cdb15d5fb515798b071670833f520305845",
+      "source_path": "evals/fixtures/project-docs-conflict/docs/PRODUCT.md",
+      "source_sha256": "2d3904aa321245aa423522e92974af421ca5fab640606139459de726d5790620",
+      "target_sha256": "2d3904aa321245aa423522e92974af421ca5fab640606139459de726d5790620"
+    },
+    {
+      "destination": "evals/fixtures/project-docs-conflict/src/__init__.py",
+      "kind": "exact-git-blob",
+      "source_blob": "eea4e7d2023af7e1ac79eed29a6e2fe5496a9db7",
+      "source_path": "evals/fixtures/project-docs-conflict/src/__init__.py",
+      "source_sha256": "2229218d8639c7f80c39340a37a7df1be6e5d82210ece2f0b582861e33de1564",
+      "target_sha256": "2229218d8639c7f80c39340a37a7df1be6e5d82210ece2f0b582861e33de1564"
+    },
+    {
+      "destination": "evals/fixtures/project-docs-conflict/src/queue_input.py",
+      "kind": "exact-git-blob",
+      "source_blob": "32ddc4e4a44c2a627c3ac07c276bdccb789a2bca",
+      "source_path": "evals/fixtures/project-docs-conflict/src/queue_input.py",
+      "source_sha256": "4abfcc7c8a9577373d5171c26ff8796deaacb5620e490313708cb5c37b7dd90e",
+      "target_sha256": "4abfcc7c8a9577373d5171c26ff8796deaacb5620e490313708cb5c37b7dd90e"
+    },
+    {
+      "destination": "evals/fixtures/project-docs-conflict/src/user_notes.py",
+      "kind": "exact-git-blob",
+      "source_blob": "3b437647bfc1ee06998a546a31d649464d093fa3",
+      "source_path": "evals/fixtures/project-docs-conflict/src/user_notes.py",
+      "source_sha256": "a32b24aea39ee97bf3ac32d3b1c23064eae773aa033cd6698783c2c1ba8fc2d0",
+      "target_sha256": "a32b24aea39ee97bf3ac32d3b1c23064eae773aa033cd6698783c2c1ba8fc2d0"
+    },
+    {
+      "destination": "evals/fixtures/project-docs-conflict/tests/test_queue_input.py",
+      "kind": "exact-git-blob",
+      "source_blob": "2c244126d4dfcd8955483b019c2c4c3bd042f6ec",
+      "source_path": "evals/fixtures/project-docs-conflict/tests/test_queue_input.py",
+      "source_sha256": "39c48953bebb77e16bf5d68aac077fd2db0e4659beb347824824ec1db155e28e",
+      "target_sha256": "39c48953bebb77e16bf5d68aac077fd2db0e4659beb347824824ec1db155e28e"
+    },
+    {
+      "destination": "evals/fixtures/project-docs-continuity/AGENTS.md",
+      "kind": "exact-git-blob",
+      "source_blob": "9363079a1fc30579f219ec51a46da1a1d4d52344",
+      "source_path": "evals/fixtures/project-docs-continuity/AGENTS.md",
+      "source_sha256": "1405c327e237605e7c348f8f9e7c127d475c8d31f5c35b373d7394a61ec40734",
+      "target_sha256": "1405c327e237605e7c348f8f9e7c127d475c8d31f5c35b373d7394a61ec40734"
+    },
+    {
+      "destination": "evals/fixtures/project-docs-continuity/PROJECT_STATE.md",
+      "kind": "exact-git-blob",
+      "source_blob": "ab525e4a77ab4babb55a5af896878bd0f613553a",
+      "source_path": "evals/fixtures/project-docs-continuity/PROJECT_STATE.md",
+      "source_sha256": "ea8181b113ffd0ff4e4a6f753208e65e4df3cf71afc6554df26bd1fe9cea7ebd",
+      "target_sha256": "ea8181b113ffd0ff4e4a6f753208e65e4df3cf71afc6554df26bd1fe9cea7ebd"
+    },
+    {
+      "destination": "evals/fixtures/project-docs-continuity/README.md",
+      "kind": "exact-git-blob",
+      "source_blob": "9a1c9087669b0597d9478f858a0d6a33f156077c",
+      "source_path": "evals/fixtures/project-docs-continuity/README.md",
+      "source_sha256": "4a71fb88371ef67e8f893085ce1586e0b6cba80d0784e34309efc6744966ff62",
+      "target_sha256": "4a71fb88371ef67e8f893085ce1586e0b6cba80d0784e34309efc6744966ff62"
+    },
+    {
+      "destination": "evals/fixtures/project-docs-continuity/src/__init__.py",
+      "kind": "exact-git-blob",
+      "source_blob": "dde4b8b3792b2e15a2ef4f9111ea1a87bb3fb3c4",
+      "source_path": "evals/fixtures/project-docs-continuity/src/__init__.py",
+      "source_sha256": "407b5323d5fc400578384c9e7ff5bb17e550a0187013324d7a11904608370e24",
+      "target_sha256": "407b5323d5fc400578384c9e7ff5bb17e550a0187013324d7a11904608370e24"
+    },
+    {
+      "destination": "evals/fixtures/project-docs-continuity/src/report_labels.py",
+      "kind": "exact-git-blob",
+      "source_blob": "9cdc8bc359b5301b0b92eb02b82530bd815e9332",
+      "source_path": "evals/fixtures/project-docs-continuity/src/report_labels.py",
+      "source_sha256": "b48d58f906a2ca6896ba823151b4cf8b8783740c2dcc85b3f9228c9cadc66534",
+      "target_sha256": "b48d58f906a2ca6896ba823151b4cf8b8783740c2dcc85b3f9228c9cadc66534"
+    },
+    {
+      "destination": "evals/fixtures/project-docs-continuity/tests/test_report_labels.py",
+      "kind": "exact-git-blob",
+      "source_blob": "c611de1b762388e83123f540514820a6d12b3993",
+      "source_path": "evals/fixtures/project-docs-continuity/tests/test_report_labels.py",
+      "source_sha256": "d5358e981a979752776d4768c7d56ee08cc7d73df5c3d008168c51796a3c8159",
+      "target_sha256": "d5358e981a979752776d4768c7d56ee08cc7d73df5c3d008168c51796a3c8159"
+    },
+    {
+      "destination": "evals/fixtures/project-docs-mature-noop/AGENTS.md",
+      "kind": "exact-git-blob",
+      "source_blob": "adc0a1e5c247860b9dbf51ca8b4055572a1697c9",
+      "source_path": "evals/fixtures/project-docs-mature-noop/AGENTS.md",
+      "source_sha256": "ea1599afe59378b9d07c551f9de77e08d9ba43a9e343972925edfa286de320c3",
+      "target_sha256": "ea1599afe59378b9d07c551f9de77e08d9ba43a9e343972925edfa286de320c3"
+    },
+    {
+      "destination": "evals/fixtures/project-docs-mature-noop/PROJECT_GUIDE.md",
+      "kind": "exact-git-blob",
+      "source_blob": "8fd993f03f18c406f55e89c3d40e0d71fbe5dec0",
+      "source_path": "evals/fixtures/project-docs-mature-noop/PROJECT_GUIDE.md",
+      "source_sha256": "71fcb57f16c8679bf4589cfa1e33fb02f599941215e13f7a69df93630757f47e",
+      "target_sha256": "71fcb57f16c8679bf4589cfa1e33fb02f599941215e13f7a69df93630757f47e"
+    },
+    {
+      "destination": "evals/fixtures/project-docs-mature-noop/README.md",
+      "kind": "exact-git-blob",
+      "source_blob": "89d28a30026793260e8fe8b154d2b80b59a839c8",
+      "source_path": "evals/fixtures/project-docs-mature-noop/README.md",
+      "source_sha256": "5dfaeb89a835add5966b3b8be22728cf129e46e0c7db2ff8b4cb8d57d032db67",
+      "target_sha256": "5dfaeb89a835add5966b3b8be22728cf129e46e0c7db2ff8b4cb8d57d032db67"
+    },
+    {
+      "destination": "evals/fixtures/project-docs-mature-noop/src/__init__.py",
+      "kind": "exact-git-blob",
+      "source_blob": "3382f2b6a477815661e53ac77a4cd233ec7f2c61",
+      "source_path": "evals/fixtures/project-docs-mature-noop/src/__init__.py",
+      "source_sha256": "9e7bdd8f4c72cea6e635ae8b1e5a0723a21ea12033f572a204cb9fbcc29c8613",
+      "target_sha256": "9e7bdd8f4c72cea6e635ae8b1e5a0723a21ea12033f572a204cb9fbcc29c8613"
+    },
+    {
+      "destination": "evals/fixtures/project-docs-mature-noop/src/range_ledger.py",
+      "kind": "exact-git-blob",
+      "source_blob": "d0cf996ea7c72b910aabba2ae33c69344989e257",
+      "source_path": "evals/fixtures/project-docs-mature-noop/src/range_ledger.py",
+      "source_sha256": "3dd8dd586d810c66951c4861e154bb3382e5c09dac6136c973f933198579a535",
+      "target_sha256": "3dd8dd586d810c66951c4861e154bb3382e5c09dac6136c973f933198579a535"
+    },
+    {
+      "destination": "evals/fixtures/project-docs-mature-noop/tests/test_range_ledger.py",
+      "kind": "exact-git-blob",
+      "source_blob": "edd405cf33122d1be2f16f48d96ffe70486baefb",
+      "source_path": "evals/fixtures/project-docs-mature-noop/tests/test_range_ledger.py",
+      "source_sha256": "5684d2055faa1a673e28ae97e2c32cd26dfd2322b7418ebf143b6eb7a951e7cc",
+      "target_sha256": "5684d2055faa1a673e28ae97e2c32cd26dfd2322b7418ebf143b6eb7a951e7cc"
+    },
+    {
+      "destination": "evals/fixtures/project-docs-safety-boundaries/AGENTS.md",
+      "kind": "exact-git-blob",
+      "source_blob": "d404bd4f24eaabccfb79f540e42c34f0d36ebe10",
+      "source_path": "evals/fixtures/project-docs-safety-boundaries/AGENTS.md",
+      "source_sha256": "74e679b991ebeae103ff7f568d34283aec6e65bee99c929bbd4e238d8a15cffe",
+      "target_sha256": "74e679b991ebeae103ff7f568d34283aec6e65bee99c929bbd4e238d8a15cffe"
+    },
+    {
+      "destination": "evals/fixtures/project-docs-safety-boundaries/README.md",
+      "kind": "exact-git-blob",
+      "source_blob": "b12eec7a4896fa2f14b61bf224c6e29124d28fc1",
+      "source_path": "evals/fixtures/project-docs-safety-boundaries/README.md",
+      "source_sha256": "3c84bed17f8a61ce25d80960187fbdfd8c387ac0871ba6c2b6548f6316141cbf",
+      "target_sha256": "3c84bed17f8a61ce25d80960187fbdfd8c387ac0871ba6c2b6548f6316141cbf"
+    },
+    {
+      "destination": "evals/fixtures/project-docs-safety-boundaries/apps/service/AGENTS.md",
+      "kind": "exact-git-blob",
+      "source_blob": "59a4294450175363c1a2ca2d17f421bbb9a9c05f",
+      "source_path": "evals/fixtures/project-docs-safety-boundaries/apps/service/AGENTS.md",
+      "source_sha256": "60b64a7cabc788c33859572272df72ef4e26b062fa5711947a72a4765c103d62",
+      "target_sha256": "60b64a7cabc788c33859572272df72ef4e26b062fa5711947a72a4765c103d62"
+    },
+    {
+      "destination": "evals/fixtures/project-docs-safety-boundaries/apps/service/PROJECT.zh-CN.md",
+      "kind": "exact-git-blob",
+      "source_blob": "b6d08e13a531e9888b94e64cadef087f13b841ba",
+      "source_path": "evals/fixtures/project-docs-safety-boundaries/apps/service/PROJECT.zh-CN.md",
+      "source_sha256": "68650b30770324f05a946c0c955d764b56526a6a7e1ac6dccca854114177fb68",
+      "target_sha256": "68650b30770324f05a946c0c955d764b56526a6a7e1ac6dccca854114177fb68"
+    },
+    {
+      "destination": "evals/fixtures/project-docs-safety-boundaries/apps/service/docs/API.md",
+      "kind": "exact-git-blob",
+      "source_blob": "181d334b0350d59df4d71f820130d4926e351cf1",
+      "source_path": "evals/fixtures/project-docs-safety-boundaries/apps/service/docs/API.md",
+      "source_sha256": "034246660913676ef732603ecdf58f47cec696cb4e4a2298eef842a877c53e70",
+      "target_sha256": "034246660913676ef732603ecdf58f47cec696cb4e4a2298eef842a877c53e70"
+    },
+    {
+      "destination": "evals/fixtures/project-docs-safety-boundaries/apps/service/docs/RELEASE-0.0.1.md",
+      "kind": "exact-git-blob",
+      "source_blob": "666d16afc2a327edf7d91bcc5dc84c7a58554132",
+      "source_path": "evals/fixtures/project-docs-safety-boundaries/apps/service/docs/RELEASE-0.0.1.md",
+      "source_sha256": "55432ce11e1343ad61e211112b634f40edced2597930c0dca359ab32279259d3",
+      "target_sha256": "55432ce11e1343ad61e211112b634f40edced2597930c0dca359ab32279259d3"
+    },
+    {
+      "destination": "evals/fixtures/project-docs-safety-boundaries/apps/service/docs/WRITER.md",
+      "kind": "exact-git-blob",
+      "source_blob": "4abf1694ebf4b82a8296b298e95d9542280a76cc",
+      "source_path": "evals/fixtures/project-docs-safety-boundaries/apps/service/docs/WRITER.md",
+      "source_sha256": "2cdf0d2ff305dc85b1ff49200131674fb8f8b5da84c2b9393a3b7c84c9b0656c",
+      "target_sha256": "2cdf0d2ff305dc85b1ff49200131674fb8f8b5da84c2b9393a3b7c84c9b0656c"
+    },
+    {
+      "destination": "evals/fixtures/project-docs-safety-boundaries/apps/service/schema/openapi.yaml",
+      "kind": "exact-git-blob",
+      "source_blob": "a56c3dcc2eacaf2831810bb589a3b71f1c069b92",
+      "source_path": "evals/fixtures/project-docs-safety-boundaries/apps/service/schema/openapi.yaml",
+      "source_sha256": "b4caba27d02b48447606c202495faa06473fe5576624b6a3bc110fa77bf2112e",
+      "target_sha256": "b4caba27d02b48447606c202495faa06473fe5576624b6a3bc110fa77bf2112e"
+    },
+    {
+      "destination": "evals/inspect-project-docs-run.ps1",
+      "kind": "standalone-normalized-text-rewrite",
+      "note": "Windows PowerShell compatible standalone path-boundary validation",
+      "sources": [
+        {
+          "source_blob": "ad2dbb6856ba01c8bad2022d8458b600379a95c1",
+          "source_normalized_sha256": "dff43809a4c09e0975eb046a827bf9f48bab64ada0f74fc5ae16d9f07c790720",
+          "source_path": "evals/inspect-project-docs-run.ps1"
+        }
+      ],
+      "target_normalized_sha256": "98c0b07313bc09fa8841121ccb294081774283670b46d6f0910c34031f4c8e1b",
+      "target_sha256": "98c0b07313bc09fa8841121ccb294081774283670b46d6f0910c34031f4c8e1b",
+      "transform": "UTF-8 without BOM, LF newlines; Windows PowerShell compatible platform detection; evaluation behavior otherwise unchanged"
+    },
+    {
+      "destination": "evals/setup-project-docs.ps1",
+      "kind": "standalone-normalized-text-rewrite",
+      "note": "Windows PowerShell compatible standalone path-boundary validation",
+      "sources": [
+        {
+          "source_blob": "d90a79b7134bfe2455a3b435eb7dbabeefaa48ed",
+          "source_normalized_sha256": "06940245b4a04eee7b08f199aa983a50a2874ba8629a40dac16e56b4d51e1304",
+          "source_path": "evals/setup-project-docs.ps1"
+        }
+      ],
+      "target_normalized_sha256": "519ce99a5bc03b70285a31235779253ac66038b8270b4d087af05d4f3b107c75",
+      "target_sha256": "519ce99a5bc03b70285a31235779253ac66038b8270b4d087af05d4f3b107c75",
+      "transform": "UTF-8 without BOM, LF newlines; Windows PowerShell compatible platform detection; evaluation behavior otherwise unchanged"
+    },
+    {
+      "destination": "scripts/check_repository.py",
+      "kind": "standalone-normalized-text-rewrite",
+      "note": "Standalone slice of repository and fixture validation",
+      "sources": [
+        {
+          "source_blob": "ca5c47ff58c0e32cce14fcaf5fb1a43e68c0380a",
+          "source_normalized_sha256": "3b0743e04bf39d797538538cf981935974cdaecadcdf383faf4477d92c207771",
+          "source_path": "scripts/check_repository.py"
+        },
+        {
+          "source_blob": "ca098a700a32fde9db7fdfed76d8a28a24d4a33c",
+          "source_normalized_sha256": "f2eabda7058daea2f80ce4072f54c3300530ab0ee9ed6d6dd2f439677635155b",
+          "source_path": "evals/check-fixtures.ps1"
+        }
+      ],
+      "target_normalized_sha256": "dec5a58c4a1038361f06adc882add5fe3cf317215c975e7b6685ef546dd83b99",
+      "target_sha256": "dec5a58c4a1038361f06adc882add5fe3cf317215c975e7b6685ef546dd83b99",
+      "transform": "UTF-8 without BOM, LF newlines, standalone ownership and links; product package behavior unchanged"
+    },
+    {
+      "destination": "skills/manage-project-docs/SKILL.md",
+      "kind": "exact-git-blob",
+      "source_blob": "7e7ef377f2d54151056404f895d4dc607092f265",
+      "source_path": "skills/manage-project-docs/SKILL.md",
+      "source_sha256": "a1dad61252625f18ddac743b65257229f8dd26e3a65e32652711e8c62e29a609",
+      "target_sha256": "a1dad61252625f18ddac743b65257229f8dd26e3a65e32652711e8c62e29a609"
+    },
+    {
+      "destination": "skills/manage-project-docs/agents/openai.yaml",
+      "kind": "exact-git-blob",
+      "source_blob": "6b820dff0205e6c3c9bff79156a94d5b40555dbf",
+      "source_path": "skills/manage-project-docs/agents/openai.yaml",
+      "source_sha256": "0801a1829848027fb1c209608ac44ece0b3c0eae6ad7ac42dcc4facb9dd89468",
+      "target_sha256": "0801a1829848027fb1c209608ac44ece0b3c0eae6ad7ac42dcc4facb9dd89468"
+    },
+    {
+      "destination": "skills/manage-project-docs/assets/templates/continuity-anchor.md",
+      "kind": "exact-git-blob",
+      "source_blob": "949ad950fc49a74b4da2ed036db1dc4eb49e0e25",
+      "source_path": "skills/manage-project-docs/assets/templates/continuity-anchor.md",
+      "source_sha256": "9b7cc87a002176b604301773db7b91af5ae113805b245dc94ad6481e72bdd603",
+      "target_sha256": "9b7cc87a002176b604301773db7b91af5ae113805b245dc94ad6481e72bdd603"
+    },
+    {
+      "destination": "skills/manage-project-docs/assets/templates/project-doc-starter.md",
+      "kind": "exact-git-blob",
+      "source_blob": "f7ca1ed4e99eaf7c5d4ff178fa69a66f2ff3249c",
+      "source_path": "skills/manage-project-docs/assets/templates/project-doc-starter.md",
+      "source_sha256": "d49b567235b29aad84b468e054cea993bebc774094718ce3e9d7d2d30202a4e4",
+      "target_sha256": "d49b567235b29aad84b468e054cea993bebc774094718ce3e9d7d2d30202a4e4"
+    },
+    {
+      "destination": "skills/manage-project-docs/references/audit-and-adopt.md",
+      "kind": "exact-git-blob",
+      "source_blob": "15a380bb8b2dff7e112fc034bfa752c58f60d013",
+      "source_path": "skills/manage-project-docs/references/audit-and-adopt.md",
+      "source_sha256": "7a68d650d164f6f97088d8186916278df711e70db74f00117a088d22ce8d7f13",
+      "target_sha256": "7a68d650d164f6f97088d8186916278df711e70db74f00117a088d22ce8d7f13"
+    },
+    {
+      "destination": "skills/manage-project-docs/references/maintain-and-recover.md",
+      "kind": "exact-git-blob",
+      "source_blob": "132b2274a2e52d1d232fa87c2f00d95a7f0f1f84",
+      "source_path": "skills/manage-project-docs/references/maintain-and-recover.md",
+      "source_sha256": "92768df8aa8d7a8f799366c46b9f03ba6bab8183896d80578188c03e361c9bb4",
+      "target_sha256": "92768df8aa8d7a8f799366c46b9f03ba6bab8183896d80578188c03e361c9bb4"
+    }
+  ],
+  "manifest_provenance": [
+    {
+      "source_blob": "27bd3764c71465bb5efaf849cc79f68fbb200924",
+      "source_normalized_sha256": "0cadb2d0b0b94223edb7cb4504ae210c5cf0723197966178e62ed33035151fc6",
+      "source_path": "docs/PROVENANCE.md"
+    }
+  ],
+  "materialization": "direct git object extraction by exact commit:path; no clone or archive",
+  "product": "manage-project-docs",
+  "schema": "standalone-skill-provenance/v1",
+  "source_commit": "80910a8b2375a11be897e9660c4b00a06d00dd13",
+  "source_tree": "2ec2574116a9b2c4e8ec9a1bb4cb2636cb6279af"
+}
