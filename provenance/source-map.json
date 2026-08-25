@@ -560,8 +560,8 @@
           "source_path": "evals/check-fixtures.ps1"
         }
       ],
-      "target_normalized_sha256": "dec5a58c4a1038361f06adc882add5fe3cf317215c975e7b6685ef546dd83b99",
-      "target_sha256": "dec5a58c4a1038361f06adc882add5fe3cf317215c975e7b6685ef546dd83b99",
+      "target_normalized_sha256": "9883cfedfe42ff79a5a4279fefcb5e6cf867b43495979c2c72ac3db22ff2735e",
+      "target_sha256": "9883cfedfe42ff79a5a4279fefcb5e6cf867b43495979c2c72ac3db22ff2735e",
       "transform": "UTF-8 without BOM, LF newlines, standalone ownership and links; product package behavior unchanged"
     },
     {
