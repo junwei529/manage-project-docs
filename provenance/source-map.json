@@ -167,8 +167,8 @@
           "source_path": "docs/skills/manage-project-docs/VERIFICATION.md"
         }
       ],
-      "target_normalized_sha256": "04a0c7cfaf95227d1e506272c8c7f571c79bab11bd0cb7a6f53627453d97b634",
-      "target_sha256": "04a0c7cfaf95227d1e506272c8c7f571c79bab11bd0cb7a6f53627453d97b634",
+      "target_normalized_sha256": "bc00cd05e00dc672dc85f09f7c192bad0cfbf6fb74cb5071cbab7167b746f1f3",
+      "target_sha256": "bc00cd05e00dc672dc85f09f7c192bad0cfbf6fb74cb5071cbab7167b746f1f3",
       "transform": "UTF-8 without BOM, LF newlines, standalone ownership and links; product package behavior unchanged"
     },
     {
@@ -560,8 +560,8 @@
           "source_path": "evals/check-fixtures.ps1"
         }
       ],
-      "target_normalized_sha256": "9883cfedfe42ff79a5a4279fefcb5e6cf867b43495979c2c72ac3db22ff2735e",
-      "target_sha256": "9883cfedfe42ff79a5a4279fefcb5e6cf867b43495979c2c72ac3db22ff2735e",
+      "target_normalized_sha256": "d1b595a637545f533b194c178e26a1cce87a5b10e6aac6780d04106b933b3a03",
+      "target_sha256": "d1b595a637545f533b194c178e26a1cce87a5b10e6aac6780d04106b933b3a03",
       "transform": "UTF-8 without BOM, LF newlines, standalone ownership and links; product package behavior unchanged"
     },
     {
