@@ -30,3 +30,18 @@ Read the root [`AGENTS.md`](../../../AGENTS.md),
 [`PROVENANCE.md`](../../../PROVENANCE.md), [Design](DESIGN.md), this State, and
 [Verification](VERIFICATION.md). Verify Git status, current branch, package
 identity, and writer ownership before changing files.
+
+## Independent v0.3.0 release state
+
+The approved public repository identity is `junwei529/manage-project-docs`; the first independent Release target is `v0.3.0`. This remains a local candidate until publication is separately authorized and proved.
+
+| Evidence layer | State | Basis and limit |
+| --- | --- | --- |
+| Candidate/package identity | `WORKTREE_VERIFIED` | Before commit, the repository checker validates the working-tree inventory, provenance target hashes, and exact six-file Skill package. The local commit plus a clean post-commit checker rerun must bind those bytes to a Git tree. |
+| SOURCE behavior | `BEHAVIOR_SLICE_VERIFIED` | One consumed `gpt-5.6-sol` / high, ephemeral, tool-free qualification at standalone candidate commit `6b0bf47fdc10722b830508af9077288601b55ab9` passed the conflict-governance and mature-noop behavior slices without mutation. Controller-observed selection/load and negative-context coverage remain `UNKNOWN`. |
+| `LOCAL_RELEASE_READY` | `PENDING_FINAL_GATES` | Requires the final tracked diff, repository checker, publication/private-locator/link/encoding checks, material native review, and a clean local commit. |
+| `PUBLIC_RELEASE` | `UNKNOWN` | No remote, tag, GitHub Release, or publication is created by this local qualification. |
+| `STABLE_INSTALLED_COPY` | `UNKNOWN` | No persistent or isolated copy is installed, updated, uninstalled, rolled back, or activated by this local qualification. |
+| broad `EFFICACY_BOUNDARY` | `UNKNOWN` | Two source cases do not establish broad product efficacy. |
+
+The future lifecycle owner is the root README. It defines immutable-source install, staged update, bounded uninstall, and rollback behavior. Every persistent installation or publication effect remains separately authorized. Human-reviewed Release notes must preserve the migration and evidence boundaries rather than promote local or SOURCE evidence into public or installed-copy claims.

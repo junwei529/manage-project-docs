@@ -29,3 +29,9 @@ dependency.
 Tracked content contains no private task, host, checkout, account, or destination
 locator. This local migration makes no remote, installation, tag, Release,
 publication, stable-copy, or efficacy claim.
+
+## Independent v0.3.0 candidate
+
+The approved future public identity is `junwei529/manage-project-docs`, and the first independent release target is `v0.3.0`. The repository descends from the legacy public line `junwei529/skills@v0.2.0`, but the exact package was materialized from later source commit `80910a8b2375a11be897e9660c4b00a06d00dd13`. All six package files differ from the `v0.2.0` tag commit `ac790233d5a8ba5afafd6eef95b1d5bc3cbe83a6`; `provenance/source-map.json` remains the machine-checked owner for every source blob, normalized rewrite, and destination hash.
+
+Local release-qualification edits add standalone lifecycle and evidence records only. They do not alter the six-file installable Skill package or convert rewritten repository documentation into upstream-authored bytes. No local remote, tag, GitHub Release, publication, or installation is implied by this record.

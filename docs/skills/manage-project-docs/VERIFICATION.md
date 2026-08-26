@@ -97,3 +97,35 @@ The repository checker covers the retained deterministic cases and fixtures.
 Fresh native selection, installed-copy behavior, publication, and broad efficacy are not established by this migration. A local clean commit and native review prove only this
 standalone migration checkpoint; they do not authorize or prove publication,
 installation, a remote, tag, Release, or broad product efficacy.
+
+## Independent release qualification
+
+### Consumed SOURCE behavior evidence
+
+A single bounded qualification used `gpt-5.6-sol` with high reasoning against the exact committed candidate instructions and two tracked case/fixture sets at `6b0bf47fdc10722b830508af9077288601b55ab9`. It ran ephemerally, ignored ambient user configuration and project rules, received the authorized committed inputs inline, invoked no tools, and attempted no mutation.
+
+- `project-docs-conflict` behavior slice: `PASS`. The response preserved competing authority, frozen history, `UNKNOWN` claims, the dirty user-owned source boundary, and the explicit approval gate before any canonical or structural write. Controller-observed exact-candidate selection/load was not exercised and remains `UNKNOWN`.
+- `project-docs-mature-noop` behavior slice: `PASS`. The response selected `NOOP`, preserved the compact single-owner layout, avoided a parallel document suite, and did not claim unrun runtime verification. Controller-observed body/reference reads and the four selection-negative contexts were not exercised and remain `UNKNOWN`.
+
+This evidence is consumed and must not be repeated to obtain a preferred answer. It proves only the two bounded SOURCE behavior slices; it does not prove selection/load coverage, negative contexts, installed-copy behavior, publication, or broad efficacy.
+
+### Final local candidate gates
+
+Run these after the tracked diff is frozen:
+
+```powershell
+python -B scripts/check_repository.py --json
+git diff --check
+```
+
+The closeout must also confirm:
+
+- every tracked path remains covered by `provenance/source-map.json`, with matching raw and normalized target hashes;
+- the installable package is still exactly the six expected files and is byte-identical to the mapped candidate;
+- documentation has no private locator, session, host, secret-like, publication, installed-copy, or efficacy overclaim;
+- relative Markdown links resolve, tracked text is UTF-8 without BOM and uses the repository newline policy;
+- the ignored `scripts/__pycache__/` state is neither inspected nor used as evidence;
+- native Codex review has material whole-diff/source coverage and all P0/P1/P2 findings are resolved before commit;
+- the final local commit is clean while local `main`, remotes, and tags remain unchanged.
+
+Only the final completion record may advance `LOCAL_RELEASE_READY` from `PENDING_FINAL_GATES`. `PUBLIC_RELEASE`, `STABLE_INSTALLED_COPY`, and broad `EFFICACY_BOUNDARY` remain `UNKNOWN`.
