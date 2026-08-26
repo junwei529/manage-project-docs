@@ -152,8 +152,8 @@
           "source_path": "docs/skills/manage-project-docs/STATE.md"
         }
       ],
-      "target_normalized_sha256": "4ed268f04d6952015d28d250057623540dee9e05ff4e258544988656fd070cba",
-      "target_sha256": "4ed268f04d6952015d28d250057623540dee9e05ff4e258544988656fd070cba",
+      "target_normalized_sha256": "fb91c6ff7909c74b9f094359484375c6b4e7e866d2987c71d4beade3ba0ce7c7",
+      "target_sha256": "fb91c6ff7909c74b9f094359484375c6b4e7e866d2987c71d4beade3ba0ce7c7",
       "transform": "UTF-8 without BOM, LF newlines, standalone ownership and links; product package behavior unchanged"
     },
     {
