@@ -126,6 +126,10 @@ The closeout must also confirm:
 - relative Markdown links resolve, tracked text is UTF-8 without BOM and uses the repository newline policy;
 - the ignored `scripts/__pycache__/` state is neither inspected nor used as evidence;
 - native Codex review has material whole-diff/source coverage and all P0/P1/P2 findings are resolved before commit;
-- the final local commit is clean while local `main`, remotes, and tags remain unchanged.
+- candidate C's clean commit and post-commit checker rerun bind the corrected bytes while local `main`, remotes, and tags remain unchanged;
+- C remains `PENDING_PLANNER_ACCEPTANCE` until the Planner accepts that exact commit and tree;
+- after acceptance, a separately authorized governance writer may create repo-local receipt R, which records C, C's tree, the verdict, and the evidence pointer in `STATE.md`, changes the readiness state from `PENDING_PLANNER_ACCEPTANCE` to `LOCAL_RELEASE_READY`, updates `provenance/source-map.json`, and passes a clean post-commit repository checker;
+- R's receipt and readiness transition are explicitly allowed, but R changes no lifecycle instructions, package/evaluation/checker bytes, qualification criteria or meaning, evidence inputs or results, public-release identity, or installed-copy claims; any broader delta stops for a new acceptance disposition;
+- future B2 public Release commit P remains `UNKNOWN`; neither C nor R is P.
 
-Only the final completion record may advance `LOCAL_RELEASE_READY` from `PENDING_FINAL_GATES`. `PUBLIC_RELEASE`, `STABLE_INSTALLED_COPY`, and broad `EFFICACY_BOUNDARY` remain `UNKNOWN`.
+This correction turn may create only C. R is prohibited until the Planner accepts exact C; P remains a future B2 identity. `PUBLIC_RELEASE`, `STABLE_INSTALLED_COPY`, and broad `EFFICACY_BOUNDARY` remain `UNKNOWN`.
