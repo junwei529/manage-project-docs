@@ -66,5 +66,5 @@ Release closeout keeps three identities distinct:
   evidence commits must not move tag `v0.3.0`.
 
 `PUBLIC_RELEASE` is `PUBLISHED`. `STABLE_INSTALLED_COPY` is
-`QUALIFIED_PENDING_PLANNER_ACCEPTANCE`. Broad `EFFICACY_BOUNDARY` and untested
+`VERIFIED`. Broad `EFFICACY_BOUNDARY` and untested
 contexts remain `UNKNOWN`.

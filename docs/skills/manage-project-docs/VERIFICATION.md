@@ -204,7 +204,7 @@ discovery root; no rollback-copy deletion is authorized.
 
 The installed manifest SHA-256 observed before and after the behavior proof was
 `5fee9530e02482ff6932bc874d888bd06068d9341bcd739136b47cdf4ec3ab46`.
-The persistent lifecycle and loaded-copy evidence is
-`QUALIFIED_PENDING_PLANNER_ACCEPTANCE`. Broad efficacy, broader negative-context
+The persistent lifecycle and loaded-copy evidence was accepted as public evidence id
+`B2-MPD-COMPLETE-02` and is `VERIFIED`. Broad efficacy, broader negative-context
 coverage, write/adoption behavior, monorepos, generated documentation, external
 owners, and other untested contexts remain `UNKNOWN`.

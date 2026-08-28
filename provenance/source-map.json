@@ -77,8 +77,8 @@
           "source_path": "docs/skills/manage-project-docs/README.md"
         }
       ],
-      "target_normalized_sha256": "edc9c722d79b4f8bffe6ad24ec763090b8c05c3edf16f2c34e2e1839bedf99d5",
-      "target_sha256": "edc9c722d79b4f8bffe6ad24ec763090b8c05c3edf16f2c34e2e1839bedf99d5",
+      "target_normalized_sha256": "6b7ccaa1388cfabc3f62c3f288727300e998285a62c4824b50be99e2c330b9f0",
+      "target_sha256": "6b7ccaa1388cfabc3f62c3f288727300e998285a62c4824b50be99e2c330b9f0",
       "transform": "UTF-8 without BOM, LF newlines, standalone ownership and links; product package behavior unchanged"
     },
     {
@@ -92,8 +92,8 @@
           "source_path": "docs/skills/manage-project-docs/README.zh-CN.md"
         }
       ],
-      "target_normalized_sha256": "1d6653aa46dfb23c4c135328ec41b4ed250dbaa8bc1626dc92ed8572f04e3f01",
-      "target_sha256": "1d6653aa46dfb23c4c135328ec41b4ed250dbaa8bc1626dc92ed8572f04e3f01",
+      "target_normalized_sha256": "202526484d48ebe97d93f170b97822e686b851e95f852b0ecdd1e159bc0aa598",
+      "target_sha256": "202526484d48ebe97d93f170b97822e686b851e95f852b0ecdd1e159bc0aa598",
       "transform": "UTF-8 without BOM, LF newlines, standalone ownership and links; product package behavior unchanged"
     },
     {
@@ -152,8 +152,8 @@
           "source_path": "docs/skills/manage-project-docs/STATE.md"
         }
       ],
-      "target_normalized_sha256": "3efb3f239f18f49ae6c63e9e1413b033c261260e23b558750ac6eade101bc53d",
-      "target_sha256": "3efb3f239f18f49ae6c63e9e1413b033c261260e23b558750ac6eade101bc53d",
+      "target_normalized_sha256": "20771ff1c07ad7df4a615b83bc676b43000b63a519869922d619495c48b62a16",
+      "target_sha256": "20771ff1c07ad7df4a615b83bc676b43000b63a519869922d619495c48b62a16",
       "transform": "UTF-8 without BOM, LF newlines, standalone ownership and links; product package behavior unchanged"
     },
     {
@@ -167,8 +167,8 @@
           "source_path": "docs/skills/manage-project-docs/VERIFICATION.md"
         }
       ],
-      "target_normalized_sha256": "25243a8717226ac53e2da138ad685bd96ad7004ab8d552aa9d9681a754cf3dad",
-      "target_sha256": "25243a8717226ac53e2da138ad685bd96ad7004ab8d552aa9d9681a754cf3dad",
+      "target_normalized_sha256": "8b13c6f382a3834a58ddf406db6705e05ee7c1a2f9d837dae3917aa230f70271",
+      "target_sha256": "8b13c6f382a3834a58ddf406db6705e05ee7c1a2f9d837dae3917aa230f70271",
       "transform": "UTF-8 without BOM, LF newlines, standalone ownership and links; product package behavior unchanged"
     },
     {
