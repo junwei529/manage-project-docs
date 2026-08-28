@@ -152,8 +152,8 @@
           "source_path": "docs/skills/manage-project-docs/STATE.md"
         }
       ],
-      "target_normalized_sha256": "211174611f735247f8722c39254a1b8c61a5ac80632e4b1fc4c52b5bd49f3c1a",
-      "target_sha256": "211174611f735247f8722c39254a1b8c61a5ac80632e4b1fc4c52b5bd49f3c1a",
+      "target_normalized_sha256": "3efb3f239f18f49ae6c63e9e1413b033c261260e23b558750ac6eade101bc53d",
+      "target_sha256": "3efb3f239f18f49ae6c63e9e1413b033c261260e23b558750ac6eade101bc53d",
       "transform": "UTF-8 without BOM, LF newlines, standalone ownership and links; product package behavior unchanged"
     },
     {
@@ -167,8 +167,8 @@
           "source_path": "docs/skills/manage-project-docs/VERIFICATION.md"
         }
       ],
-      "target_normalized_sha256": "93e27495e3f84e826a7cad32329163576bb118d3bc5cd7b5e7dd4844d93f57bb",
-      "target_sha256": "93e27495e3f84e826a7cad32329163576bb118d3bc5cd7b5e7dd4844d93f57bb",
+      "target_normalized_sha256": "25243a8717226ac53e2da138ad685bd96ad7004ab8d552aa9d9681a754cf3dad",
+      "target_sha256": "25243a8717226ac53e2da138ad685bd96ad7004ab8d552aa9d9681a754cf3dad",
       "transform": "UTF-8 without BOM, LF newlines, standalone ownership and links; product package behavior unchanged"
     },
     {

@@ -139,8 +139,12 @@ The closeout must also confirm:
 ### Public Release
 
 - Repository: `https://github.com/junwei529/manage-project-docs`
-- Remote `main` and release commit P:
+- Immutable Release commit P and annotated-tag target:
   `02a1494e7dd22f9b598b752057c792aa3b2e3ae2`
+- Publication-time remote `main` snapshot: P
+  `02a1494e7dd22f9b598b752057c792aa3b2e3ae2`
+- Moving default branch: may contain later evidence or correction commits; verify
+  its live ref independently.
 - P tree: `0b0ed5a8edfef067bb2807bde8e66bc62f8dae4a`
 - Package tree: `21971e5d8872c9c131675a926e45fdcfad31d95c`
 - Annotated tag: `v0.3.0`; tag object
