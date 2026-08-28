@@ -94,9 +94,10 @@ The repository checker covers the retained deterministic cases and fixtures.
 
 ## Evidence limits
 
-Fresh native selection, installed-copy behavior, publication, and broad efficacy are not established by this migration. A local clean commit and native review prove only this
-standalone migration checkpoint; they do not authorize or prove publication,
-installation, a remote, tag, Release, or broad product efficacy.
+The migration alone did not establish fresh native selection, installed-copy
+behavior, publication, or broad efficacy. B2 evidence below separately binds
+the exact public Release and stable installed copy. Broad efficacy and every
+untested context remain `UNKNOWN`.
 
 ## Independent release qualification
 
@@ -130,6 +131,76 @@ The closeout must also confirm:
 - C remains `PENDING_PLANNER_ACCEPTANCE` until the Planner accepts that exact commit and tree;
 - after acceptance, a separately authorized governance writer may create repo-local receipt R, which records C, C's tree, the verdict, and the evidence pointer in `STATE.md`, changes the readiness state from `PENDING_PLANNER_ACCEPTANCE` to `LOCAL_RELEASE_READY`, updates `provenance/source-map.json`, and passes a clean post-commit repository checker;
 - R's receipt and readiness transition are explicitly allowed, but R changes no lifecycle instructions, package/evaluation/checker bytes, qualification criteria or meaning, evidence inputs or results, public-release identity, or installed-copy claims; any broader delta stops for a new acceptance disposition;
-- future B2 public Release commit P remains `UNKNOWN`; neither C nor R is P.
+- future B2 public Release commit P must remain distinct from C and R; neither
+  C nor R may be retagged as P.
 
-This correction turn may create only C. R is prohibited until the Planner accepts exact C; P remains a future B2 identity. `PUBLIC_RELEASE`, `STABLE_INSTALLED_COPY`, and broad `EFFICACY_BOUNDARY` remain `UNKNOWN`.
+## B2 public release and installed-copy evidence
+
+### Public Release
+
+- Repository: `https://github.com/junwei529/manage-project-docs`
+- Remote `main` and release commit P:
+  `02a1494e7dd22f9b598b752057c792aa3b2e3ae2`
+- P tree: `0b0ed5a8edfef067bb2807bde8e66bc62f8dae4a`
+- Package tree: `21971e5d8872c9c131675a926e45fdcfad31d95c`
+- Annotated tag: `v0.3.0`; tag object
+  `f620a2af6bbef25ca4195cf29953c7a1c0084181`; peeled commit P
+- Release:
+  `https://github.com/junwei529/manage-project-docs/releases/tag/v0.3.0`
+- Release state: public, non-draft, non-prerelease, and `Latest`; title and body
+  exactly match the human-approved notes.
+
+The tag remains bound to P. This evidence update occurs after P and does not
+move or redefine the release commit.
+
+### Immutable-source lifecycle
+
+The official installer fetched `skills/manage-project-docs` from public ref
+`junwei529/manage-project-docs@v0.3.0`. The isolated result was an ordinary
+directory with exactly these six SHA-256-bound files:
+
+| Relative file | SHA-256 |
+| --- | --- |
+| `agents/openai.yaml` | `0801a1829848027fb1c209608ac44ece0b3c0eae6ad7ac42dcc4facb9dd89468` |
+| `assets/templates/continuity-anchor.md` | `9b7cc87a002176b604301773db7b91af5ae113805b245dc94ad6481e72bdd603` |
+| `assets/templates/project-doc-starter.md` | `d49b567235b29aad84b468e054cea993bebc774094718ce3e9d7d2d30202a4e4` |
+| `references/audit-and-adopt.md` | `7a68d650d164f6f97088d8186916278df711e70db74f00117a088d22ce8d7f13` |
+| `references/maintain-and-recover.md` | `92768df8aa8d7a8f799366c46b9f03ba6bab8183896d80578188c03e361c9bb4` |
+| `SKILL.md` | `a1dad61252625f18ddac743b65257229f8dd26e3a65e32652711e8c62e29a609` |
+
+The pre-existing user installation was an exact six-file match for public
+legacy `junwei529/skills@v0.2.0`, with no local delta. Isolated qualification
+passed the complete route: exact v0.2.0 live preflight, exact v0.3.0 stage,
+same-filesystem quarantine, stage-to-live update, origin-aware live-path
+absence, and v0.3.0 restoration. The exact v0.2.0 rollback copy remained
+unchanged.
+
+The persistent user installation then passed stage, hash verification, and
+same-filesystem atomic switch. Its installed manifest binds repository, tag,
+P, package tree, and the six hashes above. The exact v0.2.0 rollback copy,
+rollback manifest, and installed manifest are retained outside every Skill
+discovery root; no rollback-copy deletion is authorized.
+
+### Fresh-task attribution and behavior
+
+- A cold projectless task discovered and explicitly selected the exact
+  `CODEX_HOME user Skill`. Catalog locator, loaded body, six installed hashes,
+  and installed manifest agreed. In a frozen four-file conflicting-governance
+  fixture it returned `PROPOSE`, kept the competing canonical owner and next
+  action `UNKNOWN`, requested the minimum owner/next-action decision, proposed
+  no broad file suite, and changed no frozen or installed byte.
+- After the exact live user origin was quarantined outside discovery roots, a
+  separate cold projectless task proved that target origin was not discovered
+  or loaded. Separately checked user, project, admin, and system same-name
+  origins were absent. This is origin-aware evidence, not a claim of global
+  host-wide absence.
+- After same-filesystem restoration, another cold projectless task again bound
+  the unique loaded user Skill to the exact six hashes and installed manifest.
+  It caused no mutation.
+
+The installed manifest SHA-256 observed before and after the behavior proof was
+`5fee9530e02482ff6932bc874d888bd06068d9341bcd739136b47cdf4ec3ab46`.
+The persistent lifecycle and loaded-copy evidence is
+`QUALIFIED_PENDING_PLANNER_ACCEPTANCE`. Broad efficacy, broader negative-context
+coverage, write/adoption behavior, monorepos, generated documentation, external
+owners, and other untested contexts remain `UNKNOWN`.
