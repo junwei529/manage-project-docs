@@ -1,18 +1,26 @@
 ---
 name: manage-project-docs
-description: Audit, adopt, repair, and maintain repository project-document governance so humans and coding agents can find authoritative scope, working rules, current evidence, and recovery state. Use for a direct project-document governance, audit, adoption, handoff, or recovery request, or when high-confidence symptoms show missing, conflicting, duplicated, stale, generated, externally owned, or hard-to-resume authority, evidence, or routing. Implicit selection permits only the minimum bounded read-only inspection and a visible proposal; it never authorizes first adoption, persistence, structural or canonical-owner change, or any write. Routine updates already covered by valid project routing should proceed without this Skill. Preserve sufficient mature layouts, and do not use for ordinary prose or README editing, generated-output formatting, a small one-off task, project longevity alone, or Work Charter or PowerShell concerns without a documentation-governance symptom.
+description: Assess project-document necessity, authority, update modes, and recovery; audit, adopt, simplify, or maintain existing documentation. Use for a direct governance request (including 文档初始化, 文档体检, 文档映射, or 文档精简 in context) or clear necessity, authority, freshness, duplication, or recovery problems involving existing, generated, or external documentation. Selection alone permits bounded read-only inspection and a proposal; it grants no writes and does not cancel valid authorization. Ordinary maintenance follows valid project routing without loading this Skill. Preserve sufficient mature layouts. Do not select merely for prose or README edits, generated-output formatting, a small task, project age, or another Skill's concerns without a documentation-governance need.
 ---
 
 # Manage Project Docs
 
-Maintain reliable project truth without imposing a fixed file suite.
+Maintain useful project truth with the least necessary duplicate maintenance.
+Five logical responsibilities do not require five files. Assess whether content
+is needed separately from whether it needs an independent file; a file may
+contain sections with different update modes.
 
 Project Docs may be selected implicitly for a direct governance request or a
-high-confidence governance failure. Selection authorizes no mutation. Perform
-only the minimum safe read-only inspection needed to show the routing problem
-and a concrete proposal. `$manage-project-docs` is the unambiguous manual
-invocation token; the UI display name is **Project Docs**. Neither form grants
-write authority.
+high-confidence governance failure. Selection alone authorizes no mutation;
+without a separate applicable write authorization, inspect only enough to show
+the problem and a concrete proposal. Selection does not revoke an existing
+authorization to complete that scope. `$manage-project-docs` is the explicit
+manual entry; the UI display name is **Project Docs**. Neither is a write token.
+
+When selected implicitly, make that selection visible before Skill-guided
+work: name Project Docs, state the governance reason, and identify which effects
+are already authorized and which remain proposals. When another Skill is also
+applicable, present each peer's role and authority separately.
 
 Project Docs, Work Charter, and Use PowerShell Safely are independent catalog
 peers. Project Docs owns documentation-governance semantics, Work Charter owns
@@ -49,16 +57,19 @@ grants it read, write, Git, installation, or external-effect authority.
    - structural repair, expansion, or migration.
 5. Load only the detailed reference needed:
    - read [Audit And Adopt](references/audit-and-adopt.md) for inventory,
-     conflicts, missing responsibilities, first adoption, or structural change;
+     necessity, simplification, missing responsibilities, first adoption, or
+     structural change;
    - read [Maintain And Recover](references/maintain-and-recover.md) for a
-     focused durable update, continuity, pause, handoff, or recovery;
-   - use both only when adoption also needs a recovery entry.
-6. Before every persistent write, state the concrete visible effects: target
-   files, fact classes, and any structural or canonical-owner change. Obtain
-   explicit natural-language authorization for those exact effects. A direct
-   request or later confirmation may satisfy this only when the effects are
-   unambiguous. Re-confirm write authority and the current writer immediately
-   before mutation.
+     durable update, mixed content, documentation impact, or recovery;
+   - use both when the request needs both kinds of judgment.
+6. Before writing, verify the authorized effects, actual targets, scope, and
+   current writer. A clear direct request or approval of a concrete proposal
+   can authorize continuous completion of that scope, including necessary
+   consumer updates. This is a fact check, not a new approval question per file
+   or step. First adoption and structural or canonical-owner changes require
+   explicit authorization of their concrete effects; reuse it when already
+   given. Stop the affected action for new scope, permissions, external effects,
+   or unresolved writer conflict, and obtain the missing disposition.
 7. End with one primary outcome:
    - `NOOP` when the existing system is sufficient;
    - `REPORT` for read-only findings that need no structural or authority
@@ -91,6 +102,31 @@ Distinguish intended contract, actual implementation, current work state,
 verification evidence, and historical rationale. Preserve `UNKNOWN` when those
 sources do not resolve a conflict.
 
+Choose update modes by content or section: revise current contracts within
+approval, replace coherent current snapshots, preserve frozen history and add
+successors or corrections, and update derived content at its true source.
+Newer dates alone do not establish replacement, invalidity, or applicability.
+Trace changed durable facts to their owners and bounded actual consumers,
+including consumers outside the diff and duplicate current facts in one file.
+
+## Natural-Language Use
+
+Optional intent phrases describe the requested work, not required operation
+codes or permission tokens. Interpret the complete request:
+
+- “文档初始化：先看已有布局，提出缺失职责的最小补充。” Inspect before
+  proposing first adoption; complete the concrete persistent rules once authorized.
+- “文档体检：只读检查内容是否必要、是否过时。” Report findings and options.
+- “文档映射：说明职责、维护位置和更新方式，不移动文件。” A map may be a
+  read-only response; persisting it needs applicable authorization.
+- “文档精简：先提出合并、引用或归档建议。” Propose specific content/layout
+  effects; implement them when authorized.
+
+An existing project does not migrate because this Skill is first invoked or
+updated. “同步文档” and “更新 README” are ordinary maintenance language; follow
+valid project routing without loading this Skill unless context shows a
+governance need. Reassessment may remain a read-only map and recommendation.
+
 ## Output Assets
 
 - Use the [single-file Starter](assets/templates/project-doc-starter.md) only
@@ -112,7 +148,8 @@ facts from this Skill repository into a target project.
   prior use, and a project-rule mention as neither write authorization nor
   structural authorization.
 - Require explicit authorization for first adoption, new modules, split, merge,
-  rename, migration, authority changes, and canonical-owner changes.
+  rename, migration, authority changes, and canonical-owner changes; do not ask
+  again when the concrete effects are already authorized.
 - Preserve a sufficient mature layout and return `NOOP`; do not upgrade named
   maturity levels or create a parallel documentation tree.
 - Stop before writing when another writer's ownership is unresolved.

@@ -13,9 +13,10 @@
 python -B scripts/check_repository.py --json
 ```
 
-This verifies exact Git-blob identity for package/case/fixture/license inputs,
-the adapted-file hashes and source mappings, expected package and evaluation
-shape, UTF-8/BOM and Markdown-link boundaries, and publication safety.
+This verifies exact Git-blob identity for retained fixture and license
+inputs; mapped source and target hashes for adapted package, case, and
+documentation files (including retained helper adaptations); expected package and evaluation shape;
+UTF-8/BOM and Markdown-link boundaries; and publication safety.
 The default standalone route preserves a checker-pinned source-identity map;
 it does not assume the former source repository is present.
 
@@ -99,6 +100,138 @@ behavior, publication, or broad efficacy. B2 evidence below separately binds
 the exact public Release and stable installed copy. Broad efficacy and every
 untested context remain `UNKNOWN`.
 
+The current candidate is source-only. Its identity and readiness are owned by
+[State](STATE.md#current-implementation). The earlier entry-behavior revision
+has historical local verification and installed-byte binding as a
+`LOCAL_DEVELOPMENT_COPY`; those bytes do not qualify the new candidate.
+
+## Current Source Validation
+
+The existing package and five case groups provide the following review map.
+This maps definitions and source semantics, not completed model behavior:
+
+| Contract slice | Source and existing case coverage |
+|---|---|
+| Content necessity versus separate-file necessity; mature layout | `audit-and-adopt.md`; adopt necessity variant and mature-noop reassessment/simplification variants |
+| Mixed sections, same-file duplication, consumer outside the diff | `maintain-and-recover.md`; continuity mixed-content/consumer variant |
+| Legitimate historical old values; approved but unimplemented work | Content update modes and starter; continuity mixed-content variant |
+| Partial replacement, invalidity, applicability across plans/decisions/results | Content update modes; conflict partial-replacement variant |
+| Continuous approval and new effects | Entry workflow, maintenance and pause/handoff rules, continuity anchor; adopt interrupted-work, continuity existing-entry pause/handoff, and safety authorization variants |
+| Generated/external/read-only/writer/language/nearest scope | Existing boundaries; safety base and writer-conflict variant |
+| Optional intent words and ordinary maintenance | Natural-language entry and YAML default; adopt, mature-noop, continuity, and conflict variants |
+
+Local validation uses `python -B scripts/check_repository.py --json`, the
+installed Skill Creator `scripts/quick_validate.py` against
+`skills/manage-project-docs`, and `git diff --check`. On a Windows Python whose
+default text codec is not UTF-8, use `python -B -X utf8` for the Skill validator;
+the candidate stays UTF-8 without BOM. Source semantic inspection
+must separately follow the relationships above; hashes, frontmatter, or text
+matches cannot establish model adherence or complete consumer coverage.
+
+Local source checks on 2026-09-08:
+
+| Check | Terminal result and limit |
+|---|---|
+| Repository checker | `PASS`, exit 0, 63 mapped files; source-object membership not requested |
+| Skill Creator quick validator | `Skill is valid!`, exit 0 with Python UTF-8 mode; frontmatter/scaffold validation only |
+| `git diff --check` | exit 0 |
+| Source identity and retained-consumer comparison | `PASS`, exit 0 for the read-only collector; ten exact-to-rewrite conversions preserve original identities, 42 unchanged fixture/consumer files match the entry baseline, and checker AST is identical to HEAD except the mapping pin |
+
+The default-codec validator invocation first failed with `UnicodeDecodeError`
+using GBK (exit 1); the command-local UTF-8 rerun passed without changing the
+validator or host configuration. A separate oversized inline read-only identity
+command failed before process creation with Windows error 206; a shortened
+collector completed, and its output was compared to the entry baseline. Neither
+failure is a model result or a product-code defect.
+
+Source semantic inspection covered the contract table above and the consumer
+map below. Independent source assessment first required correction of the
+pause/handoff condition that incorrectly gated maintenance of an existing
+recovery entry on new-entry structural authorization. That finding was corrected,
+covered by the existing-entry continuity scenario, and closed in the second
+assessment. The approved source scope is independently accepted after one
+correction round; observed model behavior remains unverified. This source
+acceptance establishes neither release readiness nor installation or publication.
+The source-assessment stage included no model/API case run or native review.
+Its adversarial matrix was deferred because the staged Git index did not yet
+contain the candidate. The later local delivery scope authorizes staging and
+the commit gate below; it does not retroactively qualify the old index.
+Source-object membership audit is separate from the default checker and is not
+requested for this source revision.
+
+Documentation impact starts from changed facts: package/case rewrite identity
+maps to PROVENANCE and source-map; product behavior maps to DESIGN and the
+root/product English and Chinese README consumers; candidate readiness maps to
+STATE and this verification entry; case-definition identity also maps to
+`evals/README.md`, a consumer outside the initially proposed diff. The
+existing AGENTS routing, retained fixtures, and setup/inspection helpers were
+checked with no change: existing routes, raw test inputs, and baseline helper
+interfaces remain usable. Variant input identity must additionally be recorded
+as described in the evaluation index; no fixture/helper execution occurred.
+Frozen B2 results, release identities,
+and earlier installation hashes remain valid for their historical inputs.
+
+## Local Installation
+
+The accepted source candidate was installed locally on 2026-09-08 as a
+`LOCAL_DEVELOPMENT_COPY`. Preflight bound the existing six-file installation
+to the earlier entry-presentation checkpoint below. A fresh staging directory
+outside Skill discovery roots received the exact accepted package, followed
+by a same-filesystem live-to-retained-backup and stage-to-live swap.
+
+The ordinary sandbox postflight read all six live and retained files as UTF-8,
+compared raw hashes against source and the old installation respectively, and
+confirmed the same owner/security descriptors as the preflighted installation.
+No ACL or execution-policy change was needed. All inspected package and path
+entries were non-reparse; the private receipt parsed successfully, and no
+staging or failed-candidate directory remained. The old package and private
+receipt are retained outside discovery roots; no previous evidence was deleted.
+
+| Installed relative file | Observed raw SHA-256 |
+|---|---|
+| `SKILL.md` | `a9b99317c254773d35dfddd05474ffcc7125b991148f1c3554db8d66a0c91e7e` |
+| `agents/openai.yaml` | `66c24267e0c89356c5d197470b324202c5084ceddb73b7ea486c2498ea5cf8b0` |
+| `assets/templates/continuity-anchor.md` | `ecd2abd6405133cc91557d75d36cdbec204bc1211edf93fc594a236ec95ccff3` |
+| `assets/templates/project-doc-starter.md` | `2f30a5cd2a21c24e5dea4ff0432ac332010669e9df94ef582de9a3f9cd169a3c` |
+| `references/audit-and-adopt.md` | `08cd756cd8372f633a5c1e6d9e2a97154004395477ae9b72c119bec2aa9b460d` |
+| `references/maintain-and-recover.md` | `42586811d851c8cd27acf33923ba92dac80ccaf09b5f1816bfe7018512b89875` |
+
+The apply command and separate ordinary-sandbox postflight both completed with
+exit 0. This proves local bytes and bounded readability/permission continuity,
+not actual fresh-task selection/load, model behavior, or public release.
+
+## Local Delivery Gate
+
+The current delivery scope permits staging the approved cumulative diff,
+running `python -B scripts/check_repository.py --adversarial` against that bound
+index, and a same-session native review before local commit. The six-file
+installation remains bound to the table above; any package correction requires
+installation rebinding. Native review must cover the final intended diff and
+material sources. Source acceptance does not replace that gate, and commit
+success does not resolve the pending remote push route.
+
+## Earlier Local Development Installation
+
+After explicit authorization for a local-only update, the existing user copy
+was independently preflighted as the exact six-file public `v0.3.0` package,
+with no extra file or reparse entry. The then-current entry-presentation package was
+copied to fresh staging, verified against its six raw-byte SHA-256 values, and
+promoted with a same-filesystem live-to-backup then stage-to-live swap. The
+previous public `v0.3.0` copy was retained outside every Skill discovery root.
+
+An independent postflight confirmed six live files, no reparse entry,
+and installed `SKILL.md` SHA-256
+`8c6a3a2cd0d60a5ad2d7000ccea896e87816794bbce5283c40a0257e9bf034a9`.
+It also confirmed the retained six-file `v0.3.0` rollback copy, a parseable
+UTF-8-without-BOM private receipt, and no leftover staging or temporary receipt
+path. No commit, push, tag, Release, or other public mutation occurred.
+
+This evidence established those installed package bytes only. A
+fresh Codex task has not bound its actually selected and loaded body to
+those bytes, so loaded-copy behavior and the revised implicit-selection
+presentation remain `UNKNOWN`. The local development copy is not a stable
+release or publication claim.
+
 ## Independent release qualification
 
 ### Consumed SOURCE behavior evidence
@@ -110,9 +243,11 @@ A single bounded qualification used `gpt-5.6-sol` with high reasoning against th
 
 This evidence is consumed and must not be repeated to obtain a preferred answer. It proves only the two bounded SOURCE behavior slices; it does not prove selection/load coverage, negative contexts, installed-copy behavior, publication, or broad efficacy.
 
-### Final local candidate gates
+### Historical B1 local candidate gates
 
-Run these after the tracked diff is frozen:
+The following gates applied to the historical B1 candidate, not to the current
+source-only revision or its authorization. They required these checks after
+the tracked diff was frozen:
 
 ```powershell
 python -B scripts/check_repository.py --json

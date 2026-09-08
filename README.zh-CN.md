@@ -3,8 +3,21 @@
 [English](README.md)
 
 本仓库是 `manage-project-docs` 的独立本地产品仓库。可安装包位于
-[`skills/manage-project-docs/`](skills/manage-project-docs/)，其字节与源提交
-`80910a8b2375a11be897e9660c4b00a06d00dd13` 完全一致。
+[`skills/manage-project-docs/`](skills/manage-project-docs/)，保持六文件结构。
+它判断内容是否必要、事实在哪里维护、混合内容如何更新，以及后继读者需要哪些恢复信息，
+保留足够的成熟布局并减少重复的当前事实。
+
+[当前源码候选](docs/skills/manage-project-docs/STATE.md#current-implementation)
+与安装副本、历史公开发布分别记录。当前包和案例定义采用保留原始
+[来源身份](PROVENANCE.md)的独立 normalized-text 改写。
+
+## 日常使用
+
+普通维护沿有效项目路由完成，不要求每次加载 Skill。治理请求可以明确调用
+`$manage-project-docs`，也可使用“文档初始化”“文档体检”“文档映射”“文档精简”
+等自然语言；它们表达意图，不授予写权限。例如“文档映射：说明职责、维护位置和更新方式，
+不要移动文件”，或“文档精简：先提出具体方案，批准后完成对应改动”。有效的具体授权可
+连续适用于其范围；“同步文档”“更新 README”仍按普通维护理解。
 
 ## 仓库内容
 
@@ -21,7 +34,7 @@
 python -B scripts/check_repository.py --json
 ```
 
-本仓库不隐式依赖其他 Skill 仓库。迁移快照仍只证明来源 provenance；独立
+本仓库不隐式依赖其他 Skill 仓库。本地检查不证明模型行为或安装。迁移快照仍只证明来源 provenance；独立
 `v0.3.0` 公开 Release 与 installed-copy 证据记录在下文和
 [`STATE.md`](docs/skills/manage-project-docs/STATE.md) 中。
 

@@ -1,25 +1,23 @@
 # Audit And Adopt
 
-Use this reference to discover an existing documentation contract, repair
-authority drift, adopt a project, or propose structural change.
+Use this reference to map existing documentation, assess content and file
+necessity, adopt missing responsibilities, or propose structural change.
 
 ## Selection And Mutation Authority
 
 Implicit selection is appropriate for a direct project-document governance
 request or high-confidence evidence that authority, canonical routing,
-evidence, or recovery is missing or contradictory. It authorizes only the
-minimum bounded read-only inspection and a visible proposal. When a symptom is
+evidence, or recovery is missing or contradictory. Selection alone permits
+only bounded read-only inspection and a visible proposal; applicable write
+authorization remains valid. When a symptom is
 incidental to another task and does not block that task, do not expand into a
 full audit; name the concern and offer the smallest useful Project Docs check.
 
-`$manage-project-docs` is the manual invocation token and **Project Docs** is
-the UI name. Neither is a write token. Before first adoption, persistence, any
-write, module activation, or any structural, authority, or canonical-owner
-change, present the exact proposed targets and visible effects. A user's
-unambiguous natural-language request or confirmation is sufficient only for
-those listed target-project effects. Installation, selection, body loading,
-prior adoption, or a routing mention do not propagate write, Git,
-external-action, or cross-Skill authority.
+Follow the authorization rule in `SKILL.md`: explain concrete effects not yet
+approved, and reuse valid approval without repeating it. First invocation,
+installation, or prior adoption is not permission to persist a map or migrate
+an existing project. Mapping may be read-only; simplification changes content
+or layout and needs authorization for those effects.
 
 ## Build The Responsibility Map
 
@@ -30,6 +28,7 @@ Inventory the nearest applicable project scope before deciding on files.
 | Logical responsibility | One of the five minimum responsibilities |
 | Read locations | Every source a reader is expected to consult |
 | Canonical write locus | The single owner for normative durable facts |
+| Update mode | How the relevant content or section is maintained |
 | Evidence | Code, tests, runtime output, Git state, or external source |
 | Confidence | Verified, partial, unverified, or `UNKNOWN` |
 | Conflict | Competing claim, scope, lifecycle, or owner |
@@ -38,12 +37,46 @@ Treat a repository with all five responsibilities and usable routing as
 sufficient even when filenames, language, or grouping differ from examples.
 Return `NOOP` if there is no stale fact or broken route to repair.
 
-## Choose Modules And Update Modes
+## Assess Content And Independent-File Necessity
 
-For a new project without reliable owners, start with the five logical
-responsibilities in one combined document when that is sufficient. For an
-existing project, map its current documents and external sources; do not force
-this module list or its grouping onto the project.
+Ask two separate questions: does this content earn its maintenance cost, and
+does it need its own file? Useful content can live in an existing section.
+A distinct update cadence alone does not require a split when sections can
+represent it clearly.
+
+For the affected content, inspect its purpose, the reader's actual decision or
+recovery need, existing authority owner, update trigger, maintenance cost, and
+retention obligations. Check duplicates within the same file as well as across
+files. A document's existence, length, or conventional name is not proof of
+necessity; low use is not proof that required evidence can be discarded.
+
+Choose the smallest useful recommendation:
+
+| Recommendation | When it serves the reader |
+|---|---|
+| Keep | A distinct decision, contract, evidence, or retention need is already served well |
+| Trim | Necessary content is obscured by repeated current facts or unnecessary narrative |
+| Merge into an existing owner | Content remains needed but a separate file adds no useful responsibility or boundary |
+| Reference | Another owner already maintains the fact; keep a link or bounded summary |
+| Generate a view | An existing reliable source and generation mechanism can supply the needed view |
+| Archive | Content is no longer current but history or a retention obligation still matters |
+
+Recommend a split only when independent responsibility, audience, permission,
+scope, ownership, or lifecycle cannot be served coherently in the existing
+container. Explain the reader benefit and ongoing cost. Reuse existing
+generators; do not build a general documentation platform for the audit.
+
+Before deletion, identify the exact content or file, inbound references,
+remaining responsibilities, history and retention obligations, and the
+authorization covering removal. If retention is unresolved, propose keeping
+or archiving it. Do not delete merely because a newer document exists.
+
+## Choose Owners And Update Modes
+
+For first adoption, understand the layout and missing responsibilities before
+proposing files. A combined owner can suffice. For an existing project, map
+current documents and external sources; the following modules are examples,
+not a file list or automatic migration.
 
 Activate a module by following this chain:
 
@@ -54,7 +87,7 @@ material project event -> durable fact class -> existing canonical owner -> upda
 Update an existing owner when it can still serve the fact coherently. Propose
 a separate module only when the fact needs an independent lifecycle, update
 mode, owner, audience, scope, or historical record that the current owner
-cannot represent safely.
+cannot represent safely, including through separate sections.
 
 | Functional module | Activate or revisit when | Default update mode |
 |---|---|---|
@@ -62,12 +95,14 @@ cannot represent safely.
 | Work and verification | a repeatable work method, acceptance rule, or check exists or changes | revise the current method; record time-bound results in the evidence owner |
 | Authority and routing | more than one owner, scope, generated source, or external source must be navigated, or a route changes | revise the current map only after structural or owner authorization |
 | Current state and recovery | work spans sessions, pauses, transfers, or changes writer, gate, next action, or recovery target | replace one coherent current snapshot; keep execution history elsewhere |
-| Decisions | a non-obvious durable tradeoff or supersession needs rationale | append a new record or explicit supersession; do not rewrite accepted history |
-| Evidence and results | a claim depends on repeatable checks, current acceptance, or comparison with older results | append or supersede a bounded result, label its time scope, and keep the current index accurate |
+| Decisions | a non-obvious durable tradeoff or replacement needs rationale | preserve frozen rationale; record the successor and its scope in the current entry |
+| Evidence and results | a claim depends on repeatable checks, current acceptance, or comparison with older results | retain frozen results, add a bounded successor or correction, and update the current index |
 
 Generated projections are updated through their editable source and then
 regenerated. Externally owned facts are updated in that system; when it is
 unavailable, retain the mapping and report the fact as unverified or `UNKNOWN`.
+Use [Maintain And Recover](maintain-and-recover.md#choose-update-modes-by-content)
+for mixed documents and partial replacement, invalidity, and applicability.
 
 ## Classify Claims Before Resolving Them
 
@@ -89,10 +124,9 @@ sources cannot resolve it.
    canonical owners.
 2. Read declared precedence and ownership before choosing a winner.
 3. Identify stale duplicates, missing routes, and facts without a write locus.
-4. Check whether time-bound claims and evidence are labeled `current`,
-   `historical`, or `superseded`, and whether a results index points to the
-   current canonical evidence owner rather than presenting an older result as
-   current.
+4. Check the applicability of time-bound claims and evidence, any invalidity
+   or replacement relationship, and whether the current entry points to the
+   applicable owner. A newer date alone cannot settle these questions.
 5. Check that the stated next action stays within the current gate and
    authorization, and that a fresh reader can identify one trustworthy
    recovery entry.
@@ -102,8 +136,8 @@ sources cannot resolve it.
 
 Do not make a structural repair merely because it is obvious or reversible.
 Documents can exist and still fail the minimum contract when their routes do
-not yield one trustworthy recovery entry. If repair requires a new owner,
-route, or authority choice, fail closed and return `PROPOSE` instead of
+not yield one trustworthy recovery entry. If repair requires an unapproved
+new owner, route, or authority choice, return `PROPOSE` instead of
 treating it as routine content maintenance.
 
 Do not modify, relabel, or silently reinterpret an immutable historical
@@ -113,8 +147,9 @@ and point to a later corrected revision while preserving the historical fact.
 
 ## First Adoption
 
-1. Complete a read-only responsibility and module map, then obtain explicit
-   authorization for the concrete target-project structural writes.
+1. Inspect the existing layout and gaps; verify explicit authorization for the
+   concrete target-project effects. If missing, present the smallest proposal
+   and obtain approval. If already given, proceed within it.
 2. Reuse existing sources for every responsibility they already satisfy.
 3. Add only the missing routing or content.
 4. Prefer one combined project document when it is clearer than several empty
@@ -132,7 +167,7 @@ Propose expansion only after a concrete event shows that the current routing is
 insufficient, such as:
 
 - a new independently governed subproject or monorepo scope;
-- incompatible update cadences or owners;
+- incompatible owners or update needs that sections cannot safely express;
 - repeated conflicts caused by one file owning unrelated facts;
 - one responsibility dispersed across sources without a clear write locus;
 - a rename, migration, generator, or external owner changing edit location;

@@ -9,7 +9,9 @@ The canonical package is [`skills/manage-project-docs/`](../../../skills/manage-
 standalone lifecycle, and [Verification](VERIFICATION.md) for evidence and
 limits.
 
-This product snapshot preserves package bytes from source commit `80910a8b2375a11be897e9660c4b00a06d00dd13`.
-Standalone documentation is a normalized-text rewrite with exact source blob
-provenance; it does not relabel historical candidate, installed-copy, release,
-or efficacy evidence.
+The six-file package and five case definitions are independently mapped
+normalized-text rewrites. The current product assesses content/file necessity,
+updates mixed content by lifecycle, checks actual consumers, and preserves
+valid authorization. See the [root usage entry](../../../README.md#use).
+Current source, installed-copy, runtime, and historical release evidence remain
+distinct; the [State](STATE.md) owns candidate readiness.

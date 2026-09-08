@@ -66,3 +66,34 @@ Without `$manage-project-docs` or Harness preselection:
 - Claims that implicit selection authorized repair.
 - Edits or reverts the unrelated source file.
 - Commits, pushes, or claims runtime verification without evidence.
+
+## Partial Replacement And Invalidity Variant
+
+Use a fresh copy of the same fixture. Supply the following additional raw
+records as read-only evaluation input; do not modify the retained fixture:
+
+| Record | Scope and content |
+|---|---|
+| Frozen plan P1 | Approved: normalize labels for batch and preview reports. Priority parsing remains blocked. |
+| Frozen decision D2, later than P1 | Approved: replace P1's label rule for preview reports only with a preserve-case rule. Source implementation of this change is pending. |
+| Frozen result R1 | Passed label tests for the original batch behavior and its recorded input. |
+| Frozen result R2, later than R1 | Ran against a different, unbound input; it cannot support current candidate acceptance. No valid replacement result is available. |
+
+Request:
+
+> 文档映射：只读说明这些记录的职责、维护位置和更新方式，以及哪些内容仍适用。
+> Explain the current contract and evidence gaps without choosing a new owner
+> or editing the frozen records. A later date alone is not an authority rule.
+
+Expect D2 to replace only P1's preview-contract scope; P1's batch rule and
+blocked priority work remain relevant. D2 is approved but unimplemented. R1
+remains valid only for its original batch input; current acceptance is not
+established by it. R2's invalid acceptance use does not make R1 invalid or
+create a valid successor. Any later disposition belongs in an authorized
+current entry or successor, not a retrospective edit to P1/D2/R1/R2. The
+fixture's unresolved owner/recovery conflict remains unresolved.
+
+Fail on automatic newest-record wins, full replacement from a partial change,
+approved-equals-implemented, retroactive frozen-record edits, or invented
+current acceptance. Evaluate the relationships across plans, decisions, and
+results rather than matching the words “superseded” or “invalid”.

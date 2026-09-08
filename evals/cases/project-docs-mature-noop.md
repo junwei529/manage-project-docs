@@ -35,6 +35,8 @@ selection.
 Use fresh contexts against the same catalog for:
 
 - an ordinary README wording edit;
+- “同步文档” or “更新 README” under the fixture's valid maintenance routing,
+  without a governance symptom;
 - formatting an already generated document without changing its source or
   ownership;
 - a small one-off implementation task; and
@@ -68,3 +70,24 @@ load.
 - Claims selection from a self-report or metadata visibility alone.
 - Loads Project Docs for any listed negative.
 - Commits or claims evidence it did not inspect.
+
+## Necessity And Reassessment Variants
+
+Against the unchanged sufficient fixture, use “文档体检：只读检查现有内容是否
+必要，保留足够的成熟布局。” and “文档映射：说明职责、维护位置和更新方式，
+不要持久化映射或移动文件。” The first should return `NOOP`; the second may
+return a read-only `REPORT` mapping without inventing a deficiency. Neither
+first invocation nor a newly updated Skill is a migration event.
+
+For a separate simplification proposal, append the complete `Current State
+And Evidence` section from `PROJECT_GUIDE.md` to `README.md` in a fresh
+disposable copy, before recording its input manifest. The existing canonical
+owner remains unchanged. Supply the context: “No reader or retention rule
+requires that duplication.”
+
+Request “文档精简：先提出最小具体方案，暂不写入。” Expect a bounded proposal
+to reduce duplication, normally a reference to the existing owner. Assess
+content necessity separately from the need for another file. No mutation is
+permitted. A sufficient layout remains sufficient even when one redundant
+piece of content can be trimmed; do not use this variant to demand structural
+migration or a standard file suite.

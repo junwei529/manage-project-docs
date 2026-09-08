@@ -62,9 +62,9 @@
           "source_path": "docs/PROVENANCE.md"
         }
       ],
-      "target_normalized_sha256": "d470406343be29ce8beea8db9ef37e87494c985c3eba88ec9e3264b8e85c8a2c",
-      "target_sha256": "d470406343be29ce8beea8db9ef37e87494c985c3eba88ec9e3264b8e85c8a2c",
-      "transform": "UTF-8 without BOM, LF newlines, standalone ownership and links; product package behavior unchanged"
+      "target_normalized_sha256": "29fa6c0fd0bcadb64a094e5f0992dbcc615da3f3a4fd01426800c6bd0887689b",
+      "target_sha256": "29fa6c0fd0bcadb64a094e5f0992dbcc615da3f3a4fd01426800c6bd0887689b",
+      "transform": "UTF-8 without BOM, LF newlines; records independent package and case rewrites with retained source identity"
     },
     {
       "destination": "README.md",
@@ -77,9 +77,9 @@
           "source_path": "docs/skills/manage-project-docs/README.md"
         }
       ],
-      "target_normalized_sha256": "6b7ccaa1388cfabc3f62c3f288727300e998285a62c4824b50be99e2c330b9f0",
-      "target_sha256": "6b7ccaa1388cfabc3f62c3f288727300e998285a62c4824b50be99e2c330b9f0",
-      "transform": "UTF-8 without BOM, LF newlines, standalone ownership and links; product package behavior unchanged"
+      "target_normalized_sha256": "20017862c3522bd5754a7a6bf564297838e2db1324f10df643699955f0a855ed",
+      "target_sha256": "20017862c3522bd5754a7a6bf564297838e2db1324f10df643699955f0a855ed",
+      "transform": "UTF-8 without BOM, LF newlines, standalone ownership and links; distinguishes current source from public v0.3.0"
     },
     {
       "destination": "README.zh-CN.md",
@@ -92,9 +92,9 @@
           "source_path": "docs/skills/manage-project-docs/README.zh-CN.md"
         }
       ],
-      "target_normalized_sha256": "202526484d48ebe97d93f170b97822e686b851e95f852b0ecdd1e159bc0aa598",
-      "target_sha256": "202526484d48ebe97d93f170b97822e686b851e95f852b0ecdd1e159bc0aa598",
-      "transform": "UTF-8 without BOM, LF newlines, standalone ownership and links; product package behavior unchanged"
+      "target_normalized_sha256": "e9ceb2909d778bcc78df718db7c20093c45bcd2411b704967b1e18f743275f2b",
+      "target_sha256": "e9ceb2909d778bcc78df718db7c20093c45bcd2411b704967b1e18f743275f2b",
+      "transform": "UTF-8 without BOM, LF newlines, standalone ownership and links; distinguishes current source from public v0.3.0"
     },
     {
       "destination": "docs/skills/manage-project-docs/DESIGN.md",
@@ -107,9 +107,9 @@
           "source_path": "docs/skills/manage-project-docs/DESIGN.md"
         }
       ],
-      "target_normalized_sha256": "08f3521830ccbb35ecf358d1e62360cbed88c06f98d86a3b68687e5536a6e3ae",
-      "target_sha256": "08f3521830ccbb35ecf358d1e62360cbed88c06f98d86a3b68687e5536a6e3ae",
-      "transform": "UTF-8 without BOM, LF newlines, standalone ownership and links; product package behavior unchanged"
+      "target_normalized_sha256": "8133a105860bdd59b531e540a138d65a5c5aa1d7f3b8ab5f2b9fe6a10c431af2",
+      "target_sha256": "8133a105860bdd59b531e540a138d65a5c5aa1d7f3b8ab5f2b9fe6a10c431af2",
+      "transform": "UTF-8 without BOM, LF newlines; maps necessity, mixed lifecycle, impact and authorization behavior to the existing package"
     },
     {
       "destination": "docs/skills/manage-project-docs/README.md",
@@ -122,9 +122,9 @@
           "source_path": "docs/skills/manage-project-docs/README.md"
         }
       ],
-      "target_normalized_sha256": "9f24b86d68af47144a59311c136c6f43009759dab744d6aada1fda0c7d3fff3a",
-      "target_sha256": "9f24b86d68af47144a59311c136c6f43009759dab744d6aada1fda0c7d3fff3a",
-      "transform": "UTF-8 without BOM, LF newlines, standalone ownership and links; product package behavior unchanged"
+      "target_normalized_sha256": "48bade5e761f058cc7f81ae3082d54eed127b5a863ee35dec6d82aa3c1d7646a",
+      "target_sha256": "48bade5e761f058cc7f81ae3082d54eed127b5a863ee35dec6d82aa3c1d7646a",
+      "transform": "UTF-8 without BOM, LF newlines, standalone ownership and links; distinguishes current source from historical evidence"
     },
     {
       "destination": "docs/skills/manage-project-docs/README.zh-CN.md",
@@ -137,9 +137,9 @@
           "source_path": "docs/skills/manage-project-docs/README.zh-CN.md"
         }
       ],
-      "target_normalized_sha256": "0c847283131c0ccb27da4331a77bf10de29e939d939302157ece52b5e804088b",
-      "target_sha256": "0c847283131c0ccb27da4331a77bf10de29e939d939302157ece52b5e804088b",
-      "transform": "UTF-8 without BOM, LF newlines, standalone ownership and links; product package behavior unchanged"
+      "target_normalized_sha256": "efc8dc4122095d83e7df45d45497eaf46acceb97d157ad431d41dce28922d2be",
+      "target_sha256": "efc8dc4122095d83e7df45d45497eaf46acceb97d157ad431d41dce28922d2be",
+      "transform": "UTF-8 without BOM, LF newlines, standalone ownership and links; distinguishes current source from historical evidence"
     },
     {
       "destination": "docs/skills/manage-project-docs/STATE.md",
@@ -152,9 +152,9 @@
           "source_path": "docs/skills/manage-project-docs/STATE.md"
         }
       ],
-      "target_normalized_sha256": "20771ff1c07ad7df4a615b83bc676b43000b63a519869922d619495c48b62a16",
-      "target_sha256": "20771ff1c07ad7df4a615b83bc676b43000b63a519869922d619495c48b62a16",
-      "transform": "UTF-8 without BOM, LF newlines, standalone ownership and links; product package behavior unchanged"
+      "target_normalized_sha256": "bbd99dbc5f4bccc0fc4e818ada4d6bf515ea3d8cc142009515b82c482c7fa5fc",
+      "target_sha256": "bbd99dbc5f4bccc0fc4e818ada4d6bf515ea3d8cc142009515b82c482c7fa5fc",
+      "transform": "UTF-8 without BOM, LF newlines; records the unreleased source candidate separately from earlier installation and release evidence"
     },
     {
       "destination": "docs/skills/manage-project-docs/VERIFICATION.md",
@@ -167,9 +167,9 @@
           "source_path": "docs/skills/manage-project-docs/VERIFICATION.md"
         }
       ],
-      "target_normalized_sha256": "8b13c6f382a3834a58ddf406db6705e05ee7c1a2f9d837dae3917aa230f70271",
-      "target_sha256": "8b13c6f382a3834a58ddf406db6705e05ee7c1a2f9d837dae3917aa230f70271",
-      "transform": "UTF-8 without BOM, LF newlines, standalone ownership and links; product package behavior unchanged"
+      "target_normalized_sha256": "ec7779ec0248b49d7fe5eae7409b04210c5e08134168be6ce017b5ba1e01d578",
+      "target_sha256": "ec7779ec0248b49d7fe5eae7409b04210c5e08134168be6ce017b5ba1e01d578",
+      "transform": "UTF-8 without BOM, LF newlines; records source validation, local installation, commit gate and remaining evidence limits"
     },
     {
       "destination": "evals/README.md",
@@ -182,49 +182,84 @@
           "source_path": "evals/README.md"
         }
       ],
-      "target_normalized_sha256": "67913ffcf3551af69a33e263d66a3542ce70ea4e487c235df2eb5044560a2b25",
-      "target_sha256": "67913ffcf3551af69a33e263d66a3542ce70ea4e487c235df2eb5044560a2b25",
-      "transform": "UTF-8 without BOM, LF newlines, standalone ownership and links; product package behavior unchanged"
+      "target_normalized_sha256": "bbfad631b004a14b822346827eb88d0beba86392baa2fc0716f6390aaf27838a",
+      "target_sha256": "bbfad631b004a14b822346827eb88d0beba86392baa2fc0716f6390aaf27838a",
+      "transform": "UTF-8 without BOM, LF newlines; distinguishes rewritten cases from retained fixtures and helper adaptations"
     },
     {
       "destination": "evals/cases/project-docs-adopt.md",
-      "kind": "exact-git-blob",
-      "source_blob": "06add788960ad5dd639cdf9cd870fa743809101e",
-      "source_path": "evals/cases/project-docs-adopt.md",
-      "source_sha256": "5dcdcb3d87550ea9b1d78be25ee8f1ea826c015f26a04e5ec887d7aaf6966a60",
-      "target_sha256": "5dcdcb3d87550ea9b1d78be25ee8f1ea826c015f26a04e5ec887d7aaf6966a60"
+      "kind": "standalone-normalized-text-rewrite",
+      "note": "Independent documentation-governance revision with retained upstream source identity",
+      "sources": [
+        {
+          "source_blob": "06add788960ad5dd639cdf9cd870fa743809101e",
+          "source_normalized_sha256": "5dcdcb3d87550ea9b1d78be25ee8f1ea826c015f26a04e5ec887d7aaf6966a60",
+          "source_path": "evals/cases/project-docs-adopt.md"
+        }
+      ],
+      "target_normalized_sha256": "d664d138d00db584cedd209423a5a4415e004fc25e8c0a1af785529e6d36ce46",
+      "target_sha256": "d664d138d00db584cedd209423a5a4415e004fc25e8c0a1af785529e6d36ce46",
+      "transform": "UTF-8 without BOM, LF newlines; independent necessity, lifecycle, impact and authorization guidance or case definition"
     },
     {
       "destination": "evals/cases/project-docs-conflict.md",
-      "kind": "exact-git-blob",
-      "source_blob": "0d4a2822072e56575eff43576090af79edd61bad",
-      "source_path": "evals/cases/project-docs-conflict.md",
-      "source_sha256": "3810adea40c1c5455e2b7f8ee61931fb7b35f489d3b44f0814a7420139364b96",
-      "target_sha256": "3810adea40c1c5455e2b7f8ee61931fb7b35f489d3b44f0814a7420139364b96"
+      "kind": "standalone-normalized-text-rewrite",
+      "note": "Independent documentation-governance revision with retained upstream source identity",
+      "sources": [
+        {
+          "source_blob": "0d4a2822072e56575eff43576090af79edd61bad",
+          "source_normalized_sha256": "3810adea40c1c5455e2b7f8ee61931fb7b35f489d3b44f0814a7420139364b96",
+          "source_path": "evals/cases/project-docs-conflict.md"
+        }
+      ],
+      "target_normalized_sha256": "d8619d2a75165a7c1f0773dae51af271dc372d3bd3032a6f061bb6f35ea63da7",
+      "target_sha256": "d8619d2a75165a7c1f0773dae51af271dc372d3bd3032a6f061bb6f35ea63da7",
+      "transform": "UTF-8 without BOM, LF newlines; independent necessity, lifecycle, impact and authorization guidance or case definition"
     },
     {
       "destination": "evals/cases/project-docs-continuity.md",
-      "kind": "exact-git-blob",
-      "source_blob": "61d8b5e35f0857c806b8efbfbbf3ca0307896235",
-      "source_path": "evals/cases/project-docs-continuity.md",
-      "source_sha256": "3d9daa60795da7408ab4865246bcca2632d412c93cbfb39fc941c875d8917863",
-      "target_sha256": "3d9daa60795da7408ab4865246bcca2632d412c93cbfb39fc941c875d8917863"
+      "kind": "standalone-normalized-text-rewrite",
+      "note": "Independent documentation-governance revision with retained upstream source identity",
+      "sources": [
+        {
+          "source_blob": "61d8b5e35f0857c806b8efbfbbf3ca0307896235",
+          "source_normalized_sha256": "3d9daa60795da7408ab4865246bcca2632d412c93cbfb39fc941c875d8917863",
+          "source_path": "evals/cases/project-docs-continuity.md"
+        }
+      ],
+      "target_normalized_sha256": "dced82bc1af440199798fea6b31379921f179862a050b1853cca058dc2600e7d",
+      "target_sha256": "dced82bc1af440199798fea6b31379921f179862a050b1853cca058dc2600e7d",
+      "transform": "UTF-8 without BOM, LF newlines; independent necessity, lifecycle, impact and authorization guidance or case definition"
     },
     {
       "destination": "evals/cases/project-docs-mature-noop.md",
-      "kind": "exact-git-blob",
-      "source_blob": "fda63e6595301b710e15447e56922d367ba785f4",
-      "source_path": "evals/cases/project-docs-mature-noop.md",
-      "source_sha256": "b4af52f3a2c25801882ac1eabc3ee82b01b675cee49afa1d1dcd3e1e0f30c886",
-      "target_sha256": "b4af52f3a2c25801882ac1eabc3ee82b01b675cee49afa1d1dcd3e1e0f30c886"
+      "kind": "standalone-normalized-text-rewrite",
+      "note": "Independent documentation-governance revision with retained upstream source identity",
+      "sources": [
+        {
+          "source_blob": "fda63e6595301b710e15447e56922d367ba785f4",
+          "source_normalized_sha256": "b4af52f3a2c25801882ac1eabc3ee82b01b675cee49afa1d1dcd3e1e0f30c886",
+          "source_path": "evals/cases/project-docs-mature-noop.md"
+        }
+      ],
+      "target_normalized_sha256": "156d34634691832ccdc3f31e657253973c0a780e926ee9b26c20055aaead04cb",
+      "target_sha256": "156d34634691832ccdc3f31e657253973c0a780e926ee9b26c20055aaead04cb",
+      "transform": "UTF-8 without BOM, LF newlines; independent necessity, lifecycle, impact and authorization guidance or case definition"
     },
     {
       "destination": "evals/cases/project-docs-safety-boundaries.md",
-      "kind": "exact-git-blob",
-      "source_blob": "aabc428ae96a0fbcd72987c7c9d80ae0645b1334",
-      "source_path": "evals/cases/project-docs-safety-boundaries.md",
-      "source_sha256": "efe1c676f666bc37279d5f6f76cd48aeb02692bc6e7159749c2663e41d2e3e15",
-      "target_sha256": "efe1c676f666bc37279d5f6f76cd48aeb02692bc6e7159749c2663e41d2e3e15"
+      "kind": "standalone-normalized-text-rewrite",
+      "note": "Independent documentation-governance revision with retained upstream source identity",
+      "sources": [
+        {
+          "source_blob": "aabc428ae96a0fbcd72987c7c9d80ae0645b1334",
+          "source_normalized_sha256": "efe1c676f666bc37279d5f6f76cd48aeb02692bc6e7159749c2663e41d2e3e15",
+          "source_path": "evals/cases/project-docs-safety-boundaries.md"
+        }
+      ],
+      "target_normalized_sha256": "da3b7f71eca346414bd1d1e4ac72ff8c1649468923bc35f6700d53a60c2e0a44",
+      "target_sha256": "da3b7f71eca346414bd1d1e4ac72ff8c1649468923bc35f6700d53a60c2e0a44",
+      "transform": "UTF-8 without BOM, LF newlines; independent necessity, lifecycle, impact and authorization guidance or case definition"
     },
     {
       "destination": "evals/fixtures/project-docs-adopt/AGENTS.md",
@@ -560,57 +595,99 @@
           "source_path": "evals/check-fixtures.ps1"
         }
       ],
-      "target_normalized_sha256": "d1b595a637545f533b194c178e26a1cce87a5b10e6aac6780d04106b933b3a03",
-      "target_sha256": "d1b595a637545f533b194c178e26a1cce87a5b10e6aac6780d04106b933b3a03",
-      "transform": "UTF-8 without BOM, LF newlines, standalone ownership and links; product package behavior unchanged"
+      "target_normalized_sha256": "16161adf32059b4567d80d2946253ad1bcb7fed2af81f3915c3e71a0f539feb5",
+      "target_sha256": "16161adf32059b4567d80d2946253ad1bcb7fed2af81f3915c3e71a0f539feb5",
+      "transform": "UTF-8 without BOM, LF newlines; updates only the source-identity mapping pin for independent package and case rewrites"
     },
     {
       "destination": "skills/manage-project-docs/SKILL.md",
-      "kind": "exact-git-blob",
-      "source_blob": "7e7ef377f2d54151056404f895d4dc607092f265",
-      "source_path": "skills/manage-project-docs/SKILL.md",
-      "source_sha256": "a1dad61252625f18ddac743b65257229f8dd26e3a65e32652711e8c62e29a609",
-      "target_sha256": "a1dad61252625f18ddac743b65257229f8dd26e3a65e32652711e8c62e29a609"
+      "kind": "standalone-normalized-text-rewrite",
+      "note": "Independent documentation-governance revision after standalone migration",
+      "sources": [
+        {
+          "source_blob": "7e7ef377f2d54151056404f895d4dc607092f265",
+          "source_normalized_sha256": "a1dad61252625f18ddac743b65257229f8dd26e3a65e32652711e8c62e29a609",
+          "source_path": "skills/manage-project-docs/SKILL.md"
+        }
+      ],
+      "target_normalized_sha256": "a9b99317c254773d35dfddd05474ffcc7125b991148f1c3554db8d66a0c91e7e",
+      "target_sha256": "a9b99317c254773d35dfddd05474ffcc7125b991148f1c3554db8d66a0c91e7e",
+      "transform": "UTF-8 without BOM, LF newlines; preserves visible selection while extending necessity, content update modes, impact and authorization continuity"
     },
     {
       "destination": "skills/manage-project-docs/agents/openai.yaml",
-      "kind": "exact-git-blob",
-      "source_blob": "6b820dff0205e6c3c9bff79156a94d5b40555dbf",
-      "source_path": "skills/manage-project-docs/agents/openai.yaml",
-      "source_sha256": "0801a1829848027fb1c209608ac44ece0b3c0eae6ad7ac42dcc4facb9dd89468",
-      "target_sha256": "0801a1829848027fb1c209608ac44ece0b3c0eae6ad7ac42dcc4facb9dd89468"
+      "kind": "standalone-normalized-text-rewrite",
+      "note": "Independent documentation-governance revision with retained upstream source identity",
+      "sources": [
+        {
+          "source_blob": "6b820dff0205e6c3c9bff79156a94d5b40555dbf",
+          "source_normalized_sha256": "0801a1829848027fb1c209608ac44ece0b3c0eae6ad7ac42dcc4facb9dd89468",
+          "source_path": "skills/manage-project-docs/agents/openai.yaml"
+        }
+      ],
+      "target_normalized_sha256": "66c24267e0c89356c5d197470b324202c5084ceddb73b7ea486c2498ea5cf8b0",
+      "target_sha256": "66c24267e0c89356c5d197470b324202c5084ceddb73b7ea486c2498ea5cf8b0",
+      "transform": "UTF-8 without BOM, LF newlines; independent necessity, lifecycle, impact and authorization guidance or case definition"
     },
     {
       "destination": "skills/manage-project-docs/assets/templates/continuity-anchor.md",
-      "kind": "exact-git-blob",
-      "source_blob": "949ad950fc49a74b4da2ed036db1dc4eb49e0e25",
-      "source_path": "skills/manage-project-docs/assets/templates/continuity-anchor.md",
-      "source_sha256": "9b7cc87a002176b604301773db7b91af5ae113805b245dc94ad6481e72bdd603",
-      "target_sha256": "9b7cc87a002176b604301773db7b91af5ae113805b245dc94ad6481e72bdd603"
+      "kind": "standalone-normalized-text-rewrite",
+      "note": "Independent documentation-governance revision with retained upstream source identity",
+      "sources": [
+        {
+          "source_blob": "949ad950fc49a74b4da2ed036db1dc4eb49e0e25",
+          "source_normalized_sha256": "9b7cc87a002176b604301773db7b91af5ae113805b245dc94ad6481e72bdd603",
+          "source_path": "skills/manage-project-docs/assets/templates/continuity-anchor.md"
+        }
+      ],
+      "target_normalized_sha256": "ecd2abd6405133cc91557d75d36cdbec204bc1211edf93fc594a236ec95ccff3",
+      "target_sha256": "ecd2abd6405133cc91557d75d36cdbec204bc1211edf93fc594a236ec95ccff3",
+      "transform": "UTF-8 without BOM, LF newlines; independent necessity, lifecycle, impact and authorization guidance or case definition"
     },
     {
       "destination": "skills/manage-project-docs/assets/templates/project-doc-starter.md",
-      "kind": "exact-git-blob",
-      "source_blob": "f7ca1ed4e99eaf7c5d4ff178fa69a66f2ff3249c",
-      "source_path": "skills/manage-project-docs/assets/templates/project-doc-starter.md",
-      "source_sha256": "d49b567235b29aad84b468e054cea993bebc774094718ce3e9d7d2d30202a4e4",
-      "target_sha256": "d49b567235b29aad84b468e054cea993bebc774094718ce3e9d7d2d30202a4e4"
+      "kind": "standalone-normalized-text-rewrite",
+      "note": "Independent documentation-governance revision with retained upstream source identity",
+      "sources": [
+        {
+          "source_blob": "f7ca1ed4e99eaf7c5d4ff178fa69a66f2ff3249c",
+          "source_normalized_sha256": "d49b567235b29aad84b468e054cea993bebc774094718ce3e9d7d2d30202a4e4",
+          "source_path": "skills/manage-project-docs/assets/templates/project-doc-starter.md"
+        }
+      ],
+      "target_normalized_sha256": "2f30a5cd2a21c24e5dea4ff0432ac332010669e9df94ef582de9a3f9cd169a3c",
+      "target_sha256": "2f30a5cd2a21c24e5dea4ff0432ac332010669e9df94ef582de9a3f9cd169a3c",
+      "transform": "UTF-8 without BOM, LF newlines; independent necessity, lifecycle, impact and authorization guidance or case definition"
     },
     {
       "destination": "skills/manage-project-docs/references/audit-and-adopt.md",
-      "kind": "exact-git-blob",
-      "source_blob": "15a380bb8b2dff7e112fc034bfa752c58f60d013",
-      "source_path": "skills/manage-project-docs/references/audit-and-adopt.md",
-      "source_sha256": "7a68d650d164f6f97088d8186916278df711e70db74f00117a088d22ce8d7f13",
-      "target_sha256": "7a68d650d164f6f97088d8186916278df711e70db74f00117a088d22ce8d7f13"
+      "kind": "standalone-normalized-text-rewrite",
+      "note": "Independent documentation-governance revision with retained upstream source identity",
+      "sources": [
+        {
+          "source_blob": "15a380bb8b2dff7e112fc034bfa752c58f60d013",
+          "source_normalized_sha256": "7a68d650d164f6f97088d8186916278df711e70db74f00117a088d22ce8d7f13",
+          "source_path": "skills/manage-project-docs/references/audit-and-adopt.md"
+        }
+      ],
+      "target_normalized_sha256": "08cd756cd8372f633a5c1e6d9e2a97154004395477ae9b72c119bec2aa9b460d",
+      "target_sha256": "08cd756cd8372f633a5c1e6d9e2a97154004395477ae9b72c119bec2aa9b460d",
+      "transform": "UTF-8 without BOM, LF newlines; independent necessity, lifecycle, impact and authorization guidance or case definition"
     },
     {
       "destination": "skills/manage-project-docs/references/maintain-and-recover.md",
-      "kind": "exact-git-blob",
-      "source_blob": "132b2274a2e52d1d232fa87c2f00d95a7f0f1f84",
-      "source_path": "skills/manage-project-docs/references/maintain-and-recover.md",
-      "source_sha256": "92768df8aa8d7a8f799366c46b9f03ba6bab8183896d80578188c03e361c9bb4",
-      "target_sha256": "92768df8aa8d7a8f799366c46b9f03ba6bab8183896d80578188c03e361c9bb4"
+      "kind": "standalone-normalized-text-rewrite",
+      "note": "Independent documentation-governance revision with retained upstream source identity",
+      "sources": [
+        {
+          "source_blob": "132b2274a2e52d1d232fa87c2f00d95a7f0f1f84",
+          "source_normalized_sha256": "92768df8aa8d7a8f799366c46b9f03ba6bab8183896d80578188c03e361c9bb4",
+          "source_path": "skills/manage-project-docs/references/maintain-and-recover.md"
+        }
+      ],
+      "target_normalized_sha256": "42586811d851c8cd27acf33923ba92dac80ccaf09b5f1816bfe7018512b89875",
+      "target_sha256": "42586811d851c8cd27acf33923ba92dac80ccaf09b5f1816bfe7018512b89875",
+      "transform": "UTF-8 without BOM, LF newlines; independent necessity, lifecycle, impact and authorization guidance or case definition"
     }
   ],
   "manifest_provenance": [

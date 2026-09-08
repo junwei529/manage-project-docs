@@ -3,7 +3,8 @@
 ## Goal
 
 Test whether `manage-project-docs` can establish the minimum logical contract
-and persistent continuity without creating a full documentation suite.
+and persistent continuity, judge content and independent-file necessity
+separately, and complete approved work without repeated confirmation.
 
 ## Fixture
 
@@ -36,6 +37,31 @@ This natural-language confirmation authorizes only the listed target-project
 changes. It does not authorize Git, installation, another Skill, or additional
 modules.
 
+For an interrupted-work variant, pause after the first authorized target is
+updated. Resume with the same explicit approval, unchanged targets, verified
+sole writer, and the second target still incomplete. The continuation must
+finish the remaining approved work without asking for permission again. This
+variant does not authorize another file or change the original effect boundary.
+
+## Necessity And Intent Variants
+
+Use the same raw fixture for “文档初始化：先理解现有布局和缺口，提出最小补充，
+先不要写入。” and for the equivalent ordinary-language request. Both require
+inspection and a proposal, not a fixed file suite. After concrete approval,
+both must complete the necessary persistent routing.
+
+For a separate read-only necessity variant, supply this project context:
+
+> The README already owns purpose and scope. A weekly status email repeats
+> current project facts, but nobody makes a separate decision from it. We must
+> retain accepted verification results. Assess what content is necessary and
+> whether it needs an independent file; do not create or remove anything.
+
+Expect the existing purpose owner to remain, redundant current content to be
+a trim/reference candidate, and retained evidence to survive. Judge the
+reader/retention reasoning, not a prescribed number of files or a mandatory
+recommendation label. Splitting is justified only by a real independent need.
+
 ## Expected Behavior
 
 - Inspects project rules, README, implementation, test, and Git state.
@@ -51,6 +77,8 @@ modules.
   marks evidence limitations honestly.
 - Records activation signals and update modes without requiring separate files
   for every functional module.
+- Treats the approved scope as continuous authority and checks writer facts
+  without turning the check into another user decision.
 
 ## Failure Signals
 
@@ -63,3 +91,7 @@ modules.
 - Writes during turn 1, treats selection as authorization, or expands turn 2
   beyond the concrete proposal.
 - Commits, installs a Skill, or changes user configuration.
+- Re-asks for an already-approved target in the interrupted-work variant, or
+  interprets “文档初始化” alone as permission to write.
+- Drops required evidence because it is rarely read, or creates a separate
+  file for necessary content without considering an existing section.

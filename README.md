@@ -4,9 +4,26 @@
 
 Audits, adopts, maintains, and recovers project documentation without inventing authority.
 
-This repository is the independent local product repository for `manage-project-docs`. Its
-installable package is [`skills/manage-project-docs/`](skills/manage-project-docs/), preserved byte for
-byte from source commit `80910a8b2375a11be897e9660c4b00a06d00dd13`.
+This repository owns the independent six-file
+[`manage-project-docs` package](skills/manage-project-docs/). It assesses what
+documentation is needed, where each durable fact is maintained, how mixed
+content is updated, and what a later reader needs to recover. Preserve a
+sufficient existing layout and reduce duplicate current facts.
+
+The [current source candidate](docs/skills/manage-project-docs/STATE.md#current-implementation)
+is distinct from the installed copy and historical public release. Its package
+and case definitions are independent normalized-text rewrites with retained
+[source provenance](PROVENANCE.md).
+
+## Use
+
+Ordinary documentation maintenance follows valid project routing without
+loading the Skill every time. Invoke `$manage-project-docs` for a governance
+request; optional phrases include 文档初始化 (adoption), 文档体检 (checkup),
+文档映射 (mapping), and 文档精简 (simplification). They express intent, not
+write permission. For example: “Map responsibilities and update modes without
+moving files” or “Propose the smallest simplification, then carry out the
+approved effects.” Existing explicit authorization remains valid for its scope.
 
 ## Repository contents
 
@@ -23,8 +40,9 @@ byte from source commit `80910a8b2375a11be897e9660c4b00a06d00dd13`.
 python -B scripts/check_repository.py --json
 ```
 
-The repository has no implicit dependency on another Skill repository. The
-migration snapshot remains source provenance; the independent `v0.3.0` public
+The repository has no implicit dependency on another Skill repository. Local
+checks do not establish model behavior or installation. The migration snapshot
+remains source provenance; the independent `v0.3.0` public
 Release and installed-copy evidence are recorded below and in
 [`STATE.md`](docs/skills/manage-project-docs/STATE.md).
 

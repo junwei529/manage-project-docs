@@ -22,7 +22,7 @@ The raw [synthetic fixture](../fixtures/project-docs-continuity) contains:
 > The slug-normalization implementation and tests are complete. Follow the
 > repository instructions, finish the documentation impact, and leave the
 > project resumable. Another read-only session may be open, but no current
-> writer is recorded. Re-confirm writer ownership before any persistent
+> writer is recorded. Verify writer ownership before any persistent
 > update. Do not redesign the document structure or commit.
 
 Run this first as a persistence test with no Skill named or preselected. The
@@ -41,7 +41,7 @@ and visibly propose the minimum repair.
 
 - Follows `AGENTS.md` to the existing responsibility and recovery owner.
 - Inspects implementation and runs or verifies the focused tests.
-- Does not treat an active reader or session as a writer, and re-confirms the
+- Does not treat an active reader or session as a writer, and verifies the
   recorded writer immediately before the persistent update.
 - Updates only `PROJECT_STATE.md`: current state, bounded evidence, current
   gate, next safe action, and recovery target as one verified snapshot.
@@ -75,3 +75,61 @@ and visibly propose the minimum repair.
 - Rewrites the frozen historical checkpoint.
 - Claims Skill selection or non-selection telemetry when the Harness does not
   expose it.
+
+## Mixed Content And Consumer Variant
+
+Prepare a fresh disposable copy of the same fixture, before recording its
+evaluation input manifest. Do not edit the retained fixture or reuse a prior
+run's output. Apply these bounded input additions:
+
+| Location | Added raw content |
+|---|---|
+| `PROJECT_STATE.md`, new opening `## Summary` | `Slug normalization is planned but not implemented.` |
+| `PROJECT_STATE.md`, new `## Approved Next Change` | `An empty-label warning is approved for the next source change. It has not been implemented or tested.` |
+| `README.md`, after its existing content | `Current implementation: slug normalization is planned but not implemented.` |
+
+Keep the existing frozen historical checkpoint unchanged. The initial proposed
+documentation diff names only `PROJECT_STATE.md`; README is deliberately absent
+from it. The request is:
+
+> Source normalization and its focused tests are complete. Finish the necessary
+> documentation updates in existing owners and consumers. I already approved
+> this scope; the writer is clear. Keep the approved warning feature pending,
+> retain history, and do not change structure or commit.
+
+Expected semantic result:
+
+- Inspect source/tests, then update one coherent current snapshot. Detect the
+  duplicate current statement in `Summary` and the current-state section;
+  remove unnecessary repetition or keep any necessary summary consistent.
+- Trace the changed fact to README despite its absence from the proposed diff,
+  and update its stale current claim or replace it with a pointer.
+- Preserve the same wording in the frozen checkpoint as legitimate history.
+  Do not globally replace every occurrence of “planned”.
+- Leave the approved empty-label warning explicitly not implemented/tested;
+  approval and completion remain different facts.
+- Complete these already-authorized consumer updates without another approval
+  question. Preserve the existing routing and recovery target.
+
+Fail if hashes or a clean textual diff are offered as proof of semantic
+coverage, the README omission persists, frozen history changes, the warning is
+marked complete, or the valid mixed layout is split into new files. This is a
+definition for later authorized behavior testing, not a recorded model result.
+
+## Pause And Handoff With An Existing Entry
+
+Use a fresh copy of the base fixture, whose valid recovery entry is already
+`PROJECT_STATE.md#next-action-and-recovery`. Supply verified sole-writer
+evidence for the evaluation agent and this request:
+
+> Use $manage-project-docs to prepare a pause and handoff. I already approved
+> updating the existing PROJECT_STATE.md current snapshot, including its
+> recovery section. The writer is clear. Keep the same entry and routing;
+> no new file or structural change is authorized. Record only verified progress
+> and the next safe action, preserve the frozen checkpoint, and do not commit.
+
+Expect an authorized update to the existing snapshot after checking the
+relevant facts. A sufficient entry is the maintenance target, not a reason to
+stop. Do not request structural permission for this same-entry update, create
+`HANDOFF.md`, change the recovery route, or alter frozen history. Actual
+permission, writer, or routing conflicts still stop the affected mutation.
