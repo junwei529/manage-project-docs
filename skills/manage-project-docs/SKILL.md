@@ -29,6 +29,30 @@ Windows shell, native-process, encoding, path, permission, and WSL boundaries.
 One peer's selection, body load, or authority never selects another peer or
 grants it read, write, Git, installation, or external-effect authority.
 
+## Start With The Request
+
+Interpret the complete request: identify the object and question, the requested
+outcome, and applicable authorization before choosing the reading scope.
+Optional phrases such as 文档初始化, 文档体检, 文档映射, and 文档精简 describe
+intent, not operation codes or permission tokens. “重新检查” is another natural
+request: “重新检查这段状态与已有证据是否一致，先只读” asks for a bounded
+report; “重新检查并完成已批准的这项文档修正” retains that approval's scope.
+
+Start with the affected content and follow the rules, canonical owners,
+evidence, and direct consumers needed to answer the question. A named file is
+not a reason to omit those dependencies, nor does a local question require an
+audit of every responsibility. Build a proportionate full map for an overall
+audit, first adoption, or evidence of broadly unreliable scope or routing.
+
+Load the detailed reference that the task needs:
+
+- [Audit And Adopt](references/audit-and-adopt.md): necessity, responsibility
+  mapping, simplification, missing responsibilities, or structural change.
+- [Maintain And Recover](references/maintain-and-recover.md): an authorized
+  durable update, mixed content, documentation impact, or recovery.
+- Use both when both kinds of judgment are needed; unrelated procedures do
+  not become required just because the Skill was loaded.
+
 ## Workflow
 
 1. Establish the target scope, requested outcome, whether the Skill was
@@ -36,33 +60,17 @@ grants it read, write, Git, installation, or external-effect authority.
    and whether structural change is authorized. Treat a reader, an active
    session, and the current writer as separate facts. A read-only audit may
    continue while other sessions are active.
-2. Follow the applicable project instructions already loaded by the Harness
-   and inspect the existing navigation, relevant code, tests, Git state, and
-   external evidence. Do not infer current behavior from prose alone.
-3. Map existing sources to five logical responsibilities:
-
-   | Responsibility | Required answer |
-   |---|---|
-   | Purpose and scope | What is this project or scope for, and what is excluded? |
-   | Work and verification | How is work performed and proved? |
-   | Authority and write routing | Where is each durable fact read, and where is it canonically written? |
-   | Current state and evidence | What is true now, and what evidence supports it? |
-   | Next action and recovery | Where and how does a later session resume? |
-
-4. Classify the surface:
+2. Follow the applicable project instructions already loaded by the Harness.
+   Within the reading scope above, inspect relevant navigation, code, tests,
+   Git state, and external evidence; map the responsibilities needed for the
+   question. Do not infer current behavior from prose alone.
+3. Classify the surface:
    - read-only discovery or audit, whether implicit or manually invoked;
    - first adoption;
    - routine maintenance under an existing project rule, which normally does
      not require this Skill; or
    - structural repair, expansion, or migration.
-5. Load only the detailed reference needed:
-   - read [Audit And Adopt](references/audit-and-adopt.md) for inventory,
-     necessity, simplification, missing responsibilities, first adoption, or
-     structural change;
-   - read [Maintain And Recover](references/maintain-and-recover.md) for a
-     durable update, mixed content, documentation impact, or recovery;
-   - use both when the request needs both kinds of judgment.
-6. Before writing, verify the authorized effects, actual targets, scope, and
+4. Before writing, verify the authorized effects, actual targets, scope, and
    current writer. A clear direct request or approval of a concrete proposal
    can authorize continuous completion of that scope, including necessary
    consumer updates. This is a fact check, not a new approval question per file
@@ -70,7 +78,7 @@ grants it read, write, Git, installation, or external-effect authority.
    explicit authorization of their concrete effects; reuse it when already
    given. Stop the affected action for new scope, permissions, external effects,
    or unresolved writer conflict, and obtain the missing disposition.
-7. End with one primary outcome:
+5. End with one primary outcome:
    - `NOOP` when the existing system is sufficient;
    - `REPORT` for read-only findings that need no structural or authority
      decision;
@@ -81,11 +89,11 @@ grants it read, write, Git, installation, or external-effect authority.
      Use `STOP` only when the requested action itself cannot continue safely;
      a completed read-only audit remains `REPORT` even when a later write is
      blocked.
-8. Verify links, status and evidence claims, recovery routing, placeholders,
-   generated-source ownership, and publication safety. After any command that
+6. Within the affected scope, verify links, status and evidence claims, recovery
+   routing, placeholders, generated-source ownership, and publication safety. After any command that
    may write, reconcile the actual target file and Git state, including
    generated, ignored, and untracked artifacts.
-9. Report the outcome, inspected scope, every actual file change, changed
+7. Report the outcome, inspected scope, every actual file change, changed
    canonical owners, unresolved facts, continuity strength, and exact recovery
    entry. Use only `strong`, `weak`, or `not applicable` for continuity.
    `Strong` requires a verified durable anchor and recovery path with no known
@@ -111,8 +119,7 @@ including consumers outside the diff and duplicate current facts in one file.
 
 ## Natural-Language Use
 
-Optional intent phrases describe the requested work, not required operation
-codes or permission tokens. Interpret the complete request:
+Examples of the request-sensitive entry above:
 
 - “文档初始化：先看已有布局，提出缺失职责的最小补充。” Inspect before
   proposing first adoption; complete the concrete persistent rules once authorized.

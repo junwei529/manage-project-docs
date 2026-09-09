@@ -2,28 +2,68 @@
 
 [简体中文](README.zh-CN.md)
 
-Audits, adopts, maintains, and recovers project documentation without inventing authority.
+Keep project documentation in step with the project.
 
-This repository owns the independent six-file
-[`manage-project-docs` package](skills/manage-project-docs/). It assesses what
-documentation is needed, where each durable fact is maintained, how mixed
-content is updated, and what a later reader needs to recover. Preserve a
-sufficient existing layout and reduce duplicate current facts.
+Project Docs is a project-document governance Skill for Codex. It helps you
+decide which content is worth maintaining, where facts should be maintained,
+and which documents need updating when the project changes.
+The goal is to help people and AI find trustworthy current information while
+keeping document count and maintenance costs under control.
 
+## What it helps with
+
+- **Decide which documentation is needed.** Start from the decisions readers need to make, then identify what to add, retain, combine, or simplify.
+- **Reduce duplicate maintenance.** Give each fact a primary maintenance location, connect other documents through references or necessary summaries, and preserve a sound existing structure.
+- **Keep changes reflected in documentation.** Distinguish current state, lasting agreements, and historical conclusions, then find the documents and references affected when facts change.
+
+## An example
+
+A README says a feature is complete, a plan still lists it as pending, and a
+historical report retains earlier limitations. Project Docs helps you examine
+the purpose and evidence behind each statement: which describes current state,
+which preserves history, and which needs correction. It then proposes specific
+maintenance changes and completes updates within the authorized scope.
+
+## Use
+
+After installation, describe what you want:
+
+- **Initialize documentation:** inspect the existing layout and propose the smallest necessary additions.
+- **Check documentation:** identify unnecessary, outdated, or contradictory content.
+- **Map documentation:** explain where different information is maintained and when it is updated.
+- **Simplify documentation:** find duplicate content that can be combined, referenced, or archived.
+
+You can also invoke the Skill explicitly:
+
+```text
+$manage-project-docs
+Check this project's documentation for duplication, outdated content, or contradictions.
+First report the problems and propose specific changes. Preserve the structure that already works.
+```
+
+A check can focus on a local question; routine maintenance follows the
+project's existing rules.
+
+Learn more: [Design](docs/skills/manage-project-docs/DESIGN.md) / [Verification scope](docs/skills/manage-project-docs/VERIFICATION.md) / [Evaluation scenarios](evals/README.md).
+
+<details>
+<summary>Installation, versions, and verification</summary>
+
+This repository independently maintains the six-file
+[`manage-project-docs` package](skills/manage-project-docs/).
 The [current source candidate](docs/skills/manage-project-docs/STATE.md#current-implementation)
 is distinct from the installed copy and historical public release. Its package
 and case definitions are independent normalized-text rewrites with retained
 [source provenance](PROVENANCE.md).
 
-## Use
-
-Ordinary documentation maintenance follows valid project routing without
-loading the Skill every time. Invoke `$manage-project-docs` for a governance
-request; optional phrases include 文档初始化 (adoption), 文档体检 (checkup),
-文档映射 (mapping), and 文档精简 (simplification). They express intent, not
-write permission. For example: “Map responsibilities and update modes without
-moving files” or “Propose the smallest simplification, then carry out the
-approved effects.” Existing explicit authorization remains valid for its scope.
+Natural-language entries express intent, not write permission. Existing
+explicit authorization remains valid for its scope without another question
+per file. Synonyms such as “重新检查” (recheck) are interpreted from the complete
+request, whether it asks for a read-only report or an authorized update. Start
+from the named object and question, follow necessary owners, rules, evidence,
+and direct consumers, and load only the needed reference. Ordinary requests
+such as “sync the docs” or “update the README” follow valid project routing
+without loading the Skill every time.
 
 ## Repository contents
 
@@ -86,3 +126,5 @@ Release closeout keeps three identities distinct:
 `PUBLIC_RELEASE` is `PUBLISHED`. `STABLE_INSTALLED_COPY` is
 `VERIFIED`. Broad `EFFICACY_BOUNDARY` and untested
 contexts remain `UNKNOWN`.
+
+</details>

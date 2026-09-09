@@ -100,12 +100,69 @@ behavior, publication, or broad efficacy. B2 evidence below separately binds
 the exact public Release and stable installed copy. Broad efficacy and every
 untested context remain `UNKNOWN`.
 
-The current candidate is source-only. Its identity and readiness are owned by
-[State](STATE.md#current-implementation). The earlier entry-behavior revision
-has historical local verification and installed-byte binding as a
-`LOCAL_DEVELOPMENT_COPY`; those bytes do not qualify the new candidate.
+The current v0.4.1 candidate has independent source acceptance and verified
+local installed-byte binding as a `LOCAL_DEVELOPMENT_COPY`; see
+[State](STATE.md#current-implementation) and [Local Installation](#local-installation).
+Fresh-task selection, loading, and model behavior remain `UNKNOWN`; Git delivery
+has a separate gate below, and no public Release for v0.4.1 is established.
+Earlier entry-behavior and
+v0.4.0 installation records, and the v0.3.0 public-release qualification, apply
+only to their historical inputs and do not qualify v0.4.1 behavior or release.
 
 ## Current Source Validation
+
+The v0.4.1 source revision clarifies the existing request-sensitive entry. Its
+bounded semantic coverage is:
+
+| Contract slice | Source and case definition |
+|---|---|
+| Complete request, synonyms, and existing authorization | `SKILL.md` entry; mature-noop bounded recheck and continuity authorized local recheck variants |
+| Local question with necessary rules, owners, evidence, and direct consumers | Entry and Audit responsibility map; both recheck variants |
+| Full map for an overall request or demonstrated broad routing failure | Audit responsibility map; retained adopt, conflict, and mature-noop overall cases |
+| Reference choice after scope; ordinary maintenance stays unloaded | Entry routing; continuity explicit-Skill and ordinary-maintenance variants |
+
+The five case groups and retained fixtures remain unchanged in number. No new
+evaluator or intent parser is introduced. Case definitions and static inspection
+do not prove actual selection, reference loading, or behavioral improvement;
+those remain `UNKNOWN` without an authorized run and observable evidence.
+
+Changed durable facts map to the package entry/Audit reference, two existing
+case files, DESIGN, STATE, this verification entry, and the root English/Chinese
+usage entries. The source-map refreshes only their target hashes. YAML policy
+and default prompt, Maintain And Recover, both assets, the other three cases,
+product README links, evals/README, PROVENANCE, AGENTS, fixtures, and setup/
+inspection helpers retain their applicable contracts. The checker and its
+source-identity pin remain unchanged; SKILL keeps direct links to both
+references. Historical source identities and evidence are preserved.
+
+Local source verification on 2026-09-09:
+
+| Check | Result and limit |
+|---|---|
+| `python -B scripts/check_repository.py --json` | `PASS`, exit 0, 63 mapped files; includes existing package/case-definition shape, hash, text, and link checks; source membership not requested |
+| Skill Creator `quick_validate.py`, Python UTF-8 mode | `Skill is valid!`, exit 0; metadata/scaffold validation only |
+| `git diff --check` | exit 0 |
+| Source identity and unchanged consumers | Source mapping identities/schema and checker pin unchanged; 54 unchanged tracked files byte-identical to the committed baseline; no staged changes |
+
+The two added case variants were inspected against the entry and reference
+rules above, including bounded dependencies, the existing approval scope, and
+the distinction between ordinary maintenance and explicit invocation. They
+remain unexecuted behavior definitions. Independent assessment on 2026-09-09
+accepted the ten-file source and documentation scope without blocking findings.
+It inspected the semantic and record differences, matched the frozen entry,
+Audit reference, STATE, VERIFICATION, and manifest hashes, and independently
+reran the repository checker: `PASS`, exit 0, 63 mapped files, no failures.
+This accepts source and local validation only, not native review, installation,
+publication, or actual model behavior.
+
+The subsequent Git delivery authorization covers staging this accepted scope,
+the candidate-index adversarial check, native review, local commit, and push.
+These gates require their own completed evidence and do not inherit earlier
+review credit. Git history and actual terminal results establish delivery;
+the source and installation records alone do not prove it. Model/API case runs,
+PRs, tags, Releases, and global-rule updates remain outside this authorization.
+
+## Accepted v0.4.0 Source Validation
 
 The existing package and five case groups provide the following review map.
 This maps definitions and source semantics, not completed model behavior:
@@ -173,7 +230,41 @@ and earlier installation hashes remain valid for their historical inputs.
 
 ## Local Installation
 
-The accepted source candidate was installed locally on 2026-09-08 as a
+The accepted v0.4.1 six-file source package was installed on 2026-09-09 as a
+`LOCAL_DEVELOPMENT_COPY`. The existing same-filesystem staging and swap process
+was reused with the new candidate identities and a fresh transaction path.
+Preflight matched the live v0.4.0 package to its recorded six hashes, checked
+the exact inventories and non-reparse paths, and verified readable UTF-8.
+
+The initial permission review rejected the apply request before process
+creation. No installation process started and no live or backup byte changed.
+After direct user approval of the exact swap, the same prepared inputs were
+revalidated and the apply command completed with exit 0. The prior refusal is
+retained as a permission stop, not a failed package check or a completed install.
+
+An independent ordinary-sandbox postflight completed with exit 0 and matched
+all live files to source and all retained v0.4.0 files to the old baseline.
+Live and backup owners/security descriptors matched preflight; no ACL or
+execution-policy modification was needed. The completion receipt was readable,
+and no staging or failed-candidate directory remained. The v0.4.0 rollback copy
+and earlier backups are retained outside discovery roots; no cleanup occurred.
+
+| Installed relative file | Observed raw SHA-256 |
+|---|---|
+| `SKILL.md` | `fb96ec05e1ee7d86e6d7a2fdc224d6eec2be1aeb4f447a2a8badbe74b92e862d` |
+| `agents/openai.yaml` | `66c24267e0c89356c5d197470b324202c5084ceddb73b7ea486c2498ea5cf8b0` |
+| `assets/templates/continuity-anchor.md` | `ecd2abd6405133cc91557d75d36cdbec204bc1211edf93fc594a236ec95ccff3` |
+| `assets/templates/project-doc-starter.md` | `2f30a5cd2a21c24e5dea4ff0432ac332010669e9df94ef582de9a3f9cd169a3c` |
+| `references/audit-and-adopt.md` | `deea5fd48dc44ae52e918c25515f8dfa251ca43ade0088a1664645e06f83e627` |
+| `references/maintain-and-recover.md` | `42586811d851c8cd27acf33923ba92dac80ccaf09b5f1816bfe7018512b89875` |
+
+This establishes local installed bytes, retained rollback, and bounded
+permission/readability continuity only. Fresh-task loading, model behavior,
+native review, Git delivery, and publication are not established by it.
+
+### Earlier v0.4.0 Local Installation
+
+The accepted v0.4.0 source candidate was installed locally on 2026-09-08 as a
 `LOCAL_DEVELOPMENT_COPY`. Preflight bound the existing six-file installation
 to the earlier entry-presentation checkpoint below. A fresh staging directory
 outside Skill discovery roots received the exact accepted package, followed
@@ -200,9 +291,9 @@ The apply command and separate ordinary-sandbox postflight both completed with
 exit 0. This proves local bytes and bounded readability/permission continuity,
 not actual fresh-task selection/load, model behavior, or public release.
 
-## Local Delivery Gate
+## Historical v0.4.0 Local Delivery Gate
 
-The current delivery scope permits staging the approved cumulative diff,
+The v0.4.0 local delivery window permitted staging the approved cumulative diff,
 running `python -B scripts/check_repository.py --adversarial` against that bound
 index, and a same-session native review before local commit. The six-file
 installation remains bound to the table above; any package correction requires

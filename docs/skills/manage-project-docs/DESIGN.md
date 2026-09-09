@@ -36,13 +36,19 @@ scope. Verify effects, actual targets, and writer facts before mutation;
 resolve new scope, permissions, external effects, or writer conflicts instead
 of repeatedly asking for the same authorized work. Natural-language intent
 phrases are optional; ordinary maintenance follows existing project routing.
+The entry chooses the object/question, authorization, and needed reference
+before mapping responsibilities. Local checks cover necessary rules, owners,
+evidence, and direct consumers without automatically auditing all five
+responsibilities. Overall requests or demonstrated broad routing failures
+still need a proportionate full map. Synonyms such as “重新检查” neither force
+read-only handling nor authorize writes by themselves.
 
 ## Package Responsibility Map
 
 | Source | Maintained responsibility |
 |---|---|
 | `SKILL.md` | Selection, shared principles, authorization/outcome rules, and routing |
-| `references/audit-and-adopt.md` | Content/file necessity, mapping, first adoption, and structural proposals |
+| `references/audit-and-adopt.md` | Five-responsibility definitions, scoped content/file necessity and mapping, first adoption, and structural proposals |
 | `references/maintain-and-recover.md` | Section lifecycles, mixed-document examples, consumer impact, and recovery |
 | `assets/templates/project-doc-starter.md` | Adaptable combined owner with update modes and exceptions |
 | `assets/templates/continuity-anchor.md` | Persistent routing without copied current facts or repeated approvals |

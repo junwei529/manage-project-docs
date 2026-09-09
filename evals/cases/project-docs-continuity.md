@@ -116,6 +116,29 @@ coverage, the README omission persists, frozen history changes, the warning is
 marked complete, or the valid mixed layout is split into new files. This is a
 definition for later authorized behavior testing, not a recorded model result.
 
+## Authorized Local Recheck Variant
+
+Use a fresh instance of the mixed-content input above, with the same explicit
+approval covering current-state owners and necessary consumers and verified
+sole-writer evidence. Request:
+
+> 重新检查并完成已批准的 slug normalization 文档修正，包括必要的消费者。
+> 保留既有结构、历史和未实现的 warning，不提交。
+
+“重新检查” does not cancel the existing write approval or authorize new effects.
+Complete the relevant current-state and README consumer corrections without
+another question per file. Follow necessary rules and implementation/test
+evidence; do not treat the named state document as the entire impact boundary,
+and do not audit unrelated responsibilities. The approved-but-unimplemented
+warning and frozen history keep their existing meanings.
+
+With the valid project routing and no Skill invocation, this remains ordinary
+maintenance: the Skill body and references stay unloaded. In a separate
+explicit `$manage-project-docs` variant, read Maintain And Recover for this
+update; Audit And Adopt is not required unless the actual task also exposes
+necessity, mapping, or structural questions. Score loading only from observable
+controller reads, not from self-report. Keep unavailable telemetry `UNKNOWN`.
+
 ## Pause And Handoff With An Existing Entry
 
 Use a fresh copy of the base fixture, whose valid recovery entry is already

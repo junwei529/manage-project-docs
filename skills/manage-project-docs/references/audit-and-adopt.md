@@ -21,7 +21,19 @@ or layout and needs authorization for those effects.
 
 ## Build The Responsibility Map
 
-Inventory the nearest applicable project scope before deciding on files.
+Inventory the user-specified object and question within the nearest applicable
+project scope. Follow necessary rules, evidence, owners, and direct consumers;
+map only the responsibilities relevant to that question. Use all five for an
+overall audit, first adoption, or demonstrated broad scope/routing failure.
+Do not infer a project-wide deficiency from an uninspected responsibility.
+
+| Responsibility | Answer when relevant |
+|---|---|
+| Purpose and scope | What is this project or scope for, and what is excluded? |
+| Work and verification | How is work performed and proved? |
+| Authority and write routing | Where is each durable fact read, and where is it canonically written? |
+| Current state and evidence | What is true now, and what evidence supports it? |
+| Next action and recovery | Where and how does a later session resume? |
 
 | Field | Record |
 |---|---|
@@ -33,9 +45,11 @@ Inventory the nearest applicable project scope before deciding on files.
 | Confidence | Verified, partial, unverified, or `UNKNOWN` |
 | Conflict | Competing claim, scope, lifecycle, or owner |
 
-Treat a repository with all five responsibilities and usable routing as
-sufficient even when filenames, language, or grouping differ from examples.
-Return `NOOP` if there is no stale fact or broken route to repair.
+For an overall assessment, treat a repository with all five responsibilities
+and usable routing as sufficient even when filenames, language, or grouping
+differ from examples. Return `NOOP` if the inspected scope has no stale fact or
+broken route to repair; do not claim that a local check verified the whole
+repository.
 
 ## Assess Content And Independent-File Necessity
 

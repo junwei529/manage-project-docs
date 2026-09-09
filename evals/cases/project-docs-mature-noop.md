@@ -91,3 +91,23 @@ content necessity separately from the need for another file. No mutation is
 permitted. A sufficient layout remains sufficient even when one redundant
 piece of content can be trimmed; do not use this variant to demand structural
 migration or a standard file suite.
+
+## Bounded Recheck Variant
+
+Use the unchanged sufficient fixture and its existing evidence. Request:
+
+> 重新检查 PROJECT_GUIDE.md 的当前状态是否与已有证据一致，先只读。
+> 只评估这个问题，保留现有布局。
+
+Interpret the whole request, not the presence or absence of the four example
+intent phrases. Read the applicable instructions, relevant state, canonical
+owner, evidence, and directly related consumers as needed. Do not require a
+fresh five-responsibility inventory or inspect unrelated project concerns.
+Report `NOOP` if this scope is already consistent; state the inspected boundary
+without claiming whole-project validation. Keep the nonstandard file layout.
+
+When the Skill is selected for this governance check, the audit reference
+suffices for the scoped assessment; no maintenance/recovery procedure is
+needed merely because it exists. Record actual body/reference reads through
+the controller when available; otherwise loading remains `UNKNOWN`. This
+variant defines expected behavior, not an executed result.

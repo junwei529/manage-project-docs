@@ -4,12 +4,13 @@
 
 Canonical editable source is the 6-file package under
 [`skills/manage-project-docs/`](../../../skills/manage-project-docs/).
-The approved source candidate is **v0.4.0**, unreleased. All six package files
+The approved source candidate is **v0.4.1**, unreleased. All six package files
 and five case definitions are independently mapped normalized-text rewrites;
 retained fixtures remain exact source blobs and setup/inspection scripts retain
 their existing mapped compatibility adaptations.
 The [Design](DESIGN.md) maps necessity judgment, mixed-content lifecycle,
-consumer impact, and authorization continuity to the existing package files.
+consumer impact, authorization continuity, and request-scoped reference loading
+to the existing package files.
 
 ## Repository ownership
 
@@ -20,32 +21,30 @@ on another Skill repository. Its public origin is
 
 ## Evidence state
 
-Current candidate status: the approved source scope is independently accepted;
-local validation is complete and no implementation is active. This is source
-acceptance only, not release readiness. The provenance manifest binds source mappings and
+Current candidate status: source implementation and local validation are
+independently accepted; no source writer is active.
+The provenance manifest binds source mappings and
 target bytes; [Verification](VERIFICATION.md#current-source-validation) owns
 the local checks, semantic coverage map, and remaining evidence gaps.
 
-The local user installation now matches the accepted six-file source candidate
-as a `LOCAL_DEVELOPMENT_COPY`. Its byte, permission, readability, and retained
-rollback evidence is recorded in [Local Installation](VERIFICATION.md#local-installation).
-The earlier entry-presentation copy remains available for rollback. Fresh-task
+The local user installation matches the accepted **v0.4.1** source package as
+a `LOCAL_DEVELOPMENT_COPY`. Its byte, permission, readability, and retained
+rollback evidence is recorded in
+[Local Installation](VERIFICATION.md#local-installation).
+The previous v0.4.0 copy and earlier backups remain available for rollback. Fresh-task
 loading and model behavior for the candidate are `UNKNOWN`. B2 publication and
 installed-copy qualification below still apply only to historical public
-`v0.3.0`; the new local installation is not a stable release.
+`v0.3.0`; the recorded local installation is not a stable release.
 
 ## Next gate
 
-The accepted source update and local installation are complete. Local delivery
-authorization includes staging, required checks, native review, and commit of
-the candidate and necessary records. A local commit remains conditional on
-the repository checks and native-review gate; Git and the resulting completion
-record establish the actual committed identity.
-
-Remote push requires a concrete transport and exact-ref decision after the local
-commit gate. No push, model/API case run, tag, Release, global migration, or
-other external effect is included in this local window. Preserve provenance,
-earlier evidence, and retained rollback copies.
+The authorized source scope and local installation update are complete.
+Git delivery is now authorized: stage the accepted scope, complete the required
+checks and native-review gate, then commit and push to the existing repository.
+The actual Git history and completed command results establish delivery; source
+and installation acceptance do not substitute for these gates. Model/API case
+runs, global-rule updates, further installation changes, PRs, tags, and Releases
+are outside this delivery scope. Preserve earlier evidence and rollback copies.
 
 ## Recovery entry
 
