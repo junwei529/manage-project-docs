@@ -1,5 +1,35 @@
 # Project Docs Verification
 
+## v0.4.2 publication verification
+
+The publication target is the complete reviewed source diff plus current
+documentation and provenance consumers, with package tree `84b977ad757affba74cf30c30d1ed20afe885d3f`.
+Run the affected source check before the final repository check and independent
+review; bind their results to this input. The public commit, annotated tag and
+Release require readback after the authorized transaction. This checkpoint
+claims no new installer lifecycle, model, fresh-task loading or efficacy result.
+
+## Current verification selection
+
+Read the existing owner for the current decision and reuse unchanged reads.
+Run the repository check once against the final candidate when mapped content,
+package bytes or provenance change. Select focused SOURCE, metadata, behavior,
+lifecycle or adversarial checks for the mechanism actually changed; repeat only
+for changed inputs, failures, explicit applicable gates or material risks.
+An ordinary text or repository-guidance edit alone does not require a complete
+installer or historical adversarial matrix. Actual installation retains its
+identity, permission and postflight checks, and frozen prior contracts retain
+their original gates. Historical results below are not fresh runs by implication.
+
+The current repository-guidance refinement changes AGENTS and documentation;
+the already checked package description revision retains its existing bytes
+and version. Final repository checks passed on the actual updated source
+with 63 mapped files. Independent review found no unresolved findings in
+this refinement. Earlier paired installation attempts were rejected before
+process creation and remain retained evidence. After direct user approval,
+the reviewed local update and ordinary-reader verification completed with exit 0;
+current identity, permissions and recovery evidence are recorded below.
+
 ## Accepted migration baseline
 
 - Source commit: `80910a8b2375a11be897e9660c4b00a06d00dd13`
@@ -100,7 +130,7 @@ behavior, publication, or broad efficacy. B2 evidence below separately binds
 the exact public Release and stable installed copy. Broad efficacy and every
 untested context remain `UNKNOWN`.
 
-The current v0.4.1 candidate has independent source acceptance and verified
+The retained v0.4.1 candidate has independent source acceptance and verified
 local installed-byte binding as a `LOCAL_DEVELOPMENT_COPY`; see
 [State](STATE.md#current-implementation) and [Local Installation](#local-installation).
 Fresh-task selection, loading, and model behavior remain `UNKNOWN`; Git delivery
@@ -110,6 +140,45 @@ v0.4.0 installation records, and the v0.3.0 public-release qualification, apply
 only to their historical inputs and do not qualify v0.4.1 behavior or release.
 
 ## Current Source Validation
+
+The user-confirmed 0.4.2 revision changes only the SKILL.md description. Direct
+governance requests and concrete governance failures still select this Skill;
+ordinary edits with valid routing, task size, project age, or another Skill
+alone do not. Authorization reuse, visible selection, body routing, references,
+assets, and existing case definitions remain unchanged.
+
+Local verification on 2026-09-12: the repository checker passes with 63
+mapped files and no failures, and Skill Creator metadata validation passes;
+both returned terminal exit code 0. Byte comparison confirms only description
+changed in the package. The unchanged case definitions supply semantic
+counterexamples for ordinary maintenance, direct governance and permission
+continuity; they are not a new model run. Source acceptance, local-copy
+installation, fresh-task loading, model behavior, and cost improvement are
+separate evidence layers; previous passes do not qualify new description bytes.
+
+Independent read-only technical review inspected the bound six-path source
+candidate and necessary semantic consumers, finding no actionable or blocking
+findings. The primary owner accepted the bounded source delivery. Applying the
+reviewed source and rechecking the actual source-root repository both returned
+exit 0.
+
+A separate local-installation preparation review confirmed the six new package
+files and all eleven live/staged nodes against the fixed old 0.4.1 baseline.
+Bytes, strict UTF-8, owner and full security descriptors matched. The prepared
+same-filesystem swap retains the previous copy outside discovery roots. Parent
+permission inheritance was copied only into the new staging context; no actual
+Skill or parent permission was changed. Preparation failures for the paired
+PowerShell update remain retained as transport/permission evidence.
+
+Earlier automatic approval reviews rejected the paired update before process
+creation, requiring direct user installation authorization; those attempts made
+no live rename and remain retained evidence. After direct user approval, the
+reviewed update and ordinary-reader verification each completed with exit 0.
+All eleven nodes match expected bytes, owners and full security descriptors;
+the six-file live copy now matches v0.4.2 as a LOCAL_DEVELOPMENT_COPY. The full
+v0.4.1 rollback copy is retained. Runtime and cost effects remain UNKNOWN.
+
+## Accepted v0.4.1 Source Validation
 
 The v0.4.1 source revision clarifies the existing request-sensitive entry. Its
 bounded semantic coverage is:
@@ -229,6 +298,15 @@ Frozen B2 results, release identities,
 and earlier installation hashes remain valid for their historical inputs.
 
 ## Local Installation
+
+The current v0.4.2 six-file package was installed after explicit user approval
+on 2026-09-12. Independent preparation review, actual update, ordinary-reader
+postflight, preserved permissions and the retained full v0.4.1 rollback copy
+are recorded in [Current Source Validation](#current-source-validation).
+This establishes local byte identity and readability as a LOCAL_DEVELOPMENT_COPY;
+fresh-task loading, model behavior and publication remain UNKNOWN.
+
+### Historical v0.4.1 Local Installation
 
 The accepted v0.4.1 six-file source package was installed on 2026-09-09 as a
 `LOCAL_DEVELOPMENT_COPY`. The existing same-filesystem staging and swap process

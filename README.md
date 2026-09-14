@@ -2,6 +2,8 @@
 
 [简体中文](README.zh-CN.md)
 
+Version **v0.4.2**. [Publication status](docs/skills/manage-project-docs/STATE.md#v042-publication).
+
 Keep project documentation in step with the project.
 
 Project Docs is a project-document governance Skill for Codex. It helps you

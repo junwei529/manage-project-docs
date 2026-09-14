@@ -1,16 +1,45 @@
 # Project Docs State
 
+## v0.4.2 publication
+
+The user authorized final checks and independent review, commit and normal
+fast-forward push, then a new annotated `v0.4.2` tag and public GitHub Release.
+This publication includes the accepted source and local installation records;
+it does not repeat or extend their runtime or installed-copy qualifications.
+The package tree is `84b977ad757affba74cf30c30d1ed20afe885d3f`.
+
+This is the pre-publication source checkpoint: remote effects are pending.
+After publication, record the observed commit, peeled tag and Release identity
+here without moving the tag. Preserve all previous candidates, failed evidence,
+tags and Releases. The next gate is final-input review and the authorized
+publication transaction; new installs, global configuration and model experiments
+are outside this publication scope.
+
+## Current repository guidance refinement
+
+Authorized refinement replaces fixed pre-reading and repeated validation with
+relevant-owner reading and checks for the changed mechanism. Package bytes and
+the current description version are unchanged. Source application and final
+repository verification completed with exit 0, following independent review
+of this refinement. The primary owner verified delivery; no separate Planner
+acceptance is claimed. Earlier installation-authorization refusals remain
+retained evidence. After the user's direct approval, the reviewed local update
+and ordinary-reader postflight completed; current installation evidence is below.
+
 ## Current implementation
 
 Canonical editable source is the 6-file package under
 [`skills/manage-project-docs/`](../../../skills/manage-project-docs/).
-The approved source candidate is **v0.4.1**, unreleased. All six package files
+The user-confirmed source version is **v0.4.2**; publication state is recorded above. All six package files
 and five case definitions are independently mapped normalized-text rewrites;
 retained fixtures remain exact source blobs and setup/inspection scripts retain
 their existing mapped compatibility adaptations.
 The [Design](DESIGN.md) maps necessity judgment, mixed-content lifecycle,
 consumer impact, authorization continuity, and request-scoped reference loading
-to the existing package files.
+to the existing package files. Version 0.4.2 changes only the catalog description:
+it keeps direct governance requests, concrete governance problems, and the
+ordinary-maintenance exclusions. Package body, references, assets, metadata
+policy, and case definitions retain their accepted 0.4.1 semantics.
 
 ## Repository ownership
 
@@ -21,22 +50,37 @@ on another Skill repository. Its public origin is
 
 ## Evidence state
 
-Current candidate status: source implementation and local validation are
-independently accepted; no source writer is active.
+Current source status: the 0.4.2 description and necessary record updates
+passed local verification and independent read-only technical review with no
+actionable or blocking findings. The primary owner accepted the bounded source
+delivery. Installation preparation passed separate independent review, but the
+actual update was rejected by automatic approval review before process creation
+because direct user installation authorization was required. After the user's
+direct approval, the reviewed update and ordinary-reader verification completed
+with exit 0. The local copy now matches v0.4.2; runtime behavior is not inferred.
+The previous 0.4.1 source implementation and local validation remain independently
+accepted for their recorded input.
 The provenance manifest binds source mappings and
 target bytes; [Verification](VERIFICATION.md#current-source-validation) owns
 the local checks, semantic coverage map, and remaining evidence gaps.
 
-The local user installation matches the accepted **v0.4.1** source package as
+The local user installation matches the reviewed **v0.4.2** source package as
 a `LOCAL_DEVELOPMENT_COPY`. Its byte, permission, readability, and retained
 rollback evidence is recorded in
 [Local Installation](VERIFICATION.md#local-installation).
-The previous v0.4.0 copy and earlier backups remain available for rollback. Fresh-task
+The complete previous v0.4.1 copy and older backups remain available for rollback. Fresh-task
 loading and model behavior for the candidate are `UNKNOWN`. B2 publication and
 installed-copy qualification below still apply only to historical public
 `v0.3.0`; the recorded local installation is not a stable release.
 
 ## Next gate
+
+Complete the approved [v0.4.2 publication](#v042-publication)
+using the final reviewed input, then record the observed public identities.
+Retain prior installation and approval-failure evidence and all recovery copies.
+Fresh-task loading, runtime behavior and performance remain separately scoped.
+
+### Retained 0.4.1 delivery scope
 
 The authorized source scope and local installation update are complete.
 Git delivery is now authorized: stage the accepted scope, complete the required

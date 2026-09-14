@@ -1,5 +1,13 @@
 # Provenance And Transformation Boundary
 
+## v0.4.2 publication boundary
+
+The publication packages the accepted current source unchanged. Its installable
+package tree is `84b977ad757affba74cf30c30d1ed20afe885d3f`. Publication record edits affect existing
+documentation and the current mapping/checker pin only. Historical candidates,
+receipts and source maps remain frozen. The [current state](docs/skills/manage-project-docs/STATE.md#v042-publication)
+owns the publication transaction and its observed public identities.
+
 ## Source identity
 
 This standalone repository was materialized from named Git tree entries at
@@ -32,6 +40,10 @@ mapping identity without changing its admitted schema or weakening checks.
 Historical monorepo operational detail and cross-product release
 state were omitted because full historical continuity is not an acceptance
 requirement and would create a false standalone dependency.
+
+The 0.4.2 description revision preserves those source identities and
+transformation classes. Only current target hashes for the changed entry and
+its record consumers are refreshed; no historical release evidence is rewritten.
 
 ## Publication boundary
 

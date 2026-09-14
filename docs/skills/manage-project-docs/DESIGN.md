@@ -43,6 +43,14 @@ responsibilities. Overall requests or demonstrated broad routing failures
 still need a proportionate full map. Synonyms such as “重新检查” neither force
 read-only handling nor authorize writes by themselves.
 
+## Catalog description in 0.4.2
+
+The description keeps governance intent, concrete necessity/authority/freshness/
+duplication/recovery problems, generated and external documentation, and
+ordinary-maintenance exclusions. Operating procedure and authorization details
+remain in their existing body owners. This changes discovery wording only;
+actual selection behavior and token cost are not established by text length.
+
 ## Package Responsibility Map
 
 | Source | Maintained responsibility |

@@ -1,6 +1,6 @@
 ---
 name: manage-project-docs
-description: Assess project-document necessity, authority, update modes, and recovery; audit, adopt, simplify, or maintain existing documentation. Use for a direct governance request (including 文档初始化, 文档体检, 文档映射, or 文档精简 in context) or clear necessity, authority, freshness, duplication, or recovery problems involving existing, generated, or external documentation. Selection alone permits bounded read-only inspection and a proposal; it grants no writes and does not cancel valid authorization. Ordinary maintenance follows valid project routing without loading this Skill. Preserve sufficient mature layouts. Do not select merely for prose or README edits, generated-output formatting, a small task, project age, or another Skill's concerns without a documentation-governance need.
+description: Use for project-document governance requests (文档初始化, 文档体检, 文档映射, 文档精简) or clear necessity, authority, freshness, duplication, or recovery problems in existing, generated, or external documentation. Skip routine edits or formatting with valid project routing; task size, project age, or another Skill alone is not a trigger.
 ---
 
 # Manage Project Docs

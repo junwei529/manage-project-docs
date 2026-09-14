@@ -2,6 +2,8 @@
 
 [English](README.md)
 
+当前版本 **v0.4.2**。[发布状态](docs/skills/manage-project-docs/STATE.md#v042-publication)。
+
 让项目文档跟得上项目。
 
 Project Docs 是面向 Codex 的项目文档治理 Skill。它帮助你判断哪些内容值得维护、事实应该在哪里维护，以及项目变化后哪些文档需要同步。
