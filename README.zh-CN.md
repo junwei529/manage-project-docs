@@ -2,7 +2,7 @@
 
 [English](README.md)
 
-当前版本 **v0.4.2**。[发布状态](docs/skills/manage-project-docs/STATE.md#v042-publication)。
+最新正式版本：**[v0.4.2](https://github.com/junwei529/manage-project-docs/releases/tag/v0.4.2)**。[发布核验记录](docs/skills/manage-project-docs/STATE.md#v042-publication)。
 
 让项目文档跟得上项目。
 

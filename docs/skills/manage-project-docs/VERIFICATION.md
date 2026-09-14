@@ -2,12 +2,25 @@
 
 ## v0.4.2 publication verification
 
-The publication target is the complete reviewed source diff plus current
-documentation and provenance consumers, with package tree `84b977ad757affba74cf30c30d1ed20afe885d3f`.
-Run the affected source check before the final repository check and independent
-review; bind their results to this input. The public commit, annotated tag and
-Release require readback after the authorized transaction. This checkpoint
-claims no new installer lifecycle, model, fresh-task loading or efficacy result.
+Repository validation of 63 mapped files passed for the final publication
+input, with terminal exit code 0. Where applicable, SOURCE preceded repository
+validation; actual-source checks after applying reviewed records also passed.
+The complete diff and Release notes received independent read-only review.
+Independent publication review found no actionable findings in this
+product; its unchanged reviewed input was retained through R2.
+
+Reviewed source was committed as `19d3d3367c6f29b8f5ce90e545db17a682b334f7`. Staged blob identity,
+the commit's package tree `84b977ad757affba74cf30c30d1ed20afe885d3f`, and clean postcommit
+working-tree state were verified. The public annotated tag and Release were
+created with the approved version and read back against the exact commit.
+Title and body matched the reviewed notes (normalizing line endings and final
+newlines); the Release was public, non-prerelease and Latest, with old tags
+unchanged. [State](STATE.md#v042-publication) owns public identities.
+
+This closeout changes existing publication records and their mapping/checker
+consumers only. Package, installer, historical candidates, tagged source and
+published notes retain their bytes. No additional installer lifecycle, model,
+fresh-task loading, cross-Harness or efficacy result is claimed.
 
 ## Current verification selection
 
@@ -304,7 +317,9 @@ on 2026-09-12. Independent preparation review, actual update, ordinary-reader
 postflight, preserved permissions and the retained full v0.4.1 rollback copy
 are recorded in [Current Source Validation](#current-source-validation).
 This establishes local byte identity and readability as a LOCAL_DEVELOPMENT_COPY;
-fresh-task loading, model behavior and publication remain UNKNOWN.
+fresh-task loading and model behavior remain UNKNOWN. The separate
+[v0.4.2 publication record](STATE.md#v042-publication) establishes the public
+Release without changing this local installation's qualification scope.
 
 ### Historical v0.4.1 Local Installation
 

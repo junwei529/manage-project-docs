@@ -77,8 +77,8 @@
           "source_path": "docs/skills/manage-project-docs/README.md"
         }
       ],
-      "target_normalized_sha256": "911e0915377f22f08a6a1c51905b08ab8979c639c2775c90d214e825cb1bb7a0",
-      "target_sha256": "911e0915377f22f08a6a1c51905b08ab8979c639c2775c90d214e825cb1bb7a0",
+      "target_normalized_sha256": "a91289b858650768572f3a356683c6e690f2046a7eaaa73df4fb1f1b7af01e56",
+      "target_sha256": "a91289b858650768572f3a356683c6e690f2046a7eaaa73df4fb1f1b7af01e56",
       "transform": "UTF-8 without BOM, LF newlines, standalone ownership and links; distinguishes current source from public v0.3.0"
     },
     {
@@ -92,8 +92,8 @@
           "source_path": "docs/skills/manage-project-docs/README.zh-CN.md"
         }
       ],
-      "target_normalized_sha256": "c31633ea417b9a3810db5d356015efa32c0e6fab6ea8423c8f49313b8488e229",
-      "target_sha256": "c31633ea417b9a3810db5d356015efa32c0e6fab6ea8423c8f49313b8488e229",
+      "target_normalized_sha256": "5393452f5561e7220f48449310b70de50e2c953ae6b2915b22c1ccc37a56fdc7",
+      "target_sha256": "5393452f5561e7220f48449310b70de50e2c953ae6b2915b22c1ccc37a56fdc7",
       "transform": "UTF-8 without BOM, LF newlines, standalone ownership and links; distinguishes current source from public v0.3.0"
     },
     {
@@ -152,8 +152,8 @@
           "source_path": "docs/skills/manage-project-docs/STATE.md"
         }
       ],
-      "target_normalized_sha256": "13fdefbb52e2714dfca29b117f2fecf01bffee7a65e5e9f9bbc43c8a9c7f5229",
-      "target_sha256": "13fdefbb52e2714dfca29b117f2fecf01bffee7a65e5e9f9bbc43c8a9c7f5229",
+      "target_normalized_sha256": "0053a60409bc48c24c72689b4fb8399fb21d17c425bf6c37842685e2381f8c2c",
+      "target_sha256": "0053a60409bc48c24c72689b4fb8399fb21d17c425bf6c37842685e2381f8c2c",
       "transform": "UTF-8 without BOM, LF newlines; records the unreleased source candidate separately from earlier installation and release evidence"
     },
     {
@@ -167,8 +167,8 @@
           "source_path": "docs/skills/manage-project-docs/VERIFICATION.md"
         }
       ],
-      "target_normalized_sha256": "5a505617977f818badfbd15cc30b9785fd6e0307317e7d97f06c9ee80568e9f4",
-      "target_sha256": "5a505617977f818badfbd15cc30b9785fd6e0307317e7d97f06c9ee80568e9f4",
+      "target_normalized_sha256": "0a50d7a98fdccaf526fca6200390836bd73dbedd29b4b9fc8f0860efff91dbbb",
+      "target_sha256": "0a50d7a98fdccaf526fca6200390836bd73dbedd29b4b9fc8f0860efff91dbbb",
       "transform": "UTF-8 without BOM, LF newlines; records source validation, local installation, commit gate and remaining evidence limits"
     },
     {

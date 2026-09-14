@@ -2,7 +2,7 @@
 
 [简体中文](README.zh-CN.md)
 
-Version **v0.4.2**. [Publication status](docs/skills/manage-project-docs/STATE.md#v042-publication).
+Latest release: **[v0.4.2](https://github.com/junwei529/manage-project-docs/releases/tag/v0.4.2)**. [Verified publication](docs/skills/manage-project-docs/STATE.md#v042-publication).
 
 Keep project documentation in step with the project.
 
