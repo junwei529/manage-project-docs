@@ -44,11 +44,14 @@ requirement and would create a false standalone dependency.
 The 0.4.2 description revision preserves those source identities and
 transformation classes. Only current target hashes for the changed entry and
 its record consumers are refreshed; no historical release evidence is rewritten.
+The 0.4.3 entry refinement likewise retains source identities and transformation
+classes. Its current target hashes bind the revised entry and record consumers;
+it does not replace the 0.4.2 publication identity.
 
 ## Publication boundary
 
 Tracked content contains no private task, host, checkout, account, or destination
-locator. This local migration makes no remote, installation, tag, Release,
+locator. The original standalone migration makes no remote, installation, tag, Release,
 publication, stable-copy, or efficacy claim.
 
 ## Historical independent v0.3.0 candidate

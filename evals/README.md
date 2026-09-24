@@ -44,4 +44,4 @@ post-variant input manifest as well: the helper's original fixture baseline
 alone cannot distinguish prepared variant inputs from agent-produced changes.
 
 Coverage and current evidence limits are mapped in
-[Verification](../docs/skills/manage-project-docs/VERIFICATION.md#current-source-validation).
+[Verification](../docs/skills/manage-project-docs/VERIFICATION.md#v043-delivery).

@@ -149,8 +149,8 @@ facts from this Skill repository into a target project.
 
 ## Boundaries
 
-- Follow the target project's declared authority and canonical write routing.
-- Treat audit as read-only unless the request separately authorizes an update.
+- Apply the [Workflow](#workflow) authorization and outcome rules and the
+  [Canonical Write Rule](#canonical-write-rule); selection alone remains read-only.
 - Treat implicit selection, metadata visibility, body loading, installation,
   prior use, and a project-rule mention as neither write authorization nor
   structural authorization.
@@ -159,8 +159,6 @@ facts from this Skill repository into a target project.
   again when the concrete effects are already authorized.
 - Preserve a sufficient mature layout and return `NOOP`; do not upgrade named
   maturity levels or create a parallel documentation tree.
-- Stop before writing when another writer's ownership is unresolved.
-- With no write permission, return `REPORT` or `PROPOSE`.
 - Edit the source of generated documentation, not the generated output.
 - Treat an unavailable external source as unverified.
 - Use the nearest applicable scope in a monorepo and preserve the project's
@@ -172,4 +170,3 @@ facts from this Skill repository into a target project.
   routing may re-enter only bounded proposal behavior.
 - Do not modify Git history, commit, push, merge, or clean a worktree unless separately authorized.
 - Do not publish secrets, private paths, task identifiers, raw logs, hidden reasoning, or personal environment details.
-- Do not activate the large-task workflow merely because project documentation is being updated.

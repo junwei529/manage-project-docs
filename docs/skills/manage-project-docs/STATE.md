@@ -1,5 +1,26 @@
 # Project Docs State
 
+## Current implementation
+
+The user-confirmed source version is **v0.4.3**. The sole package change is a
+`SKILL.md` entry refinement: its Boundaries section reuses the existing Workflow
+authorization/outcome rules and Canonical Write Rule, and removes duplicate
+reminders. Selection, structural authorization, peer independence, six-file
+inventory, and the other five package files remain unchanged. This is a local
+source and development-copy candidate, separate from the published v0.4.2
+release below.
+
+Source verification, independent review, and local development-copy status are
+recorded in [Verification](VERIFICATION.md#v043-delivery). Fresh-task loading and
+natural behavior for v0.4.3 remain `UNKNOWN` until directly observed.
+The local six-file development copy now matches the v0.4.3 source. The first
+two permission requests were rejected before process creation; after a direct
+approval in the action task, the existing same-volume update completed with
+exit 0. Its complete v0.4.2 rollback copy remains retained, and ordinary-reader
+postflight verified byte identity and unchanged security descriptors. The
+rejected attempts remain evidence; source, installation, and runtime states
+remain separate.
+
 ## v0.4.2 publication
 
 Status: **PUBLISHED_VERIFIED**, observed `2026-09-14T03:18:00Z`.
@@ -21,7 +42,7 @@ the immutable tag continues to identify the source commit above. Publication
 does not extend the earlier local installation, model, loading or efficacy
 evidence. Historical candidates, failures and recovery records retain their scope.
 
-## Current repository guidance refinement
+## v0.4.2 repository guidance refinement
 
 Authorized refinement replaces fixed pre-reading and repeated validation with
 relevant-owner reading and checks for the changed mechanism. Package bytes and
@@ -32,11 +53,11 @@ acceptance is claimed. Earlier installation-authorization refusals remain
 retained evidence. After the user's direct approval, the reviewed local update
 and ordinary-reader postflight completed; current installation evidence is below.
 
-## Current implementation
+## v0.4.2 implementation
 
 Canonical editable source is the 6-file package under
 [`skills/manage-project-docs/`](../../../skills/manage-project-docs/).
-The user-confirmed source version is **v0.4.2**; publication state is recorded above. All six package files
+The user-confirmed prior source version was **v0.4.2**; publication state is recorded above. All six package files
 and five case definitions are independently mapped normalized-text rewrites;
 retained fixtures remain exact source blobs and setup/inspection scripts retain
 their existing mapped compatibility adaptations.
@@ -56,21 +77,21 @@ on another Skill repository. Its public origin is
 
 ## Evidence state
 
-Current source status: the 0.4.2 description and necessary record updates
+The 0.4.2 source status: the description and necessary record updates
 passed local verification and independent read-only technical review with no
 actionable or blocking findings. The primary owner accepted the bounded source
 delivery. Installation preparation passed separate independent review, but the
 actual update was rejected by automatic approval review before process creation
 because direct user installation authorization was required. After the user's
 direct approval, the reviewed update and ordinary-reader verification completed
-with exit 0. The local copy now matches v0.4.2; runtime behavior is not inferred.
+with exit 0. The copy at that checkpoint matched v0.4.2; runtime behavior was not inferred.
 The previous 0.4.1 source implementation and local validation remain independently
 accepted for their recorded input.
 The provenance manifest binds source mappings and
-target bytes; [Verification](VERIFICATION.md#current-source-validation) owns
+target bytes; [Verification](VERIFICATION.md#v042-source-validation) owns
 the local checks, semantic coverage map, and remaining evidence gaps.
 
-The local user installation matches the reviewed **v0.4.2** source package as
+The prior local user installation matched the reviewed **v0.4.2** source package as
 a `LOCAL_DEVELOPMENT_COPY`. Its byte, permission, readability, and retained
 rollback evidence is recorded in
 [Local Installation](VERIFICATION.md#local-installation).
@@ -81,10 +102,20 @@ installed-copy qualification below still apply only to historical public
 
 ## Next gate
 
-The [v0.4.2 publication](#v042-publication) is complete.
-No publication action remains. Verify current Git state before new work, retain
-prior installation and approval-failure evidence and recovery records, and keep
-fresh-task loading, runtime behavior and performance separately scoped.
+The [v0.4.2 publication](#v042-publication) is complete. The approved next
+delivery is v0.4.3 publication: independently review the complete intended
+source diff and Release notes, commit the exact reviewed source, fast-forward
+the verified remote `main`, bind a new annotated `v0.4.3` tag to that immutable
+source commit, and publish a non-draft, non-prerelease Latest Release. Verify
+the remote branch, tag object and peeled commit, Release target/body/state, and
+package identity before recording completion.
+
+After publication, update only existing release records and their provenance
+mapping, review that records-only diff, and fast-forward its commit to `main`.
+The records commit must not move the tag, change the six-file package, replace
+older release evidence, or enlarge the local installation and runtime claims.
+Retain prior approval refusals and rollback copies. Fresh-task loading, natural
+behavior and performance remain separately unverified.
 
 ### Retained 0.4.1 delivery scope
 

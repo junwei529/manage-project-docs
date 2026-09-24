@@ -1,5 +1,68 @@
 # Project Docs Verification
 
+## v0.4.3 delivery
+
+The source change removes duplicate `SKILL.md` boundary reminders and links to
+the unchanged Workflow and Canonical Write Rule. Direct governance and
+high-confidence failure selection, valid authorization reuse, writer-conflict
+stops, first-adoption and structural user gates, generated-source ownership,
+peer independence, and ordinary-maintenance exclusion remain in their existing
+owners. The other five package files and five case definitions are unchanged.
+
+The representative case definitions cover mature `NOOP`, authority conflict,
+authorized continuity, and safety/writer boundaries. They are semantic review
+inputs, not fresh model-behavior results. Source checks, independent review,
+local development-copy status, and remaining limits are recorded separately
+below.
+
+Source checks on 2026-09-24 completed with terminal exit 0: the repository
+checker passed all 63 mapped files, including the requested source-object
+membership audit; Skill Creator quick validation passed; and `git diff --check`
+passed. The six-file source package and local v0.4.2 copy each have the expected
+inventory and 11 non-reparse nodes. Read-only preflight found only `SKILL.md`
+different, with live hash equal to the recorded v0.4.2 source hash. This does
+not itself establish independent review, installation, fresh-task loading, or
+natural behavior for v0.4.3.
+
+The same-volume development-copy update was initially submitted twice through the native
+permission mechanism. Automatic approval review rejected both requests before
+process creation because it did not accept cross-task authorization as direct
+approval for the persistent local replacement. No installer process or swap
+started. A read-only check after the first refusal confirmed the live entry
+still had the v0.4.2 hash and the new staging and rollback paths were absent;
+the second refusal likewise occurred before process creation. These attempts
+were `PERMISSION_BLOCKED`, not failed package checks; their outcomes remain
+retained after the later successful update.
+
+Independent read-only R1 found one P2 broken-fragment issue after a verification
+heading was renamed. The same R's second round inspected the complete repaired
+seven-path source diff, including the newly identified evaluation-index
+consumer; it closed that finding and reported no new findings. R confirmed the
+old live entry hash but did not independently inspect the two raw permission
+rejections or all staging/rollback checks. The source gate passed for that
+input; the install result received separate final review after the update.
+
+After a direct approval in the action task, the exact same prepared local
+update completed with terminal exit 0. It staged the six-file package on the
+same volume, preserved the old 11-node security descriptors, promoted the
+candidate, and retained the complete prior v0.4.2 copy outside Skill discovery
+roots. Ordinary-reader postflight completed with exit 0: six live files match
+source hashes; six retained files include the old entry hash; both trees have
+the expected 11 nodes without reparse points, all 11 security descriptors
+match, all files are strict UTF-8 without BOM, and the staging path is absent.
+This verifies a `LOCAL_DEVELOPMENT_COPY`, not a managed install or public
+release. No credential was created or replaced. Fresh-task loading and natural
+behavior of v0.4.3 remain `UNKNOWN`.
+
+The same independent R's final read-only round inspected the actual source,
+live and retained rollback copies, their complete six-file hashes, all 11
+owner/security-descriptor pairs, strict UTF-8, non-reparse inventory, staging
+absence, and the final documentation/provenance diff. It found no new finding
+and confirmed the prior P2 was closed. R did not reread raw command terminals
+or reconstruct the pre-swap ACL snapshot; those execution facts remain bound
+to E's retained terminal results. No installed-copy behavior or fresh-task
+loading proof is claimed.
+
 ## v0.4.2 publication verification
 
 Repository validation of 63 mapped files passed for the final publication
@@ -145,14 +208,14 @@ untested context remain `UNKNOWN`.
 
 The retained v0.4.1 candidate has independent source acceptance and verified
 local installed-byte binding as a `LOCAL_DEVELOPMENT_COPY`; see
-[State](STATE.md#current-implementation) and [Local Installation](#local-installation).
+[State](STATE.md#v042-implementation) and [Local Installation](#local-installation).
 Fresh-task selection, loading, and model behavior remain `UNKNOWN`; Git delivery
 has a separate gate below, and no public Release for v0.4.1 is established.
 Earlier entry-behavior and
 v0.4.0 installation records, and the v0.3.0 public-release qualification, apply
 only to their historical inputs and do not qualify v0.4.1 behavior or release.
 
-## Current Source Validation
+## v0.4.2 Source Validation
 
 The user-confirmed 0.4.2 revision changes only the SKILL.md description. Direct
 governance requests and concrete governance failures still select this Skill;
@@ -312,10 +375,14 @@ and earlier installation hashes remain valid for their historical inputs.
 
 ## Local Installation
 
-The current v0.4.2 six-file package was installed after explicit user approval
+The current v0.4.3 `LOCAL_DEVELOPMENT_COPY` and its retained v0.4.2 rollback
+are verified in [v0.4.3 delivery](#v043-delivery). Loading in a new task and
+natural model behavior remain `UNKNOWN`.
+
+The prior v0.4.2 six-file package was installed after explicit user approval
 on 2026-09-12. Independent preparation review, actual update, ordinary-reader
 postflight, preserved permissions and the retained full v0.4.1 rollback copy
-are recorded in [Current Source Validation](#current-source-validation).
+are recorded in [v0.4.2 Source Validation](#v042-source-validation).
 This establishes local byte identity and readability as a LOCAL_DEVELOPMENT_COPY;
 fresh-task loading and model behavior remain UNKNOWN. The separate
 [v0.4.2 publication record](STATE.md#v042-publication) establishes the public

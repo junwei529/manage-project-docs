@@ -51,6 +51,15 @@ ordinary-maintenance exclusions. Operating procedure and authorization details
 remain in their existing body owners. This changes discovery wording only;
 actual selection behavior and token cost are not established by text length.
 
+## Entrypoint refinement in 0.4.3
+
+The `Boundaries` section points to the existing Workflow for authorization,
+writer and outcome decisions and to the Canonical Write Rule for fact ownership.
+It keeps the explicit selection and structural-authorization limits. Removing
+duplicate entry reminders does not change selection, independent deployment,
+first-adoption authority, or the separate peer responsibilities. No reference,
+asset, case definition, or metadata policy changes in this version.
+
 ## Package Responsibility Map
 
 | Source | Maintained responsibility |
