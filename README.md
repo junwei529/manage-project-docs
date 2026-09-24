@@ -2,7 +2,7 @@
 
 [简体中文](README.zh-CN.md)
 
-Latest release: **[v0.4.2](https://github.com/junwei529/manage-project-docs/releases/tag/v0.4.2)**. [Verified publication](docs/skills/manage-project-docs/STATE.md#v042-publication).
+Latest release: **[v0.4.3](https://github.com/junwei529/manage-project-docs/releases/tag/v0.4.3)**. [Verified publication](docs/skills/manage-project-docs/STATE.md#v043-publication).
 
 Keep project documentation in step with the project.
 
@@ -53,8 +53,8 @@ Learn more: [Design](docs/skills/manage-project-docs/DESIGN.md) / [Verification 
 
 This repository independently maintains the six-file
 [`manage-project-docs` package](skills/manage-project-docs/).
-The [current source candidate](docs/skills/manage-project-docs/STATE.md#current-implementation)
-is distinct from the installed copy and historical public release. Its package
+The [current source and publication state](docs/skills/manage-project-docs/STATE.md#current-implementation)
+distinguishes the tagged package, local installed copy and historical releases. The package
 and case definitions are independent normalized-text rewrites with retained
 [source provenance](PROVENANCE.md).
 

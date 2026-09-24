@@ -1,5 +1,28 @@
 # Project Docs Verification
 
+## v0.4.3 publication verification
+
+The reviewed cumulative release input included the v0.4.2 records-only closeout
+and the seven-path v0.4.3 source revision. The same independent read-only R
+closed the source delivery's broken-link P2 and the publication checkpoint's
+stale-Next-gate P2; no source or Release-note finding remained before commit.
+The exact reviewed seven paths were staged, source commit
+`9701e16869b56bc26f9ed62ca85d6ef7934f2235` was created, and the clean
+postcommit repository checker passed 63 mapped files with source-object
+membership requested. The tagged six-file package tree is
+`e636c6068ae2dd89e16d09ca1ce2544ba4afe08f`.
+
+The native GitHub actor and repository push capability were checked, then the
+source commit and new annotated tag were pushed atomically without force.
+Remote `main` and the tag's peeled commit matched the source commit; tag object
+`c971ba028fbcb2c3b3777bcef89725758f39dd48` remained distinct. The formal
+[v0.4.3 Release](https://github.com/junwei529/manage-project-docs/releases/tag/v0.4.3)
+has id `395420074`; API readback matched the reviewed title and body, reported
+target source commit, non-draft and non-prerelease state, and the Latest endpoint
+returned v0.4.3. This records-only closeout changes publication documents and
+their target hashes, not package bytes, local installation, model behavior or
+earlier frozen evidence. [State](STATE.md#v043-publication) owns public identities.
+
 ## v0.4.3 delivery
 
 The source change removes duplicate `SKILL.md` boundary reminders and links to

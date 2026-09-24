@@ -62,8 +62,8 @@
           "source_path": "docs/PROVENANCE.md"
         }
       ],
-      "target_normalized_sha256": "af54d51f2ccdab0eb4b8ac3b3daa20cf87551aa2ed6eb4a6f1de4a4ec49f3fb7",
-      "target_sha256": "af54d51f2ccdab0eb4b8ac3b3daa20cf87551aa2ed6eb4a6f1de4a4ec49f3fb7",
+      "target_normalized_sha256": "b9f3d89f2dfc4b182ed51382f8b49233545d21989ab2839ccb30e3fd0cd13cab",
+      "target_sha256": "b9f3d89f2dfc4b182ed51382f8b49233545d21989ab2839ccb30e3fd0cd13cab",
       "transform": "UTF-8 without BOM, LF newlines; records independent package and case rewrites with retained source identity"
     },
     {
@@ -77,9 +77,9 @@
           "source_path": "docs/skills/manage-project-docs/README.md"
         }
       ],
-      "target_normalized_sha256": "a91289b858650768572f3a356683c6e690f2046a7eaaa73df4fb1f1b7af01e56",
-      "target_sha256": "a91289b858650768572f3a356683c6e690f2046a7eaaa73df4fb1f1b7af01e56",
-      "transform": "UTF-8 without BOM, LF newlines, standalone ownership and links; distinguishes current source from public v0.3.0"
+      "target_normalized_sha256": "462989edf3af70d9d849432a2dadeeb5f40bd35d89ee9fee45b7caa545426d9b",
+      "target_sha256": "462989edf3af70d9d849432a2dadeeb5f40bd35d89ee9fee45b7caa545426d9b",
+      "transform": "UTF-8 without BOM, LF newlines, standalone ownership and links; separates source, installation, and release status"
     },
     {
       "destination": "README.zh-CN.md",
@@ -92,9 +92,9 @@
           "source_path": "docs/skills/manage-project-docs/README.zh-CN.md"
         }
       ],
-      "target_normalized_sha256": "5393452f5561e7220f48449310b70de50e2c953ae6b2915b22c1ccc37a56fdc7",
-      "target_sha256": "5393452f5561e7220f48449310b70de50e2c953ae6b2915b22c1ccc37a56fdc7",
-      "transform": "UTF-8 without BOM, LF newlines, standalone ownership and links; distinguishes current source from public v0.3.0"
+      "target_normalized_sha256": "7276fbe53a79587b7f14145cc28f572b932cb7efb7e4dcb5f53c4115b03ab04e",
+      "target_sha256": "7276fbe53a79587b7f14145cc28f572b932cb7efb7e4dcb5f53c4115b03ab04e",
+      "transform": "UTF-8 without BOM, LF newlines, standalone ownership and links; separates source, installation, and release status"
     },
     {
       "destination": "docs/skills/manage-project-docs/DESIGN.md",
@@ -152,9 +152,9 @@
           "source_path": "docs/skills/manage-project-docs/STATE.md"
         }
       ],
-      "target_normalized_sha256": "91280f78ed56d60bb88d662b4d854a5269cb68c6c5ede8dfbff69d5518693562",
-      "target_sha256": "91280f78ed56d60bb88d662b4d854a5269cb68c6c5ede8dfbff69d5518693562",
-      "transform": "UTF-8 without BOM, LF newlines; records the unreleased source candidate separately from earlier installation and release evidence"
+      "target_normalized_sha256": "61b4af311404d20f363db675f237c6458a2a81ca5366a0fb007718b1084cb496",
+      "target_sha256": "61b4af311404d20f363db675f237c6458a2a81ca5366a0fb007718b1084cb496",
+      "transform": "UTF-8 without BOM, LF newlines; records source, publication, and local installation with separate evidence boundaries"
     },
     {
       "destination": "docs/skills/manage-project-docs/VERIFICATION.md",
@@ -167,8 +167,8 @@
           "source_path": "docs/skills/manage-project-docs/VERIFICATION.md"
         }
       ],
-      "target_normalized_sha256": "379602f5188abe0fd42870f2924405a5dfe2d51c2e5c355c487acbe59133ffa2",
-      "target_sha256": "379602f5188abe0fd42870f2924405a5dfe2d51c2e5c355c487acbe59133ffa2",
+      "target_normalized_sha256": "99aecf610d3542c0fbad5d4d4bc8c638ae21699e4f35a31b208bca3cfec66202",
+      "target_sha256": "99aecf610d3542c0fbad5d4d4bc8c638ae21699e4f35a31b208bca3cfec66202",
       "transform": "UTF-8 without BOM, LF newlines; records source validation, local installation, commit gate and remaining evidence limits"
     },
     {

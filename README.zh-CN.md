@@ -2,7 +2,7 @@
 
 [English](README.md)
 
-最新正式版本：**[v0.4.2](https://github.com/junwei529/manage-project-docs/releases/tag/v0.4.2)**。[发布核验记录](docs/skills/manage-project-docs/STATE.md#v042-publication)。
+最新正式版本：**[v0.4.3](https://github.com/junwei529/manage-project-docs/releases/tag/v0.4.3)**。[发布核验记录](docs/skills/manage-project-docs/STATE.md#v043-publication)。
 
 让项目文档跟得上项目。
 
@@ -45,8 +45,8 @@ $manage-project-docs
 <summary>安装、版本与验证说明</summary>
 
 本仓库独立维护六文件 [`manage-project-docs` 包](skills/manage-project-docs/)。
-[当前源码候选](docs/skills/manage-project-docs/STATE.md#current-implementation)
-与安装副本、历史公开发布分别记录。当前包和案例定义采用保留原始
+[当前源码及发布状态](docs/skills/manage-project-docs/STATE.md#current-implementation)
+分别记录标签包、安装副本与历史公开发布。当前包和案例定义采用保留原始
 [来源身份](PROVENANCE.md)的独立 normalized-text 改写。
 
 自然语言入口表达意图，不授予写权限。有效的具体授权连续适用于其范围，不要求逐文件重问。

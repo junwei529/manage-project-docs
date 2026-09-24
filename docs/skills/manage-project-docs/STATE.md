@@ -1,14 +1,37 @@
 # Project Docs State
 
+## v0.4.3 publication
+
+Status: **PUBLISHED_VERIFIED**, observed `2026-09-24T07:06:14Z`.
+
+| Public identity | Verified value |
+| --- | --- |
+| Immutable source commit | `9701e16869b56bc26f9ed62ca85d6ef7934f2235` |
+| Annotated tag | `v0.4.3`; object `c971ba028fbcb2c3b3777bcef89725758f39dd48`, peeled to the source commit above |
+| GitHub Release | [v0.4.3](https://github.com/junwei529/manage-project-docs/releases/tag/v0.4.3), id `395420074`; non-draft, non-prerelease, Latest at verification |
+| Installable package tree | `e636c6068ae2dd89e16d09ca1ce2544ba4afe08f` |
+
+The exact remote repository, actor and push capability were checked before
+publication. The reviewed source commit and new annotated tag were pushed
+atomically to `main`, then the remote branch, tag object and peeled commit,
+Release title, target, body and Latest state were read back. The Release body
+matched the reviewed notes after line-ending and final-newline normalization.
+This public Release does not change the separate local development-copy
+qualification or establish fresh-task loading, natural behavior or efficacy.
+Earlier publications and failed attempts retain their original evidence scope.
+
+The default branch may advance with this records-only closeout; the immutable
+tag continues to identify the source commit and package tree above.
+
 ## Current implementation
 
 The user-confirmed source version is **v0.4.3**. The sole package change is a
 `SKILL.md` entry refinement: its Boundaries section reuses the existing Workflow
 authorization/outcome rules and Canonical Write Rule, and removes duplicate
 reminders. Selection, structural authorization, peer independence, six-file
-inventory, and the other five package files remain unchanged. This is a local
-source and development-copy candidate, separate from the published v0.4.2
-release below.
+inventory, and the other five package files remain unchanged. The source is
+published as v0.4.3 above; its local development copy has a separate identity
+and evidence boundary.
 
 Source verification, independent review, and local development-copy status are
 recorded in [Verification](VERIFICATION.md#v043-delivery). Fresh-task loading and
@@ -102,20 +125,15 @@ installed-copy qualification below still apply only to historical public
 
 ## Next gate
 
-The [v0.4.2 publication](#v042-publication) is complete. The approved next
-delivery is v0.4.3 publication: independently review the complete intended
-source diff and Release notes, commit the exact reviewed source, fast-forward
-the verified remote `main`, bind a new annotated `v0.4.3` tag to that immutable
-source commit, and publish a non-draft, non-prerelease Latest Release. Verify
-the remote branch, tag object and peeled commit, Release target/body/state, and
-package identity before recording completion.
-
-After publication, update only existing release records and their provenance
-mapping, review that records-only diff, and fast-forward its commit to `main`.
-The records commit must not move the tag, change the six-file package, replace
-older release evidence, or enlarge the local installation and runtime claims.
-Retain prior approval refusals and rollback copies. Fresh-task loading, natural
-behavior and performance remain separately unverified.
+The [v0.4.3 publication](#v043-publication) is complete. This records-only
+closeout updates existing release owners and their provenance mapping after
+the tagged source commit. It may advance `main` but must not move the tag,
+change the six-file package, replace older release evidence, or enlarge the
+local installation and runtime claims. Verify the records commit and remote
+fast-forward after delivery. No further v0.4.3 publication action remains;
+future effects require their own authority. Retain prior approval refusals
+and rollback copies. Fresh-task loading, natural behavior and performance
+remain separately unverified.
 
 ### Retained 0.4.1 delivery scope
 
