@@ -1,5 +1,68 @@
 # Project Docs Verification
 
+## Project-knowledge maintenance refactor
+
+Source validation completed for the seven-file package and six-case inventory:
+
+- Skill Creator metadata validation: PASS, terminal exit 0.
+- Repository checker: PASS, 65 mapped files, no failures, terminal exit 0.
+  Optional upstream Git-object membership revalidation was not requested; the
+  retained source mapping and current target bytes were checked.
+- A bounded link/fragment check found 30 referenced Markdown fragments and no
+  missing target or anchor in the changed source-document scope.
+- Independent explicit-candidate execution updated only the operating guide in a
+  synthetic publishing project and README in a separate minimal project. Parent
+  hash comparison confirmed every other prepared fixture file was unchanged.
+- The summary-only scenario performed no mutation or retry. Its first attempt to
+  read an absent optional AGENTS file returned exit 1; bounded enumeration resolved
+  that missing-file question. This was not a product or remote-operation failure.
+- A different fresh-context agent read only the resulting README, operating guide
+  and results. It selected the publisher upload/checksum method, retained the issuer
+  denial, checked applicability and did not infer permission or fresh runtime success.
+
+The explicit behavior run read SKILL content with SHA-256
+`51fdd7fa5f5522e10439bc6ca1a22bb0e45247d2015c56c6327e65915d29eafb`
+and the learning reference. Subsequent changes quote the catalog description for
+valid YAML, clarify an unread maintenance-reference anchor section, and correct the
+discovery exclusion to preserve requested read-only audits. The exercised learning
+instructions and output artifacts are unchanged. Metadata and affected-link checks
+cover the revised source. This establishes bounded explicit behavior and fresh-context
+artifact reuse, not native automatic discovery.
+
+### Independent Review And Corrections
+
+The requested independent reviewer inspected the stable actual diff, seven package
+files, six cases, necessary unchanged consumers and three companion host candidates.
+It verified the 21 source input hashes and three companion hashes, retained source
+identity and all 65 target hashes. Its first result requested corrections:
+
+| Finding | Impact | Author disposition |
+|---|---|---|
+| F1, P2 | A broad no-durable-change discovery exclusion could suppress legitimate read-only audits | CLOSED by the same reviewer after narrowing ordinary-work exclusion and retaining explicit audit/recovery scope across entry, design and bilingual usage |
+| F2, P3 | The evaluation index called old six-file evidence current and retained a five-group count | CLOSED by the same reviewer after routing to current evidence, labelling v0.4.3 historical and correcting case grouping |
+
+The reviewer also confirmed the old Next gate scope note, which directs current
+recovery to the new implementation section without rewriting the retained record.
+The same independent reviewer returned no remaining material blockers after the
+actual eight-file delta and necessary-consumer re-review. It reconfirmed all 21
+source and three companion hashes, and all 65 mapped target hashes. The requested
+review configuration was Astra / xhigh; no independent model-runtime telemetry was
+available. Review was read-only by duty; no hard filesystem isolation is claimed.
+
+After correction, metadata validation, the repository checker and Git diff check
+completed with exit 0. The affected link check covered 32 fragments without a
+missing target or anchor; protected behavior inputs remained unchanged. The
+source-review closeout updated these evidence dispositions, State and derived
+target hashes. It preserved the reviewed Skill, case logic and companion guidance.
+This source review records candidate validation. Private host activation and
+the verification of its resulting installation are separate evidence.
+
+Behavior inputs use disposable synthetic project copies. Explicit candidate
+invocation, fresh-context reuse and actual artifacts are separate from native
+automatic discovery and installed-copy loading. The latter remain unproven unless
+observed through the corresponding host route. No production cloud action is part
+of this qualification.
+
 ## v0.4.3 publication verification
 
 The reviewed cumulative release input included the v0.4.2 records-only closeout

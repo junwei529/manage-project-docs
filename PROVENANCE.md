@@ -1,5 +1,20 @@
 # Provenance And Transformation Boundary
 
+## v0.5.0 project-knowledge maintenance
+
+The v0.5.0 source expands the package to seven files and the behavior
+case set to six groups. The new learning reference separates and extends the
+retained audit/maintenance lineage; the new learning case extends retained
+continuity and mature-noop scenarios. They are independently authored rewrites,
+not claims that the upstream snapshot contained this new behavior.
+
+The manifest retains the original source records and adds those explicit derivation
+links. Current target hashes and the checker-pinned mapping bind the new files.
+Exact historical fixtures, source commit/tree identity and prior release records
+remain unchanged. [State](docs/skills/manage-project-docs/STATE.md#current-implementation)
+routes release status. [Verification](docs/skills/manage-project-docs/VERIFICATION.md)
+records the distinct evidence for source, behavior and installation.
+
 ## v0.4.3 publication boundary
 
 The accepted source commit is `9701e16869b56bc26f9ed62ca85d6ef7934f2235`;

@@ -73,12 +73,21 @@ recommendation label. Splitting is justified only by a real independent need.
 - Merges a routing-only continuity anchor into the existing `AGENTS.md`.
 - Establishes one canonical write locus per durable fact without copying
   current facts into the anchor.
-- Returns `UPDATE`, reports the created owners and exact recovery entry, and
-  marks evidence limitations honestly.
+- Reports the completed update, created owners and recovery entry, with honest
+  evidence limits. A label is useful for this explicit governance adoption,
+  not a required ceremony for ordinary maintenance.
 - Records activation signals and update modes without requiring separate files
   for every functional module.
 - Treats the approved scope as continuous authority and checks writer facts
   without turning the check into another user decision.
+
+## Minimal Explanation Boundary
+
+A separate fresh input may request a minimal usage explanation within an already
+authorized implementation. Treat that as ordinary maintenance when it changes no
+authority, scope or retention decision; first-file creation alone is not governance
+adoption. An explicit read-only or no-new-file limit remains binding. The learning
+case covers this variant without changing the two-turn governance scenario above.
 
 ## Failure Signals
 

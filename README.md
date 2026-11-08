@@ -2,56 +2,57 @@
 
 [简体中文](README.zh-CN.md)
 
-Latest release: **[v0.4.3](https://github.com/junwei529/manage-project-docs/releases/tag/v0.4.3)**. [Verified publication](docs/skills/manage-project-docs/STATE.md#v043-publication).
+**[Latest release](https://github.com/junwei529/manage-project-docs/releases/latest)**
+· [Source and verification status](docs/skills/manage-project-docs/STATE.md#current-implementation)
 
-Keep project documentation in step with the project.
+Keep useful project knowledge available to the next task.
 
-Project Docs is a project-document governance Skill for Codex. It helps you
-decide which content is worth maintaining, where facts should be maintained,
-and which documents need updating when the project changes.
-The goal is to help people and AI find trustworthy current information while
-keeping document count and maintenance costs under control.
+Project Docs helps coding agents decide which corrections, methods and precedents
+are worth preserving, maintain them at the right existing owner, and make them
+findable and applicable later. It also audits, simplifies and repairs documentation
+when those operations are actually needed.
 
 ## What it helps with
 
-- **Decide which documentation is needed.** Start from the decisions readers need to make, then identify what to add, retain, combine, or simplify.
-- **Reduce duplicate maintenance.** Give each fact a primary maintenance location, connect other documents through references or necessary summaries, and preserve a sound existing structure.
-- **Keep changes reflected in documentation.** Distinguish current state, lasting agreements, and historical conclusions, then find the documents and references affected when facts change.
+- **Preserve useful learning.** Turn verified non-obvious methods and corrections into appropriate operating instructions, rules or evidence.
+- **Reuse existing knowledge.** Follow normal project entries, compare material conditions, and avoid repeating a known failed route just because the task or artifact name changed.
+- **Keep facts coherent.** Maintain one primary location, distinguish current facts from frozen history, and update necessary consumers.
+- **Keep ordinary work light.** Continue without an extra lesson when existing artifacts suffice; preserve mature layouts.
 
 ## An example
 
-A README says a feature is complete, a plan still lists it as pending, and a
-historical report retains earlier limitations. Project Docs helps you examine
-the purpose and evidence behind each statement: which describes current state,
-which preserves history, and which needs correction. It then proposes specific
-maintenance changes and completes updates within the authorized scope.
+A results file shows that one role can issue an upload URL while a different role
+performs a verified upload. The operating guide omits that distinction. Project
+Docs can update the existing method and discovery entry within the authorized task,
+preserve the denied attempt and its conditions, and leave frozen results unchanged.
+It does not infer new permissions from a successful command.
 
 ## Use
 
-After installation, describe what you want:
+Describe the actual outcome and scope:
 
-- **Initialize documentation:** inspect the existing layout and propose the smallest necessary additions.
-- **Check documentation:** identify unnecessary, outdated, or contradictory content.
-- **Map documentation:** explain where different information is maintained and when it is updated.
-- **Simplify documentation:** find duplicate content that can be combined, referenced, or archived.
+- “This method is verified. Maintain the existing project instructions so the next session can reuse it.”
+- “Summarize what we learned and suggest where it belongs; do not write yet.”
+- “Check whether our current operating entry still matches the evidence.”
+- “Audit or simplify this project's documentation while preserving the layout that works.”
 
-You can also invoke the Skill explicitly:
+Or explicitly invoke `$manage-project-docs`. No special wording is required for
+an authorized update. A summary-only or read-only request remains so.
 
-```text
-$manage-project-docs
-Check this project's documentation for duplication, outdated content, or contradictions.
-First report the problems and propose specific changes. Preserve the structure that already works.
-```
+The Skill is discoverable, not a background service. It loads detailed guidance only
+for actual retention, placement, reuse, governance or recovery questions, including
+read-only audits that find no change needed. Ordinary work with clear routing and
+no such question needs no full Skill load or extra report.
+A host may add a short persistent trigger; the package does not depend on one.
 
-A check can focus on a local question; routine maintenance follows the
-project's existing rules.
-
-Learn more: [Design](docs/skills/manage-project-docs/DESIGN.md) / [Verification scope](docs/skills/manage-project-docs/VERIFICATION.md) / [Evaluation scenarios](evals/README.md).
+Learn more: [Design](docs/skills/manage-project-docs/DESIGN.md) /
+[Verification](docs/skills/manage-project-docs/VERIFICATION.md) /
+[Evaluation scenarios](evals/README.md).
 
 <details>
 <summary>Installation, versions, and verification</summary>
 
-This repository independently maintains the six-file
+This repository independently maintains the seven-file source
 [`manage-project-docs` package](skills/manage-project-docs/).
 The [current source and publication state](docs/skills/manage-project-docs/STATE.md#current-implementation)
 distinguishes the tagged package, local installed copy and historical releases. The package

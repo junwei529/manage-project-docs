@@ -1,66 +1,48 @@
-# <Project Name> Working Contract
+# <Project Name> Working Guide
 
-> Adapt this document to the project's existing names and sources. Delete
-> guidance text after replacing it. Split a responsibility only when a concrete
-> responsibility, audience, permission, scope, or lifecycle need cannot be
-> served by sections. Keep content only for a reader decision, recovery need,
-> or retention obligation; a useful section need not become a separate file.
+> Adapt to existing names and sources. Keep only sections that serve this project;
+> a first usage note does not require this whole template. Logical responsibilities
+> can share a file. Remove guidance and every unused placeholder.
 
 ## Purpose And Scope
 
 - Purpose: <user problem and durable outcome>
-- In scope: <included capabilities or project boundary>
-- Out of scope: <explicit non-goals>
+- Scope and exclusions: <actual boundaries>
 
 ## Work And Verification
 
-- Working method: <how changes are made>
-- Required checks: <commands, prerequisites, and pass conditions>
-- Safety or permission boundaries: <actions that require approval or a stop>
+- Method and prerequisites: <usable steps or the existing operating guide>
+- Success evidence: <necessary checks and what they establish>
+- Accepted working constraints: <requirements or links to their existing owner>
 
-## Authority And Write Routing
+Keep methods separate from dated results. Record the conditions needed for reuse;
+do not treat one successful run as proof for other identities or environments.
 
-| Module or durable fact | Activate or update when | Update mode | Read locations | Canonical write locus |
-|---|---|---|---|---|
-| Purpose and scope | <first adoption or accepted scope change> | revise current contract | <paths or external sources> | <one owner> |
-| Work and verification method | <method, acceptance, or check changes> | revise method; record results separately when repeated | <paths or external sources> | <one owner> |
-| Authority and routing | <owner, scope, generated source, or external route changes> | revise within explicit authorization for the effects; reuse valid approval | <paths or external sources> | <one owner> |
-| Current state and evidence | <implementation, verification, writer, or gate changes> | replace one coherent current snapshot | <paths or external sources> | <one owner> |
-| Next action and recovery | <pause, transfer, priority, gate, or recovery changes> | update with the same current snapshot | <paths or external sources> | <one owner> |
-| Decision or evidence history, optional | <a durable rationale or repeated result needs retention> | preserve frozen records; append successor/correction and update current entry | <paths or external sources> | <one owner> |
+## Knowledge And Write Routing
 
-When sources conflict, distinguish intended contract, actual implementation,
-current work state, verification evidence, and historical rationale. Preserve
-`UNKNOWN` until evidence or an authorized decision resolves the conflict.
-Apply update modes to content or sections, including mixed files. Record
-replacement scope, invalidity, and current applicability only where needed;
-newer dates do not settle them. Describe later dispositions outside frozen
-records. Update derived views through their true source.
+| Knowledge needed here | Primary maintenance location | When to revisit |
+|---|---|---|
+| <only an actual rule, method, decision or state responsibility> | <one existing location, possibly a section here> | <material change or reuse condition> |
 
-Trace changed durable facts to these owners and their bounded consumers,
-including files outside the diff. Check duplicate current facts within this
-file, and distinguish legitimate historical values from stale current claims.
+Keep the map only when it helps readers navigate. Do not create an empty owner for
+every possible responsibility. Link to current facts; preserve required history
+and evidence at their appropriate owner. Edit generated views at their true source.
 
 ## Current State And Evidence
 
-- Verified now: <narrow fact and evidence>
-- In progress: <owned work>
-- Approved but not implemented, if any: <contract and remaining implementation>
-- Blocked or unknown: <fact, impact, and owner>
-- Last check: `<command or evidence locator>` — <date and bounded result>
+- Verified: <narrow fact and evidence>
+- Approved but pending, if any: <accepted change not yet implemented>
+- Unknown or blocked, if any: <gap and its impact>
 
-Replace this as one current snapshot. Do not accumulate dated execution
-history here when an existing decision or evidence owner can preserve it.
-Keep source, installation, and runtime evidence separate when applicable.
+Use a coherent current snapshot, not a chronological execution log.
+Separate accepted contracts, source checks, installed state and runtime results.
 
 ## Next Action And Recovery
 
-- Next safe action: <one concrete action>
-- Read first: <ordered sources>
-- Current writer or owner: <owner, none, or unknown>
-- Stop conditions: <permission, writer, contract, workspace, or evidence drift>
-- Unauthorized actions: <commit, deploy, migration, or other gated action>
+- Next action: <within existing authority>
+- Read first: <necessary sources>
+- Current writer and relevant stop conditions: <actual assignment and boundaries>
 
-Before updating, verify the actual targets, applicable approval, and writer;
-do not ask again for effects already explicitly authorized. New scope,
-permissions, external effects, or unresolved writer ownership need disposition.
+Omit this section when the task needs no persistent recovery state. Follow the
+existing request and writer before maintaining this guide; documenting a new
+permission, trust scope or authority choice does not create it.

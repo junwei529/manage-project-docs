@@ -18,9 +18,9 @@ ROOT = Path(__file__).resolve().parents[1]
 PRODUCT = 'manage-project-docs'
 BASELINE = '80910a8b2375a11be897e9660c4b00a06d00dd13'
 EXPECTED_SOURCE_TREE = '2ec2574116a9b2c4e8ec9a1bb4cb2636cb6279af'
-EXPECTED_SOURCE_MAPPING_SHA256 = '11d5aa3c70c1c718ec91ba5c9cebf05d50b6739d69bc62c4427004fe04eab567'
-EXPECTED_PACKAGE_COUNT = 6
-EXPECTED_CASES = set(['project-docs-adopt.md', 'project-docs-conflict.md', 'project-docs-continuity.md', 'project-docs-mature-noop.md', 'project-docs-safety-boundaries.md'])
+EXPECTED_SOURCE_MAPPING_SHA256 = '9f3116ce8691f4325e4e6d48e05f03a4b6f874b4ac36ac8d85e44695f39e9c22'
+EXPECTED_PACKAGE_COUNT = 7
+EXPECTED_CASES = set(['project-docs-adopt.md', 'project-docs-conflict.md', 'project-docs-continuity.md', 'project-docs-mature-noop.md', 'project-docs-safety-boundaries.md', 'project-docs-learning-reuse.md'])
 EXPECTED_FIXTURES = set(['project-docs-adopt', 'project-docs-conflict', 'project-docs-continuity', 'project-docs-mature-noop', 'project-docs-safety-boundaries'])
 EXCLUDED_PARTS = {
     ".git",

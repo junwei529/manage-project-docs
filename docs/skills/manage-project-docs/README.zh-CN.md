@@ -2,13 +2,12 @@
 
 [English](README.md)
 
-Audits, adopts, maintains, and recovers project documentation without inventing authority.
+维护可信、可发现、可复用的项目知识。
 
-规范产品包位于 [`skills/manage-project-docs/`](../../../skills/manage-project-docs/)。[设计](DESIGN.md)
-说明产品边界，[状态](STATE.md)说明当前独立仓库生命周期，[验证](VERIFICATION.md)
-记录证据和限制。
+规范产品包位于 [skills/manage-project-docs](../../../skills/manage-project-docs/)。
+[设计](DESIGN.md)说明七文件候选的入口、经验沉淀、维护与治理边界；
+[状态](STATE.md)区分当前源码、审查、安装和历史发布；
+[验证](VERIFICATION.md)记录实际检查及证据限制。
 
-六文件包与五组案例定义采用有独立来源映射的 normalized-text 改写。产品判断内容与文件的
-必要性、按生命周期维护混合内容、核对实际消费者，并连续适用有效授权。日常入口见
-[根目录用法](../../../README.zh-CN.md#日常使用)。源码、安装、运行时及历史发布证据分别
-记录；候选就绪状态由[状态](STATE.md)维护。
+产品不依赖其他 Skill 或个人宿主配置。日常示例见[根目录用法](../../../README.zh-CN.md#日常使用)。
+来源谱系、合成行为案例、实际观察结果和安装副本证据分别记录；历史通过不能证明本次重构有效。

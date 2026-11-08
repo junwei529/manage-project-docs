@@ -1,7 +1,7 @@
 interface:
   display_name: "Project Docs"
-  short_description: "Repair and sustain reliable project truth"
-  default_prompt: "Use $manage-project-docs to assess this project's documentation needs and update modes, follow my request and existing authorization, keep read-only work read-only, and complete authorized changes without repeating approval questions."
+  short_description: "Maintain useful, findable project knowledge"
+  default_prompt: "Use $manage-project-docs to decide what project knowledge needs preserving, update the right existing owners within my request and authorization, and make the result usable by later work."
 
 policy:
   allow_implicit_invocation: true

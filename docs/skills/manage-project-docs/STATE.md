@@ -1,5 +1,33 @@
 # Project Docs State
 
+## Current implementation
+
+The v0.5.0 source delivers the project-knowledge maintenance refactor.
+The [GitHub Release](https://github.com/junwei529/manage-project-docs/releases/tag/v0.5.0)
+is the public record of availability. [Verification](VERIFICATION.md#project-knowledge-maintenance-refactor)
+records the scope of source evidence. Local activation is a separate operation.
+
+The approved scope adds event-based experience distillation and reuse, a lightweight
+entry, effect-based maintenance boundaries, and proportionate reporting while
+preserving canonical ownership, frozen evidence and standalone operation.
+The installable package grows from six to seven files. Existing governance,
+maintenance and recovery capabilities remain; project-specific routing is not
+replaced by a fixed documentation suite.
+
+One source writer owns this refactor. The requested independent reviewer is
+read-only. Source checks and bounded behavioral validation have completed as
+recorded in Verification. Initial independent review found a discovery exclusion
+ambiguity and a stale evaluation evidence route; both were corrected and closed by
+the same independent reviewer. The final reviewed implementation has no remaining
+material blocker. Previous release checks are not current candidate evidence. Companion host guidance is prepared
+separately for consistent review, without putting private host content in this
+repository. Installation, push, tags and releases are separate effects.
+
+For an authorized update, verify the live baseline, retain a rollback copy and check
+the resulting installed bytes. When companion host guidance is in scope, apply it
+with the matching package. The current recovery route is this State plus
+[Design](DESIGN.md) and [Verification](VERIFICATION.md).
+
 ## v0.4.3 publication
 
 Status: **PUBLISHED_VERIFIED**, observed `2026-09-24T07:06:14Z`.
@@ -23,7 +51,7 @@ Earlier publications and failed attempts retain their original evidence scope.
 The default branch may advance with this records-only closeout; the immutable
 tag continues to identify the source commit and package tree above.
 
-## Current implementation
+## v0.4.3 implementation
 
 The user-confirmed source version is **v0.4.3**. The sole package change is a
 `SKILL.md` entry refinement: its Boundaries section reuses the existing Workflow
@@ -124,6 +152,10 @@ installed-copy qualification below still apply only to historical public
 `v0.3.0`; the recorded local installation is not a stable release.
 
 ## Next gate
+
+Historical scope: the following gate describes the completed v0.4.3 records-only
+closeout. It does not govern the current refactor; use
+[Current implementation](#current-implementation) for present work.
 
 The [v0.4.3 publication](#v043-publication) is complete. This records-only
 closeout updates existing release owners and their provenance mapping after

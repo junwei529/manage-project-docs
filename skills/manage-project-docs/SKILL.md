@@ -1,172 +1,119 @@
 ---
 name: manage-project-docs
-description: Use for project-document governance requests (文档初始化, 文档体检, 文档映射, 文档精简) or clear necessity, authority, freshness, duplication, or recovery problems in existing, generated, or external documentation. Skip routine edits or formatting with valid project routing; task size, project age, or another Skill alone is not a trigger.
+description: "Distill reusable project lessons, choose their maintenance location, and assess documentation or recovery. Use for retention, reuse and governance questions, including read-only audits of sufficient projects. Skip ordinary edits with clear routing and no such question."
 ---
 
 # Manage Project Docs
 
-Maintain useful project truth with the least necessary duplicate maintenance.
-Five logical responsibilities do not require five files. Assess whether content
-is needed separately from whether it needs an independent file; a file may
-contain sections with different update modes.
+Keep project knowledge useful, findable and proportionate to the work.
+Maintain one canonical write locus for each fact within its scope and lifecycle.
+Useful content need not have its own file. Preserve a sufficient existing layout.
 
-Project Docs may be selected implicitly for a direct governance request or a
-high-confidence governance failure. Selection alone authorizes no mutation;
-without a separate applicable write authorization, inspect only enough to show
-the problem and a concrete proposal. Selection does not revoke an existing
-authorization to complete that scope. `$manage-project-docs` is the explicit
-manual entry; the UI display name is **Project Docs**. Neither is a write token.
+## Start With The Actual Request
 
-When selected implicitly, make that selection visible before Skill-guided
-work: name Project Docs, state the governance reason, and identify which effects
-are already authorized and which remain proposals. When another Skill is also
-applicable, present each peer's role and authority separately.
+Use the requested outcome, existing authorization and current project routing.
+Discussion, summary-only and read-only requests remain so. Selection, installation,
+a project mention or a template grants no authority and revokes none.
+When selecting Project Docs, briefly name the concrete knowledge or governance
+need; combine this with an ordinary progress update rather than adding a ceremony.
 
-Project Docs, Work Charter, and Use PowerShell Safely are independent catalog
-peers. Project Docs owns documentation-governance semantics, Work Charter owns
-consequential-work coordination, and Use PowerShell Safely owns material
-Windows shell, native-process, encoding, path, permission, and WSL boundaries.
-One peer's selection, body load, or authority never selects another peer or
-grants it read, write, Git, installation, or external-effect authority.
+Ordinary work with a known owner and update method follows that route directly.
+A task ending, project age, file count or another Skill's use alone is not a reason
+to load this Skill, write a lesson or audit the project. Reuse unchanged guidance.
 
-## Start With The Request
+## Choose The Necessary Work
 
-Interpret the complete request: identify the object and question, the requested
-outcome, and applicable authorization before choosing the reading scope.
-Optional phrases such as 文档初始化, 文档体检, 文档映射, and 文档精简 describe
-intent, not operation codes or permission tokens. “重新检查” is another natural
-request: “重新检查这段状态与已有证据是否一致，先只读” asks for a bounded
-report; “重新检查并完成已批准的这项文档修正” retains that approval's scope.
+| Situation | Route |
+|---|---|
+| Ordinary work has clear routing and no retention, reuse, governance or recovery question | Continue the task; make no knowledge-only change |
+| Known fact and valid maintenance route | Update the existing owner and necessary consumers; use [Maintain And Recover](references/maintain-and-recover.md) only when its lifecycle or recovery detail is needed |
+| A verified correction, non-obvious method or relevant failure precedent needs distillation, placement or a reuse path | Read [Learn And Reuse](references/learn-and-reuse.md) |
+| Necessity, authority, routing or structure is unclear, contradictory or missing; or an audit is requested | Read [Audit And Adopt](references/audit-and-adopt.md) for the affected scope |
+| Work pauses, transfers or resumes and continuity needs attention | Read the recovery sections of [Maintain And Recover](references/maintain-and-recover.md) |
 
-Start with the affected content and follow the rules, canonical owners,
-evidence, and direct consumers needed to answer the question. A named file is
-not a reason to omit those dependencies, nor does a local question require an
-audit of every responsibility. Build a proportionate full map for an overall
-audit, first adoption, or evidence of broadly unreliable scope or routing.
+An explicit audit, read-only assessment or recovery question remains in scope even
+when it finds no change necessary. Do not predict that result to skip the assessment.
+Read more than one reference only when the actual question needs both.
+Start from affected facts and the decisions readers need to make. Follow necessary
+rules, evidence, owners and consumers; do not turn a local issue into a full audit.
+The five logical responsibilities in the audit reference do not imply five files.
 
-Load the detailed reference that the task needs:
+## Authorization And Writing
 
-- [Audit And Adopt](references/audit-and-adopt.md): necessity, responsibility
-  mapping, simplification, missing responsibilities, or structural change.
-- [Maintain And Recover](references/maintain-and-recover.md): an authorized
-  durable update, mixed content, documentation impact, or recovery.
-- Use both when both kinds of judgment are needed; unrelated procedures do
-  not become required just because the Skill was loaded.
+Apply permission to concrete effects, not to a filename, label or first use.
 
-## Workflow
+- A clear task request, applicable standing instruction or approved scope can
+  cover necessary project-document maintenance. Reuse that authority continuously.
+  Check the exact target, scope and current writer before writing; this is not a
+  new question per file or step. Do not interpret a bare request to summarize,
+  inspect or discuss as permission to persist changes.
+- Within that authorized work, record verified facts and accepted requirements,
+  update instructions and current evidence, and repair links to the same established
+  owner. When no suitable content exists, the smallest necessary explanation may be
+  added within the authorized project surface. A first file or first Skill use is
+  not by itself adoption of a governance system.
+- A new behavior or requirement is not authorized merely by documenting it.
+  New permission, trust, material commitments, competing authority choices, retention
+  changes, and restructuring outside the approved outcome need authorization for
+  their actual effects. A broad instruction to maintain knowledge does not override
+  an explicit file envelope, no-new-file condition, read-only scope or frozen contract.
+- A factual link correction preserves an established owner. Choosing a different
+  owner or recovery responsibility is a material routing decision. Resolve that
+  distinction from evidence; preserve uncertainty instead of silently choosing.
+- Preserve one writer per overlapping surface. A reader or active session is not
+  automatically a writer. A discoverer without write ownership returns the finding,
+  evidence and proposed location to the responsible owner through an authorized
+  handoff route; it does not create a competing current record.
+- Restrict only affected actions when scope, permission, writer or material evidence
+  is unresolved. Continue independent authorized work.
 
-1. Establish the target scope, requested outcome, whether the Skill was
-   implicitly selected or manually invoked, write permission, current writer,
-   and whether structural change is authorized. Treat a reader, an active
-   session, and the current writer as separate facts. A read-only audit may
-   continue while other sessions are active.
-2. Follow the applicable project instructions already loaded by the Harness.
-   Within the reading scope above, inspect relevant navigation, code, tests,
-   Git state, and external evidence; map the responsibilities needed for the
-   question. Do not infer current behavior from prose alone.
-3. Classify the surface:
-   - read-only discovery or audit, whether implicit or manually invoked;
-   - first adoption;
-   - routine maintenance under an existing project rule, which normally does
-     not require this Skill; or
-   - structural repair, expansion, or migration.
-4. Before writing, verify the authorized effects, actual targets, scope, and
-   current writer. A clear direct request or approval of a concrete proposal
-   can authorize continuous completion of that scope, including necessary
-   consumer updates. This is a fact check, not a new approval question per file
-   or step. First adoption and structural or canonical-owner changes require
-   explicit authorization of their concrete effects; reuse it when already
-   given. Stop the affected action for new scope, permissions, external effects,
-   or unresolved writer conflict, and obtain the missing disposition.
-5. End with one primary outcome:
-   - `NOOP` when the existing system is sufficient;
-   - `REPORT` for read-only findings that need no structural or authority
-     decision;
-   - `UPDATE` for an authorized change to an existing canonical owner;
-   - `PROPOSE` when structure or authority needs approval, even if the current
-     audit is read-only;
-   - `STOP` when permission, writer ownership, scope, or evidence is unsafe.
-     Use `STOP` only when the requested action itself cannot continue safely;
-     a completed read-only audit remains `REPORT` even when a later write is
-     blocked.
-6. Within the affected scope, verify links, status and evidence claims, recovery
-   routing, placeholders, generated-source ownership, and publication safety. After any command that
-   may write, reconcile the actual target file and Git state, including
-   generated, ignored, and untracked artifacts.
-7. Report the outcome, inspected scope, every actual file change, changed
-   canonical owners, unresolved facts, continuity strength, and exact recovery
-   entry. Use only `strong`, `weak`, or `not applicable` for continuity.
-   `Strong` requires a verified durable anchor and recovery path with no known
-   permission, writer, routing, or required-owner block; report `weak` when
-   recovery was assessed and any such block remains.
+Project Docs owns knowledge placement and documentation-maintenance semantics.
+Work Charter owns applicable delivery and coordination; other Skills retain their
+domains. No peer selection or installation creates a dependency, role, Git permission,
+external action or new authority.
 
-## Canonical Write Rule
+## Maintain Truth And Reuse
 
-Allow several read locations, but keep one canonical write locus for each
-normative durable fact within one scope and lifecycle. Link or summarize
-elsewhere instead of copying the full fact.
+Distinguish intended contract, implementation, current state, verification evidence
+and historical rationale. Successful execution proves only its observed conditions,
+not user consent, a general capability or acceptance of a strategy.
 
-Distinguish intended contract, actual implementation, current work state,
-verification evidence, and historical rationale. Preserve `UNKNOWN` when those
-sources do not resolve a conflict.
+Apply update modes by content or section: revise accepted current rules, replace
+coherent current snapshots, preserve frozen records and append successors, and edit
+derived material at its true source. Dates alone establish neither supersession nor
+applicability. Trace changed facts to bounded actual consumers, including those outside
+the initial diff and duplicate current claims within a file.
 
-Choose update modes by content or section: revise current contracts within
-approval, replace coherent current snapshots, preserve frozen history and add
-successors or corrections, and update derived content at its true source.
-Newer dates alone do not establish replacement, invalidity, or applicability.
-Trace changed durable facts to their owners and bounded actual consumers,
-including consumers outside the diff and duplicate current facts in one file.
+A useful retained lesson has a discoverable project entry and enough conditions to
+guide its next use. Memory and chat can help locate evidence; they do not replace the
+project's source authority. Do not create a parallel lessons database, fixed document
+suite, background history scan or per-tool-event log.
 
-## Natural-Language Use
+## Verify And Report Proportionately
 
-Examples of the request-sensitive entry above:
+For ordinary maintenance, check the changed meaning, necessary links and affected
+consumers. Report material changes and remaining gaps in the task's normal delivery.
+Do not manufacture a separate report for deciding no change was needed.
 
-- “文档初始化：先看已有布局，提出缺失职责的最小补充。” Inspect before
-  proposing first adoption; complete the concrete persistent rules once authorized.
-- “文档体检：只读检查内容是否必要、是否过时。” Report findings and options.
-- “文档映射：说明职责、维护位置和更新方式，不移动文件。” A map may be a
-  read-only response; persisting it needs applicable authorization.
-- “文档精简：先提出合并、引用或归档建议。” Propose specific content/layout
-  effects; implement them when authorized.
+For an explicit audit or repair, state the inspected scope, outcome, affected owners
+and unresolved decisions. These outcomes may help: `NOOP` for sufficient content,
+`REPORT` for completed read-only findings, `UPDATE` for completed authorized
+maintenance, `PROPOSE` for concrete effects needing a decision, and `STOP` only
+when the requested action itself cannot safely continue. A completed read-only audit
+is not a failed task merely because a later write needs authorization.
 
-An existing project does not migrate because this Skill is first invoked or
-updated. “同步文档” and “更新 README” are ordinary maintenance language; follow
-valid project routing without loading this Skill unless context shows a
-governance need. Reassessment may remain a read-only map and recommendation.
+Assess continuity only when recovery is part of the task. Use `strong` when the
+necessary durable anchor and recovery path are verified and usable, `weak` when
+a material gap remains, and `not applicable` otherwise. File existence, a successful
+check or a self-reported Skill load does not prove future behavior.
 
-## Output Assets
+Use the [Starter](assets/templates/project-doc-starter.md) only when several missing
+responsibilities benefit from one combined document. Use the
+[Continuity Anchor](assets/templates/continuity-anchor.md) to express necessary
+project-specific routing; adapt both and remove irrelevant sections.
 
-- Use the [single-file Starter](assets/templates/project-doc-starter.md) only
-  when an authorized first adoption is missing several responsibilities and
-  one combined document is the smallest coherent result.
-- Use the [Continuity Anchor](assets/templates/continuity-anchor.md) only when
-  the user authorizes a persistent target-project rule. Merge it into the
-  project's existing instruction or governance entry and replace every
-  placeholder with actual routing.
-
-Assets are adaptable output resources, not mandatory filenames. Do not copy
-facts from this Skill repository into a target project.
-
-## Boundaries
-
-- Apply the [Workflow](#workflow) authorization and outcome rules and the
-  [Canonical Write Rule](#canonical-write-rule); selection alone remains read-only.
-- Treat implicit selection, metadata visibility, body loading, installation,
-  prior use, and a project-rule mention as neither write authorization nor
-  structural authorization.
-- Require explicit authorization for first adoption, new modules, split, merge,
-  rename, migration, authority changes, and canonical-owner changes; do not ask
-  again when the concrete effects are already authorized.
-- Preserve a sufficient mature layout and return `NOOP`; do not upgrade named
-  maturity levels or create a parallel documentation tree.
-- Edit the source of generated documentation, not the generated output.
-- Treat an unavailable external source as unverified.
-- Use the nearest applicable scope in a monorepo and preserve the project's
-  existing document language.
-- Persist continuity in target-project sources, not chat, private memory,
-  discovery mappings, installed Skill copies, or caches.
-- Do not poll conversations, run a background scan, or preload the Skill on
-  every task. Valid target-project routing owns ordinary maintenance; broken
-  routing may re-enter only bounded proposal behavior.
-- Do not modify Git history, commit, push, merge, or clean a worktree unless separately authorized.
-- Do not publish secrets, private paths, task identifiers, raw logs, hidden reasoning, or personal environment details.
+Preserve nearest project scope, established language, frozen history and required
+evidence. Do not publish secrets, private environment or task identifiers, raw logs
+or hidden reasoning. Git, installation, publication and destructive cleanup retain
+their own authorization. Do not silently promote project lessons into global rules
+or rewrite this Skill's permissions or triggers.

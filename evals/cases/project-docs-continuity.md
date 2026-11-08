@@ -48,15 +48,16 @@ and visibly propose the minimum repair.
 - Preserves the frozen historical checkpoint instead of rewriting it to match
   the current state.
 - Leaves the routing and file structure unchanged.
-- Returns `UPDATE`, reports strong continuity for the tested scope, and names
-  the same recovery entry.
+- Reports the completed update and the same recovery entry; because this request
+  concerns continuity, assesses its actual strength for the tested scope.
 - Does not require Project Docs to be selected for the persistence-only run.
 - Leaves the full Project Docs body and references unloaded in the catalog-
   exposed persistence run while still completing the routed update.
 - In the routing-failure variant, returns `STOP` or a bounded proposal request
   without mutation, records exact loaded-copy evidence if selection occurs, and
-  still requires separate authorization for any structural or authority
-  change. A later unambiguous approval of the concrete proposal is sufficient;
+  still requires covering authorization for a new owner or material responsibility
+  change. A factual link repair to the same established owner may be ordinary
+  maintenance. A later unambiguous approval of a concrete proposal is sufficient;
   the `$manage-project-docs` syntax is not required.
 
 ## Failure Signals

@@ -8,16 +8,18 @@ necessity, adopt missing responsibilities, or propose structural change.
 Implicit selection is appropriate for a direct project-document governance
 request or high-confidence evidence that authority, canonical routing,
 evidence, or recovery is missing or contradictory. Selection alone permits
-only bounded read-only inspection and a visible proposal; applicable write
-authorization remains valid. When a symptom is
-incidental to another task and does not block that task, do not expand into a
-full audit; name the concern and offer the smallest useful Project Docs check.
+only bounded inspection and a visible proposal when write authority is absent;
+applicable task and maintenance authorization remains valid. Experience distillation
+uses [Learn And Reuse](learn-and-reuse.md), not a mandatory governance audit.
+When a symptom is incidental to another task, keep the check bounded and complete
+only its authorized impact; do not expand into unrelated governance work.
 
 Follow the authorization rule in `SKILL.md`: explain concrete effects not yet
 approved, and reuse valid approval without repeating it. First invocation,
-installation, or prior adoption is not permission to persist a map or migrate
-an existing project. Mapping may be read-only; simplification changes content
-or layout and needs authorization for those effects.
+installation, or prior adoption does not expand permission. Maintaining a map of
+established owners or correcting its links can be ordinary authorized maintenance;
+choosing a competing owner or migrating responsibilities needs authority for those
+effects. A request for a read-only map remains read-only.
 
 ## Build The Responsibility Map
 
@@ -107,7 +109,7 @@ cannot represent safely, including through separate sections.
 |---|---|---|
 | Purpose and scope | first adoption or an accepted product or scope change | revise the current contract; preserve durable rationale in a decision record when needed |
 | Work and verification | a repeatable work method, acceptance rule, or check exists or changes | revise the current method; record time-bound results in the evidence owner |
-| Authority and routing | more than one owner, scope, generated source, or external source must be navigated, or a route changes | revise the current map only after structural or owner authorization |
+| Authority and routing | established owners or links need maintenance, or responsibility actually changes | maintain the established mapping within task authority; obtain missing authority for a new owner or material routing decision |
 | Current state and recovery | work spans sessions, pauses, transfers, or changes writer, gate, next action, or recovery target | replace one coherent current snapshot; keep execution history elsewhere |
 | Decisions | a non-obvious durable tradeoff or replacement needs rationale | preserve frozen rationale; record the successor and its scope in the current entry |
 | Evidence and results | a claim depends on repeatable checks, current acceptance, or comparison with older results | retain frozen results, add a bounded successor or correction, and update the current index |
@@ -148,11 +150,11 @@ sources cannot resolve it.
    remains `REPORT` when only a later write is blocked; any proposed structure
    or authority change remains `PROPOSE`.
 
-Do not make a structural repair merely because it is obvious or reversible.
-Documents can exist and still fail the minimum contract when their routes do
-not yield one trustworthy recovery entry. If repair requires an unapproved
-new owner, route, or authority choice, return `PROPOSE` instead of
-treating it as routine content maintenance.
+Reversibility alone does not authorize a structural repair. Distinguish updating
+a pointer to its already-established successor from choosing a new successor or
+owner. Documents can exist and still lack a trustworthy recovery entry. If repair
+requires an uncovered authority or responsibility decision, return `PROPOSE`;
+complete an already-authorized repair without another approval question.
 
 Do not modify, relabel, or silently reinterpret an immutable historical
 artifact such as a tagged snapshot, archived report, signed record, or frozen
@@ -161,9 +163,14 @@ and point to a later corrected revision while preserving the historical fact.
 
 ## First Adoption
 
-1. Inspect the existing layout and gaps; verify explicit authorization for the
-   concrete target-project effects. If missing, present the smallest proposal
-   and obtain approval. If already given, proceed within it.
+First adoption means introducing a governance arrangement or responsibility map,
+not merely writing a project's first necessary usage note. A minimal explanation
+within an authorized implementation follows the shared maintenance rule. Preserve
+any explicit no-new-file or structural boundary in the actual task.
+
+1. Inspect the existing layout and gaps; verify authorization for the actual
+   target-project effects. If a material governance or authority decision remains
+   uncovered, present the smallest proposal. Reuse existing approval when sufficient.
 2. Reuse existing sources for every responsibility they already satisfy.
 3. Add only the missing routing or content.
 4. Prefer one combined project document when it is clearer than several empty
@@ -172,8 +179,9 @@ and point to a later corrected revision while preserving the historical fact.
 5. If persistent continuity is authorized, merge the
    [Continuity Anchor](../assets/templates/continuity-anchor.md) into the
    existing project instruction or governance entry.
-6. Verify that a fresh reader can locate all five responsibilities without
-   knowing the template names.
+6. For an overall adoption, verify that a fresh reader can locate all five
+   responsibilities without knowing the template names. A narrow addition need
+   only close its actual gap; it does not require a complete governance map.
 
 ## Structural Expansion
 

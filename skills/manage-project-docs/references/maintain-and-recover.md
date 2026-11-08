@@ -6,6 +6,7 @@ pause, handoff, and recovery.
 ## Contents
 
 - [Maintain Existing Owners](#maintain-existing-owners)
+- [Learning And Reuse Events](#learning-and-reuse-events)
 - [Choose Update Modes By Content](#choose-update-modes-by-content)
 - [Mixed Document Examples](#mixed-document-examples)
 - [Keep Recovery State Coherent](#keep-recovery-state-coherent)
@@ -24,6 +25,7 @@ Treat these as common document-impact events:
 | Architecture, trust, or operational boundary changes | Boundary owner and related decision |
 | Implementation or test state changes | Current-state and evidence owner |
 | A material decision is accepted | Decision record and current contract |
+| A reusable correction, method or missed precedent is verified | Existing knowledge owner and necessary discovery entry; use Learn And Reuse when placement or applicability needs judgment |
 | Priority or dependency changes | Future-work owner |
 | Work pauses, transfers, or context becomes unreliable | Recovery owner |
 
@@ -33,9 +35,10 @@ For a routine event, start from changed durable facts before freezing the diff:
 2. Identify each changed fact's canonical owner and bounded actual consumers
    from existing links, routing, and generation mechanisms. Include consumers
    outside the diff; the changed-file list is not the impact boundary.
-3. Revalidate relevant code, tests, Git state, and external evidence. Source,
-   installed bytes, and actual runtime/load behavior are separate facts. An
-   approved change is not proof of implementation or verification.
+3. Inspect the evidence needed for the changed claim and reuse valid checks.
+   Do not rerun code, tests or external effects merely because prose changes.
+   Source, installed bytes and runtime/load behavior remain separate facts;
+   an approved change is not proof of implementation or verification.
 4. Verify authorization, targets, and the current writer immediately before
    mutation. Reuse a clear direct request or approved concrete scope; this
    check does not require another question per file, tool, or internal step.
@@ -48,14 +51,23 @@ For a routine event, start from changed durable facts before freezing the diff:
    Distinguish stale current claims from valid historical values. Check meaning
    and coverage: formatting, matching text, or passing hashes cannot show that
    every material consumer was considered.
-7. Record each material consumer as updated or checked with no change, with
-   bounded verification and limitations. Reuse existing checks and generators;
-   do not add a full-repository audit to every task. Use `PROPOSE` when an
-   unapproved structural or owner change is needed.
+7. Verify affected meaning, links and material consumers. Include actual changes
+   and remaining gaps in the normal task delivery; do not create a consumer ledger
+   or full audit for routine edits. Use `PROPOSE` only for concrete effects that
+   still need a decision.
 
 Do not turn a current-state section into a chronological execution log.
 Preserve necessary history in its existing section or decision/evidence owner,
 and keep the current recovery entry short enough to use directly.
+
+## Learning And Reuse Events
+
+Use [Learn And Reuse](learn-and-reuse.md) for retention value, evidence strength,
+placement and future applicability. Complete material owner and entry updates
+in the same authorized work. At a milestone or handoff, catch omitted knowledge
+impact without requiring a new lesson or report. At reuse, check changed conditions
+and correct stale guidance instead of accumulating parallel current statements.
+A discoverer who is not the writer uses the existing authorized handoff route.
 
 ## Choose Update Modes By Content
 
@@ -125,34 +137,33 @@ approval is enough for its scope; another active read-only session is not a
 writer conflict. If no single recovery target can be trusted, or convergence
 requires an unapproved owner, route, or authority change, return `PROPOSE`.
 
-When the durable anchor and its named recovery entry remain valid, preserve
-that exact recovery target during a routine update. Changing the named target
-is a routing change requiring authorization for that effect; reuse existing
-specific approval, or propose it before changing the target or its anchor.
+When the durable anchor and its recovery responsibility remain valid, preserve
+them during routine updates. Correct a stale link to the same established owner
+within maintenance authority. Selecting a new owner or recovery responsibility
+needs authority for that effect; reuse it when already given.
 
 ## Maintain The Continuity Anchor
 
-The continuity anchor belongs in an existing target-project instruction or
-governance entry. Keep only:
-
-- the read order or responsibility-map entry;
-- events that require documentation impact;
-- the structural authorization gate;
-- the recovery entry;
-- the stop route for missing permission, writer conflict, or broken mapping.
+The continuity anchor belongs in the target project's existing instruction or
+governance entry. Keep concrete routes and genuine local exceptions needed by its
+readers: the starting entry, relevant methods or precedents, current recovery
+location and writer/permission constraints where material. Omit unused fields.
+Do not copy the Skill's general event, learning or approval algorithm into every
+project. Existing explicit project contracts remain effective within their scope.
 
 Do not copy current status, product facts, decisions, or full verification
 results into the anchor.
 
-On later tasks, validate that every referenced owner still serves the named
-responsibility. Refresh only a broken route, re-map only an affected owner, and
-run full rediscovery only when scope or authority is broadly unreliable.
+On relevant later work, check the owners and conditions needed for that task.
+Refresh only a broken pointer within authority, reconsider only an affected
+responsibility, and rediscover the full map only when scope or authority is
+broadly unreliable.
 
 When routing and update modes remain valid, an ordinary task follows them
-without loading Project Docs. If a later governance request exposes a broken
-route, missing owner, new scope, or incompatible update lifecycle, Project Docs
-may be rediscovered implicitly to inspect and propose repair. The anchor does
-not invoke the Skill, and implicit selection does not authorize the repair.
+without loading Project Docs. Distillation or reuse questions can select the
+learning reference; actual governance gaps can select the audit reference.
+A project anchor gives concrete routes rather than copying this Skill's full
+workflow. Neither that anchor nor implicit selection creates new authority.
 
 If the active Harness cannot load or verify the anchor, report weak continuity;
 installing this Skill does not make the target-project rule persistent.
@@ -169,12 +180,11 @@ Classify continuity for the inspected scope:
 
 ## Pause And Handoff
 
-Maintain an existing valid recovery entry through its current routing and
-applicable specific authorization; this does not require new structural
-permission. Create an entry only when no equivalent exists and the creation's
-structural effects are explicitly authorized, reusing that approval if already
-given. Stop the affected mutation for unresolved permission, writer, or routing
-conflicts. Record:
+Maintain an existing valid recovery entry within the applicable authorization.
+If no equivalent exists, distinguish a minimal handoff note covered by the task
+from establishing a new recovery authority or governance arrangement. Resolve
+only missing authority for actual effects, not a first-file ceremony. Stop the
+affected mutation for unresolved permission, writer or routing conflicts. Record:
 
 - goal and current bounded scope;
 - completed and incomplete work;

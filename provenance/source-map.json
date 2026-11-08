@@ -62,8 +62,8 @@
           "source_path": "docs/PROVENANCE.md"
         }
       ],
-      "target_normalized_sha256": "b9f3d89f2dfc4b182ed51382f8b49233545d21989ab2839ccb30e3fd0cd13cab",
-      "target_sha256": "b9f3d89f2dfc4b182ed51382f8b49233545d21989ab2839ccb30e3fd0cd13cab",
+      "target_normalized_sha256": "af59e7f6338461c9599c26556cb76b436685277d1884e8264e0fb7f185147de6",
+      "target_sha256": "af59e7f6338461c9599c26556cb76b436685277d1884e8264e0fb7f185147de6",
       "transform": "UTF-8 without BOM, LF newlines; records independent package and case rewrites with retained source identity"
     },
     {
@@ -77,8 +77,8 @@
           "source_path": "docs/skills/manage-project-docs/README.md"
         }
       ],
-      "target_normalized_sha256": "462989edf3af70d9d849432a2dadeeb5f40bd35d89ee9fee45b7caa545426d9b",
-      "target_sha256": "462989edf3af70d9d849432a2dadeeb5f40bd35d89ee9fee45b7caa545426d9b",
+      "target_normalized_sha256": "3865ef012afac2492f855f4374aab57f0fa2ac79ecc2906cb367b22e97461cba",
+      "target_sha256": "3865ef012afac2492f855f4374aab57f0fa2ac79ecc2906cb367b22e97461cba",
       "transform": "UTF-8 without BOM, LF newlines, standalone ownership and links; separates source, installation, and release status"
     },
     {
@@ -92,8 +92,8 @@
           "source_path": "docs/skills/manage-project-docs/README.zh-CN.md"
         }
       ],
-      "target_normalized_sha256": "7276fbe53a79587b7f14145cc28f572b932cb7efb7e4dcb5f53c4115b03ab04e",
-      "target_sha256": "7276fbe53a79587b7f14145cc28f572b932cb7efb7e4dcb5f53c4115b03ab04e",
+      "target_normalized_sha256": "6ad2484e793acac60e2cb829f96c59690b0f03cbd4602114f188e5830fef3b6f",
+      "target_sha256": "6ad2484e793acac60e2cb829f96c59690b0f03cbd4602114f188e5830fef3b6f",
       "transform": "UTF-8 without BOM, LF newlines, standalone ownership and links; separates source, installation, and release status"
     },
     {
@@ -107,8 +107,8 @@
           "source_path": "docs/skills/manage-project-docs/DESIGN.md"
         }
       ],
-      "target_normalized_sha256": "0009921e7b1441e4f610a8e138db181426b292fcda705d09e3c6220ec5335079",
-      "target_sha256": "0009921e7b1441e4f610a8e138db181426b292fcda705d09e3c6220ec5335079",
+      "target_normalized_sha256": "8ac654188f69701321ee84290fda1d0a3901aaabf13947de234ef702570e7510",
+      "target_sha256": "8ac654188f69701321ee84290fda1d0a3901aaabf13947de234ef702570e7510",
       "transform": "UTF-8 without BOM, LF newlines; maps necessity, mixed lifecycle, impact and authorization behavior to the existing package"
     },
     {
@@ -122,8 +122,8 @@
           "source_path": "docs/skills/manage-project-docs/README.md"
         }
       ],
-      "target_normalized_sha256": "48bade5e761f058cc7f81ae3082d54eed127b5a863ee35dec6d82aa3c1d7646a",
-      "target_sha256": "48bade5e761f058cc7f81ae3082d54eed127b5a863ee35dec6d82aa3c1d7646a",
+      "target_normalized_sha256": "b7f97087994addc027a9cac1f9f05c6b00570c093dbc182195da648d3ce65a3a",
+      "target_sha256": "b7f97087994addc027a9cac1f9f05c6b00570c093dbc182195da648d3ce65a3a",
       "transform": "UTF-8 without BOM, LF newlines, standalone ownership and links; distinguishes current source from historical evidence"
     },
     {
@@ -137,8 +137,8 @@
           "source_path": "docs/skills/manage-project-docs/README.zh-CN.md"
         }
       ],
-      "target_normalized_sha256": "efc8dc4122095d83e7df45d45497eaf46acceb97d157ad431d41dce28922d2be",
-      "target_sha256": "efc8dc4122095d83e7df45d45497eaf46acceb97d157ad431d41dce28922d2be",
+      "target_normalized_sha256": "30b96717b182054b248a5a9ae122f90b1fe6e769c8f502b64fe30cb7dadd367c",
+      "target_sha256": "30b96717b182054b248a5a9ae122f90b1fe6e769c8f502b64fe30cb7dadd367c",
       "transform": "UTF-8 without BOM, LF newlines, standalone ownership and links; distinguishes current source from historical evidence"
     },
     {
@@ -152,8 +152,8 @@
           "source_path": "docs/skills/manage-project-docs/STATE.md"
         }
       ],
-      "target_normalized_sha256": "61b4af311404d20f363db675f237c6458a2a81ca5366a0fb007718b1084cb496",
-      "target_sha256": "61b4af311404d20f363db675f237c6458a2a81ca5366a0fb007718b1084cb496",
+      "target_normalized_sha256": "ee41c473182db35c7e60cf71ae9ad2a41581061497409c2b2f80e3e9eaf9b237",
+      "target_sha256": "ee41c473182db35c7e60cf71ae9ad2a41581061497409c2b2f80e3e9eaf9b237",
       "transform": "UTF-8 without BOM, LF newlines; records source, publication, and local installation with separate evidence boundaries"
     },
     {
@@ -167,8 +167,8 @@
           "source_path": "docs/skills/manage-project-docs/VERIFICATION.md"
         }
       ],
-      "target_normalized_sha256": "99aecf610d3542c0fbad5d4d4bc8c638ae21699e4f35a31b208bca3cfec66202",
-      "target_sha256": "99aecf610d3542c0fbad5d4d4bc8c638ae21699e4f35a31b208bca3cfec66202",
+      "target_normalized_sha256": "35298239999a3edd2da9b589cb092d5450fe5457f4435a9789f17adb97214d36",
+      "target_sha256": "35298239999a3edd2da9b589cb092d5450fe5457f4435a9789f17adb97214d36",
       "transform": "UTF-8 without BOM, LF newlines; records source validation, local installation, commit gate and remaining evidence limits"
     },
     {
@@ -182,8 +182,8 @@
           "source_path": "evals/README.md"
         }
       ],
-      "target_normalized_sha256": "30671c541ed35d8d1584eafd159c82b17cbbe828ad802499c2d35419d2a0da84",
-      "target_sha256": "30671c541ed35d8d1584eafd159c82b17cbbe828ad802499c2d35419d2a0da84",
+      "target_normalized_sha256": "e21ab88473df189a294eae1da19535db0f584cbdbfb24ee8c66e97d01e501285",
+      "target_sha256": "e21ab88473df189a294eae1da19535db0f584cbdbfb24ee8c66e97d01e501285",
       "transform": "UTF-8 without BOM, LF newlines; distinguishes rewritten cases from retained fixtures and helper adaptations"
     },
     {
@@ -197,8 +197,8 @@
           "source_path": "evals/cases/project-docs-adopt.md"
         }
       ],
-      "target_normalized_sha256": "d664d138d00db584cedd209423a5a4415e004fc25e8c0a1af785529e6d36ce46",
-      "target_sha256": "d664d138d00db584cedd209423a5a4415e004fc25e8c0a1af785529e6d36ce46",
+      "target_normalized_sha256": "8c7d0c73bc222e837c4fab04c732f773824737285ff018f4a0e6e6b18b6f49d8",
+      "target_sha256": "8c7d0c73bc222e837c4fab04c732f773824737285ff018f4a0e6e6b18b6f49d8",
       "transform": "UTF-8 without BOM, LF newlines; independent necessity, lifecycle, impact and authorization guidance or case definition"
     },
     {
@@ -227,9 +227,29 @@
           "source_path": "evals/cases/project-docs-continuity.md"
         }
       ],
-      "target_normalized_sha256": "5ae76812406d8e57abc422730656b8592a9c53545dae85b2488b59705b4e56db",
-      "target_sha256": "5ae76812406d8e57abc422730656b8592a9c53545dae85b2488b59705b4e56db",
+      "target_normalized_sha256": "be0319ecaa3f4fc3f652fff1616ca831d612d1f09eab67afa657abf569030c67",
+      "target_sha256": "be0319ecaa3f4fc3f652fff1616ca831d612d1f09eab67afa657abf569030c67",
       "transform": "UTF-8 without BOM, LF newlines; independent necessity, lifecycle, impact and authorization guidance or case definition"
+    },
+    {
+      "destination": "evals/cases/project-docs-learning-reuse.md",
+      "kind": "standalone-normalized-text-rewrite",
+      "note": "Independent learning/reuse extension and separation of the retained source guidance; upstream lineage does not claim upstream authorship of new behavior",
+      "sources": [
+        {
+          "source_blob": "61d8b5e35f0857c806b8efbfbbf3ca0307896235",
+          "source_normalized_sha256": "3d9daa60795da7408ab4865246bcca2632d412c93cbfb39fc941c875d8917863",
+          "source_path": "evals/cases/project-docs-continuity.md"
+        },
+        {
+          "source_blob": "fda63e6595301b710e15447e56922d367ba785f4",
+          "source_normalized_sha256": "b4af52f3a2c25801882ac1eabc3ee82b01b675cee49afa1d1dcd3e1e0f30c886",
+          "source_path": "evals/cases/project-docs-mature-noop.md"
+        }
+      ],
+      "target_normalized_sha256": "bb2286cb0adf4add1b674ab21318fb06fa9ade82236b03b3a2c0ee020708be45",
+      "target_sha256": "bb2286cb0adf4add1b674ab21318fb06fa9ade82236b03b3a2c0ee020708be45",
+      "transform": "UTF-8 without BOM, LF newlines; retained source lineage plus independently authored project-knowledge maintenance behavior"
     },
     {
       "destination": "evals/cases/project-docs-mature-noop.md",
@@ -595,8 +615,8 @@
           "source_path": "evals/check-fixtures.ps1"
         }
       ],
-      "target_normalized_sha256": "16161adf32059b4567d80d2946253ad1bcb7fed2af81f3915c3e71a0f539feb5",
-      "target_sha256": "16161adf32059b4567d80d2946253ad1bcb7fed2af81f3915c3e71a0f539feb5",
+      "target_normalized_sha256": "47648886d9209b1f7184aa43c988409d393eb7b50ae26e4eccffda9cce260bc9",
+      "target_sha256": "47648886d9209b1f7184aa43c988409d393eb7b50ae26e4eccffda9cce260bc9",
       "transform": "UTF-8 without BOM, LF newlines; updates only the source-identity mapping pin for independent package and case rewrites"
     },
     {
@@ -610,8 +630,8 @@
           "source_path": "skills/manage-project-docs/SKILL.md"
         }
       ],
-      "target_normalized_sha256": "7ed4f4544e80fbd7bb5d0dfdeef40e089f6aa6ace5e29e98b704ead63383a07a",
-      "target_sha256": "7ed4f4544e80fbd7bb5d0dfdeef40e089f6aa6ace5e29e98b704ead63383a07a",
+      "target_normalized_sha256": "ce8947b6ccce233b71c68ca12dc7a8bd4764cd72c582d97bfc70e1ee806ab68c",
+      "target_sha256": "ce8947b6ccce233b71c68ca12dc7a8bd4764cd72c582d97bfc70e1ee806ab68c",
       "transform": "UTF-8 without BOM, LF newlines; preserves visible selection while extending necessity, content update modes, impact and authorization continuity"
     },
     {
@@ -625,8 +645,8 @@
           "source_path": "skills/manage-project-docs/agents/openai.yaml"
         }
       ],
-      "target_normalized_sha256": "66c24267e0c89356c5d197470b324202c5084ceddb73b7ea486c2498ea5cf8b0",
-      "target_sha256": "66c24267e0c89356c5d197470b324202c5084ceddb73b7ea486c2498ea5cf8b0",
+      "target_normalized_sha256": "032e022a470e81aae66b4e1794bbf0d400bdbe3ec1de841a86b1aa4b49465609",
+      "target_sha256": "032e022a470e81aae66b4e1794bbf0d400bdbe3ec1de841a86b1aa4b49465609",
       "transform": "UTF-8 without BOM, LF newlines; independent necessity, lifecycle, impact and authorization guidance or case definition"
     },
     {
@@ -640,8 +660,8 @@
           "source_path": "skills/manage-project-docs/assets/templates/continuity-anchor.md"
         }
       ],
-      "target_normalized_sha256": "ecd2abd6405133cc91557d75d36cdbec204bc1211edf93fc594a236ec95ccff3",
-      "target_sha256": "ecd2abd6405133cc91557d75d36cdbec204bc1211edf93fc594a236ec95ccff3",
+      "target_normalized_sha256": "27b5a007697b5ee34c36d2300b703f4df71d711db54e884271ecf50d869128f0",
+      "target_sha256": "27b5a007697b5ee34c36d2300b703f4df71d711db54e884271ecf50d869128f0",
       "transform": "UTF-8 without BOM, LF newlines; independent necessity, lifecycle, impact and authorization guidance or case definition"
     },
     {
@@ -655,8 +675,8 @@
           "source_path": "skills/manage-project-docs/assets/templates/project-doc-starter.md"
         }
       ],
-      "target_normalized_sha256": "2f30a5cd2a21c24e5dea4ff0432ac332010669e9df94ef582de9a3f9cd169a3c",
-      "target_sha256": "2f30a5cd2a21c24e5dea4ff0432ac332010669e9df94ef582de9a3f9cd169a3c",
+      "target_normalized_sha256": "ac448bbe36129b6f9d778f5ceb0ac0164c42dad9dc04df19aa830d7188c6adcd",
+      "target_sha256": "ac448bbe36129b6f9d778f5ceb0ac0164c42dad9dc04df19aa830d7188c6adcd",
       "transform": "UTF-8 without BOM, LF newlines; independent necessity, lifecycle, impact and authorization guidance or case definition"
     },
     {
@@ -670,9 +690,29 @@
           "source_path": "skills/manage-project-docs/references/audit-and-adopt.md"
         }
       ],
-      "target_normalized_sha256": "deea5fd48dc44ae52e918c25515f8dfa251ca43ade0088a1664645e06f83e627",
-      "target_sha256": "deea5fd48dc44ae52e918c25515f8dfa251ca43ade0088a1664645e06f83e627",
+      "target_normalized_sha256": "1cf334b1903ebac55bf18f4c178e44b515bef1fea8d1a6904059f5094d241e01",
+      "target_sha256": "1cf334b1903ebac55bf18f4c178e44b515bef1fea8d1a6904059f5094d241e01",
       "transform": "UTF-8 without BOM, LF newlines; independent necessity, lifecycle, impact and authorization guidance or case definition"
+    },
+    {
+      "destination": "skills/manage-project-docs/references/learn-and-reuse.md",
+      "kind": "standalone-normalized-text-rewrite",
+      "note": "Independent learning/reuse extension and separation of the retained source guidance; upstream lineage does not claim upstream authorship of new behavior",
+      "sources": [
+        {
+          "source_blob": "15a380bb8b2dff7e112fc034bfa752c58f60d013",
+          "source_normalized_sha256": "7a68d650d164f6f97088d8186916278df711e70db74f00117a088d22ce8d7f13",
+          "source_path": "skills/manage-project-docs/references/audit-and-adopt.md"
+        },
+        {
+          "source_blob": "132b2274a2e52d1d232fa87c2f00d95a7f0f1f84",
+          "source_normalized_sha256": "92768df8aa8d7a8f799366c46b9f03ba6bab8183896d80578188c03e361c9bb4",
+          "source_path": "skills/manage-project-docs/references/maintain-and-recover.md"
+        }
+      ],
+      "target_normalized_sha256": "aa1a6ac458d9e8658424e615c5ff5859d0d7a3238653ac2d08af4857df190634",
+      "target_sha256": "aa1a6ac458d9e8658424e615c5ff5859d0d7a3238653ac2d08af4857df190634",
+      "transform": "UTF-8 without BOM, LF newlines; retained source lineage plus independently authored project-knowledge maintenance behavior"
     },
     {
       "destination": "skills/manage-project-docs/references/maintain-and-recover.md",
@@ -685,8 +725,8 @@
           "source_path": "skills/manage-project-docs/references/maintain-and-recover.md"
         }
       ],
-      "target_normalized_sha256": "42586811d851c8cd27acf33923ba92dac80ccaf09b5f1816bfe7018512b89875",
-      "target_sha256": "42586811d851c8cd27acf33923ba92dac80ccaf09b5f1816bfe7018512b89875",
+      "target_normalized_sha256": "a7c4015d4bb124769a3dd9a54c80be482f4d7838a52c9ceaa2db2637409979eb",
+      "target_sha256": "a7c4015d4bb124769a3dd9a54c80be482f4d7838a52c9ceaa2db2637409979eb",
       "transform": "UTF-8 without BOM, LF newlines; independent necessity, lifecycle, impact and authorization guidance or case definition"
     }
   ],
