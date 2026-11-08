@@ -11,6 +11,21 @@ The v0.5.0 refactor extends this product boundary. [State](STATE.md) routes curr
 and historical release identities. [Verification](VERIFICATION.md) covers source
 checks and the scope of observed behavior.
 
+## User-Confirmed Project Rules
+
+The follow-up separates ordinary project documents from standing project rules by
+normative effect. Facts, verified procedures and evidence can be maintained within
+task authority. New, materially changed or retired rules require the user's
+confirmation of the concrete change; an already confirmed rule can be recorded
+without repeating that decision. Proposals remain outside active instruction owners.
+This closes the earlier gap where a new rule might have been treated as routine
+maintenance merely because it did not expand permissions or another material effect.
+
+Project Docs owns this knowledge method. Optional role mapping belongs to Work
+Charter's coordination reference when its arrangement is actually used and the peer
+is available. Each Skill remains sufficient alone; availability creates no adoption,
+role, write ownership or user confirmation. No detector or extra workflow is added.
+
 ## Entry And Progressive Disclosure
 
 The catalog description covers distillation, placement, reuse, governance and

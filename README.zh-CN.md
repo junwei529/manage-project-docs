@@ -3,7 +3,7 @@
 [English](README.md)
 
 **[最新发布](https://github.com/junwei529/manage-project-docs/releases/latest)**
-· [源码与验证状态](docs/skills/manage-project-docs/STATE.md#current-implementation)
+· [源码与验证状态](docs/skills/manage-project-docs/STATE.md#rule-confirmation-and-role-cooperation-follow-up)
 
 让有用的项目知识被下一次工作找到并采用。
 
@@ -22,6 +22,15 @@ Project Docs 帮助 Agent 判断哪些纠正、方法和先例值得保留，将
 结果记录显示，某角色可以签发上传地址，另一角色完成了经过验证的上传，但操作说明没有区分。
 Project Docs 可以在已授权任务中补充现有流程和发现入口，保留失败先例及其条件，
 并保持冻结记录不变。运行成功不会被解释为用户授予了新的权限。
+
+## 项目规则与一般文档
+
+已验证事实、使用方法和证据可在既有任务授权内维护。项目规则的新增、实质修改或废止，
+须先提出具体条文和影响，经用户确认后生效；已经确认的准确落盘不逐文件重复请批。
+按实际规范作用分类，README 中的长期约束同样属于规则。
+
+任务已经采用 Work Charter 且该 Skill 可用时，沿其现有角色和 writer 分工配合。
+缺少其中一个 Skill 时，另一个仍可独立使用。
 
 ## 日常使用
 
@@ -47,7 +56,7 @@ Skill 可以被自动发现，但不是后台服务。需要判断保存价值�
 <summary>安装、版本与验证说明</summary>
 
 本仓库独立维护七文件源码 [`manage-project-docs` 包](skills/manage-project-docs/)。
-[当前源码及发布状态](docs/skills/manage-project-docs/STATE.md#current-implementation)
+[当前源码及发布状态](docs/skills/manage-project-docs/STATE.md#rule-confirmation-and-role-cooperation-follow-up)
 分别记录标签包、安装副本与历史公开发布。当前包和案例定义采用保留原始
 [来源身份](PROVENANCE.md)的独立 normalized-text 改写。
 

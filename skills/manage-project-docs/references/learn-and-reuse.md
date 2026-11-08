@@ -51,8 +51,11 @@ authorization; retain its actual scope and source without exposing credentials.
 
 A rule is justified when future work needs a standing constraint or decision rule,
 the supporting evidence or decision is adequate, and its scope is explicit.
-Recording an accepted requirement is maintenance. Creating a new user-reserved
-requirement, trust boundary or permission is a decision, not automatic learning.
+Apply [Project Rule Confirmation](../SKILL.md#project-rule-confirmation) before a
+new, materially changed or retired rule becomes effective. Evidence can support a
+proposal but cannot approve it. Record an already user-confirmed requirement faithfully
+without asking again. Keep general operating explanations and bounded evidence moving
+within authority; do not turn a useful method into an unconfirmed standing obligation.
 
 Keep detailed procedures and dated results out of an always-loaded instruction
 entry. Use the closest applicable project or subproject scope. A complex recurring
@@ -93,7 +96,9 @@ A new chat, filename, release identifier or retry label alone does not invalidat
 an existing precedent. Verify changed conditions proportionately; do not re-run
 external effects merely to refresh documentation.
 
-When evidence changes, revise the current conclusion and its applicable scope.
+When evidence changes, revise factual conclusions and applicability within authority.
+If the change would alter a standing project rule, propose the change for user
+confirmation before revising that rule; retain the evidence and continue independent work.
 Retain required history and record a successor or correction outside frozen records.
 Temporary workarounds remain visibly conditional. Remove redundant current statements
 within authority; do not delete required evidence to make guidance shorter.

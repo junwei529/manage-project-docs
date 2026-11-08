@@ -14,6 +14,11 @@ uses [Learn And Reuse](learn-and-reuse.md), not a mandatory governance audit.
 When a symptom is incidental to another task, keep the check bounded and complete
 only its authorized impact; do not expand into unrelated governance work.
 
+Apply [Project Rule Confirmation](../SKILL.md#project-rule-confirmation) to normative
+changes, including rules in mixed or nonstandard files. Neither an audit result nor
+a general adoption request confirms unspecified future rules. Ordinary evidence,
+usage explanations and factual pointers keep their existing maintenance route.
+
 Follow the authorization rule in `SKILL.md`: explain concrete effects not yet
 approved, and reuse valid approval without repeating it. First invocation,
 installation, or prior adoption does not expand permission. Maintaining a map of

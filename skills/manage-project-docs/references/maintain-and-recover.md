@@ -29,7 +29,11 @@ Treat these as common document-impact events:
 | Priority or dependency changes | Future-work owner |
 | Work pauses, transfers, or context becomes unreliable | Recovery owner |
 
-For a routine event, start from changed durable facts before freezing the diff:
+For a routine event, separate general-document maintenance from changes governed
+by [Project Rule Confirmation](../SKILL.md#project-rule-confirmation). A method/result
+update may proceed; creating or retiring a standing rule requires the user's
+confirmation. Recording a rule already confirmed by the user does not require a
+second decision. Start from changed durable facts before freezing the diff:
 
 1. Follow the target project's existing read and write routing.
 2. Identify each changed fact's canonical owner and bounded actual consumers

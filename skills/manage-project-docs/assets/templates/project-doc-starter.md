@@ -15,6 +15,10 @@
 - Success evidence: <necessary checks and what they establish>
 - Accepted working constraints: <requirements or links to their existing owner>
 
+Populate standing constraints only from rules the user has confirmed. Proposed new
+or materially revised rules remain in the existing proposal/decision record until
+confirmation; ordinary usage and evidence may be maintained within task authority.
+
 Keep methods separate from dated results. Record the conditions needed for reuse;
 do not treat one successful run as proof for other identities or environments.
 

@@ -1,5 +1,34 @@
 # Project Docs Verification
 
+## Rule confirmation and role cooperation follow-up
+
+Source validation passed: both Skill metadata checks, Project Docs repository
+mapping (65 paths), Work Charter SOURCE and repository mapping (115 paths), Git
+diff whitespace and 145 affected Markdown fragments. Historical descriptors and
+model defaults remain intact.
+
+An independent explicit-candidate run changed only three permitted synthetic
+READMEs. Unconfirmed new standing rules stayed out of active instructions; an
+already user-confirmed rule was recorded without repeated approval; P's proposal
+to relax a rule did not override the user's reserved confirmation. Parent hashes
+confirmed unchanged instruction files and no new fixture files. These tests do
+not establish installed-copy behavior, native selection or broad efficacy.
+
+Independent review used the requested Astra / xhigh configuration (no independent
+runtime telemetry). RC-01/P2 found that standalone Charter permission reading could
+miss a gate located only in optional cooperation; the shared entry, common authority
+section and migration route now reach the same protection. RC-02/P3 found stale
+current-source navigation; bilingual entries now separate new source from existing
+installation/publication. The same reviewer closed both findings after actual-delta
+review, with no new material blocker. Earlier valid review coverage was retained.
+
+The final review bound 13 Project Docs paths, 16 Work Charter paths and three private
+host candidates. Closeout changes only current status/evidence and derived hashes;
+reviewed package instructions, case logic and host candidates remain unchanged.
+This source checkpoint precedes paired local rollout and external publication.
+
+Earlier v0.5.0 evidence remains bound to its own input.
+
 ## Project-knowledge maintenance refactor
 
 Source validation completed for the seven-file package and six-case inventory:

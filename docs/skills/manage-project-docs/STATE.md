@@ -1,6 +1,17 @@
 # Project Docs State
 
+## Rule confirmation and role cooperation follow-up
+
+The v0.6.0 source separates user-confirmed standing project rules from ordinary
+document maintenance and adds optional role cooperation with Work Charter.
+[Verification](VERIFICATION.md#rule-confirmation-and-role-cooperation-follow-up)
+records the source checks and independent review, including the closure of
+RC-01 and RC-02. The [GitHub Release](https://github.com/junwei529/manage-project-docs/releases/tag/v0.6.0)
+records public availability. Local rollout and actual loading have separate evidence.
+
 ## Current implementation
+
+This section records the v0.5.0 source checkpoint.
 
 The v0.5.0 source delivers the project-knowledge maintenance refactor.
 The [GitHub Release](https://github.com/junwei529/manage-project-docs/releases/tag/v0.5.0)

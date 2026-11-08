@@ -3,7 +3,7 @@
 [简体中文](README.zh-CN.md)
 
 **[Latest release](https://github.com/junwei529/manage-project-docs/releases/latest)**
-· [Source and verification status](docs/skills/manage-project-docs/STATE.md#current-implementation)
+· [Source and verification status](docs/skills/manage-project-docs/STATE.md#rule-confirmation-and-role-cooperation-follow-up)
 
 Keep useful project knowledge available to the next task.
 
@@ -26,6 +26,17 @@ performs a verified upload. The operating guide omits that distinction. Project
 Docs can update the existing method and discovery entry within the authorized task,
 preserve the denied attempt and its conditions, and leave frozen results unchanged.
 It does not infer new permissions from a successful command.
+
+## Project rules and ordinary documents
+
+Maintain verified facts, usage and evidence within the task's existing authority.
+A new, materially changed or retired standing project rule needs the user's
+confirmation of the concrete wording and effect before it becomes active. Recording
+an already confirmed rule does not require another approval per file. This distinction
+follows meaning, including rules in README, rather than the filename.
+
+With an already-used Work Charter arrangement, follow its role/writer mapping when
+that Skill is available. Either Skill also works independently.
 
 ## Use
 
@@ -54,7 +65,7 @@ Learn more: [Design](docs/skills/manage-project-docs/DESIGN.md) /
 
 This repository independently maintains the seven-file source
 [`manage-project-docs` package](skills/manage-project-docs/).
-The [current source and publication state](docs/skills/manage-project-docs/STATE.md#current-implementation)
+The [current source and publication state](docs/skills/manage-project-docs/STATE.md#rule-confirmation-and-role-cooperation-follow-up)
 distinguishes the tagged package, local installed copy and historical releases. The package
 and case definitions are independent normalized-text rewrites with retained
 [source provenance](PROVENANCE.md).

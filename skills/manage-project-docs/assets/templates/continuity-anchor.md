@@ -14,6 +14,9 @@
 - Project-specific permission, retention or frozen-input exceptions:
   <actual constraints; omit when already clear from another entry>.
 
+New, materially changed or retired project rules require the user's confirmation;
+faithfully recording an already confirmed rule does not repeat that decision.
+Maintain ordinary facts and navigation within the task's existing authority.
 Follow the task's existing authority and content update modes. Keep necessary
 current knowledge discoverable, distinguish facts from proposals and frozen history,
 and resolve uncovered authority or writer conflicts before the affected mutation.

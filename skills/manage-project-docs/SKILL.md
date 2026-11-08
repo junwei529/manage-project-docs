@@ -41,6 +41,8 @@ The five logical responsibilities in the audit reference do not imply five files
 ## Authorization And Writing
 
 Apply permission to concrete effects, not to a filename, label or first use.
+General-document maintenance and [project rule changes](#project-rule-confirmation)
+have different confirmation requirements.
 
 - A clear task request, applicable standing instruction or approved scope can
   cover necessary project-document maintenance. Reuse that authority continuously.
@@ -71,6 +73,46 @@ Project Docs owns knowledge placement and documentation-maintenance semantics.
 Work Charter owns applicable delivery and coordination; other Skills retain their
 domains. No peer selection or installation creates a dependency, role, Git permission,
 external action or new authority.
+
+## Project Rule Confirmation
+
+Classify content by its normative effect, not its filename. A project rule establishes
+a standing requirement, default, prohibition, permission boundary or decision policy
+for later project work. README and runbooks can contain rules; AGENTS can contain
+ordinary navigation. Describing a verified procedure, result or current condition
+does not by itself impose a standing obligation to use it.
+
+Creating, materially changing, relaxing or retiring a project rule requires the
+user's confirmation of that actual rule change before it becomes effective.
+Present the evidence and scope, concrete proposed wording or diff, expected effect
+on future work, and intended owner. Related proposals may be confirmed together.
+General development, documentation or learning authorization, technical success,
+and an O/P/R disposition do not alone confirm a new project rule.
+
+Keep unconfirmed rules as clearly marked proposals in the existing discussion,
+design or decision record, within its write authority. Do not insert them into
+active project instructions or treat them as current requirements, even under a
+draft heading. Continue independent authorized general-document maintenance.
+
+Reuse an earlier user decision that already confirms the same rule and scope:
+faithful recording needs no second confirmation per file. Typos, wording or pointer
+repairs that preserve meaning and authority need no new rule decision. A substantive
+change in a mixed document must be separated from ordinary maintenance. If the
+normative effect is unclear, retain that part as a proposal and explain the doubt;
+do not silently promote it or block unrelated work.
+
+## Optional Role Cooperation
+
+Follow the task's actual delivery, decision and write owners. When an applicable
+Work Charter arrangement is already in use and that Skill is available, its optional
+project-knowledge cooperation section owns the role mapping and handoff. Use the
+current catalog to locate it and read only needed guidance; do not assume a sibling
+installation path or select a new arrangement merely because both Skills exist.
+
+Project Docs continues to own retention, placement and update methods. Without Work
+Charter, the current task owner completes that work within existing authority and
+required review. Neither missing Skill nor optional cooperation creates a role,
+message permission, new approval chain or substitute for the user's rule confirmation.
 
 ## Maintain Truth And Reuse
 
