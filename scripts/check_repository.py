@@ -18,7 +18,7 @@ ROOT = Path(__file__).resolve().parents[1]
 PRODUCT = 'manage-project-docs'
 BASELINE = '80910a8b2375a11be897e9660c4b00a06d00dd13'
 EXPECTED_SOURCE_TREE = '2ec2574116a9b2c4e8ec9a1bb4cb2636cb6279af'
-EXPECTED_SOURCE_MAPPING_SHA256 = '9f3116ce8691f4325e4e6d48e05f03a4b6f874b4ac36ac8d85e44695f39e9c22'
+EXPECTED_SOURCE_MAPPING_SHA256 = '213ad8011b3f828f885a65cf9ecae1d2ca22d9c357c89d7149a687efec7136f1'
 EXPECTED_PACKAGE_COUNT = 7
 EXPECTED_CASES = set(['project-docs-adopt.md', 'project-docs-conflict.md', 'project-docs-continuity.md', 'project-docs-mature-noop.md', 'project-docs-safety-boundaries.md', 'project-docs-learning-reuse.md'])
 EXPECTED_FIXTURES = set(['project-docs-adopt', 'project-docs-conflict', 'project-docs-continuity', 'project-docs-mature-noop', 'project-docs-safety-boundaries'])
@@ -572,6 +572,8 @@ def source_mapping_sha256(manifest: dict) -> str:
                 )
             elif entry.get("kind") == "standalone-normalized-text-rewrite":
                 projected["sources"] = entry.get("sources")
+            elif entry.get("kind") == "repository-native":
+                projected.update({"note": entry.get("note"), "target_sha256": entry.get("target_sha256")})
             projected_entries.append(projected)
     else:
         projected_entries = entries
@@ -589,7 +591,7 @@ def source_mapping_sha256(manifest: dict) -> str:
 
 
 def validate_manifest_identity(manifest: dict, failures: list[str]) -> None:
-    if manifest.get("schema") != "standalone-skill-provenance/v1":
+    if manifest.get("schema") != "standalone-skill-provenance/v2":
         failures.append("provenance manifest schema mismatch")
     if manifest.get("product") != PRODUCT or manifest.get("source_commit") != BASELINE:
         failures.append("provenance product or source commit mismatch")
@@ -1449,6 +1451,31 @@ def check_links(relative: str, text: str, failures: list[str]) -> None:
             failures.append(f"{relative}: missing local link target: {target_path}")
 
 
+
+def reachable_package_markdown(package_root: Path, entry: Path) -> set[Path]:
+    """Follow local Markdown references so conditional files need one real route."""
+    pending = [entry]
+    visited: set[Path] = set()
+    root = package_root.resolve()
+    while pending:
+        path = pending.pop()
+        canonical = path.resolve()
+        if canonical in visited or not canonical.is_relative_to(root):
+            continue
+        if has_link_like_component(path) or not path.is_file():
+            continue
+        visited.add(canonical)
+        text = path.read_text(encoding="utf-8")
+        for match in LINK_PATTERN.finditer(text):
+            raw = match.group(1).split("#", 1)[0]
+            if not raw or "://" in raw:
+                continue
+            target = path.parent / unquote(raw)
+            if target.suffix.lower() == ".md":
+                pending.append(target)
+    return {path.resolve() for path in visited}
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--json", action="store_true")
@@ -1537,6 +1564,9 @@ def main() -> int:
             else:
                 for index, source in enumerate(sources):
                     validate_rewrite_source(source, relative, index, failures)
+        elif kind == "repository-native":
+            if not isinstance(entry.get("note"), str) or not entry["note"].strip():
+                failures.append(f"{relative}: repository-native entry requires a note")
         else:
             failures.append(f"{relative}: unknown provenance kind")
     if args.source_repository is not None:
@@ -1644,10 +1674,11 @@ def main() -> int:
     if skill_text and not re.match(r"\A---\n.*?\n---\n", skill_text, re.S):
         failures.append("SKILL.md frontmatter missing or malformed")
     references = package_root / "references"
+    reachable = reachable_package_markdown(package_root, skill_path)
     if references.exists():
         for reference in references.iterdir():
-            if reference.is_file() and f"](references/{reference.name})" not in skill_text:
-                failures.append(f"SKILL.md does not directly link references/{reference.name}")
+            if reference.is_file() and reference.resolve() not in reachable:
+                failures.append(f"reference has no reachable entry from SKILL.md: {reference.name}")
 
     result = {
         "product": PRODUCT,

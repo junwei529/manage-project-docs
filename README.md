@@ -1,9 +1,11 @@
 # Project Docs
 
+**v0.7.0** keeps current guidance compact and decisions tied to actual effects.
+
 [简体中文](README.zh-CN.md)
 
 **[Latest release](https://github.com/junwei529/manage-project-docs/releases/latest)**
-· [Source and verification status](docs/skills/manage-project-docs/STATE.md#rule-confirmation-and-role-cooperation-follow-up)
+· [Current state](docs/skills/manage-project-docs/STATE.md#current-candidate) · [Verification](docs/skills/manage-project-docs/VERIFICATION.md#current-candidate)
 
 Keep useful project knowledge available to the next task.
 
@@ -65,7 +67,7 @@ Learn more: [Design](docs/skills/manage-project-docs/DESIGN.md) /
 
 This repository independently maintains the seven-file source
 [`manage-project-docs` package](skills/manage-project-docs/).
-The [current source and publication state](docs/skills/manage-project-docs/STATE.md#rule-confirmation-and-role-cooperation-follow-up)
+The [current source and publication state](docs/skills/manage-project-docs/STATE.md#current-candidate)
 distinguishes the tagged package, local installed copy and historical releases. The package
 and case definitions are independent normalized-text rewrites with retained
 [source provenance](PROVENANCE.md).

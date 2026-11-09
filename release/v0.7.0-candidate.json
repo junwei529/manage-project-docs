@@ -1,0 +1,32 @@
+{
+  "candidate_state": "INSTALLED_LOCAL_NOT_PUBLISHED",
+  "evidence_states": {
+    "installation": "VERIFIED_LOCAL_INSTALLATION",
+    "publication": "NOT_PERFORMED",
+    "semantic_review": "PASS_WITH_USER_RELAYED_INDEPENDENT_REASSESSMENT",
+    "source_checks": "PASS_SOURCE_ONLY"
+  },
+  "lineage": {
+    "previous_version": "0.6.0",
+    "source_commit": "a5df5f4e4ffe3010e896c1526d903a8fed603c33"
+  },
+  "package": {
+    "file_count": 7,
+    "files": [
+      "SKILL.md",
+      "agents/openai.yaml",
+      "assets/templates/continuity-anchor.md",
+      "assets/templates/project-doc-starter.md",
+      "references/audit-and-adopt.md",
+      "references/learn-and-reuse.md",
+      "references/maintain-and-recover.md"
+    ],
+    "path": "skills/manage-project-docs",
+    "sha256": "bd1ac6ccfcdc717e40d8eb338136200931e4a875b3f4c11394dabbd0febb2d0e",
+    "tree": "ab5dd190b1f647b620e635d2a010a8cdfa69aa9b"
+  },
+  "product": "manage-project-docs",
+  "public_identity": "junwei529/manage-project-docs",
+  "schema": "skill-source-candidate/v1",
+  "version": "0.7.0"
+}

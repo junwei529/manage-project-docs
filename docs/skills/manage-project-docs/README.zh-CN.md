@@ -1,5 +1,9 @@
 # Project Docs
 
+当前源码为 v0.7.0。[状态](STATE.md#current-candidate)提供发布入口，[验证](VERIFICATION.md#current-candidate)记录源码检查、本机安装和新运行加载。
+
+## Retained Documentation
+
 [English](README.md)
 
 维护可信、可发现、可复用的项目知识。

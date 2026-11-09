@@ -1,0 +1,46 @@
+{
+  "schema": "core-semantic-assessment/v1",
+  "component": "docs",
+  "spec_sha256": "83d968bfeed7568bcd2772987d2eb147a0ae5de5730fe18fb9baef249b471e21",
+  "assessment": "Independent source interpretation of positive/negative scenarios; not actual effect execution",
+  "review_configuration_requested": {
+    "model": "gpt-6-astra",
+    "reasoning_effort": "xhigh"
+  },
+  "answers": [
+    {
+      "case_id": "CP16-P",
+      "decision": "ACCEPT_ENTRY",
+      "evidence": {
+        "path": "skills/manage-project-docs/references/maintain-and-recover.md",
+        "heading": "Current Entry",
+        "quote": "The summary is at most 300 Unicode code points\nincluding spaces and line breaks, and at most 6 non-empty logical lines."
+      },
+      "brief_reason": "300码点、6个非空行均等于允许的上限。",
+      "clause_bindings": [
+        {
+          "path": "skills/manage-project-docs/references/maintain-and-recover.md",
+          "heading": "Current Entry",
+          "sha256": "68b0f404343f4447ddcd8f80299217daffe41187153d977cfda9d28d6aa75504"
+        }
+      ]
+    },
+    {
+      "case_id": "CP16-N",
+      "decision": "SHORTEN_ENTRY",
+      "evidence": {
+        "path": "skills/manage-project-docs/references/maintain-and-recover.md",
+        "heading": "Current Entry",
+        "quote": "The summary is at most 300 Unicode code points\nincluding spaces and line breaks, and at most 6 non-empty logical lines."
+      },
+      "brief_reason": "任一维度超过上限即须缩短。",
+      "clause_bindings": [
+        {
+          "path": "skills/manage-project-docs/references/maintain-and-recover.md",
+          "heading": "Current Entry",
+          "sha256": "68b0f404343f4447ddcd8f80299217daffe41187153d977cfda9d28d6aa75504"
+        }
+      ]
+    }
+  ]
+}

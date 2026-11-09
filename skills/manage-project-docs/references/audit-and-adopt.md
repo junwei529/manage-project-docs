@@ -1,221 +1,74 @@
 # Audit And Adopt
 
-Use this reference to map existing documentation, assess content and file
-necessity, adopt missing responsibilities, or propose structural change.
-
-## Selection And Mutation Authority
-
-Implicit selection is appropriate for a direct project-document governance
-request or high-confidence evidence that authority, canonical routing,
-evidence, or recovery is missing or contradictory. Selection alone permits
-only bounded inspection and a visible proposal when write authority is absent;
-applicable task and maintenance authorization remains valid. Experience distillation
-uses [Learn And Reuse](learn-and-reuse.md), not a mandatory governance audit.
-When a symptom is incidental to another task, keep the check bounded and complete
-only its authorized impact; do not expand into unrelated governance work.
-
-Apply [Project Rule Confirmation](../SKILL.md#project-rule-confirmation) to normative
-changes, including rules in mixed or nonstandard files. Neither an audit result nor
-a general adoption request confirms unspecified future rules. Ordinary evidence,
-usage explanations and factual pointers keep their existing maintenance route.
-
-Follow the authorization rule in `SKILL.md`: explain concrete effects not yet
-approved, and reuse valid approval without repeating it. First invocation,
-installation, or prior adoption does not expand permission. Maintaining a map of
-established owners or correcting its links can be ordinary authorized maintenance;
-choosing a competing owner or migrating responsibilities needs authority for those
-effects. A request for a read-only map remains read-only.
+Use for a requested governance assessment or a concrete gap in authority, evidence,
+routing or recovery. Apply [task authority and rule confirmation](../SKILL.md#authorization-and-writing).
+A read-only audit returns its findings; authorized ordinary repairs continue.
 
 ## Build The Responsibility Map
 
-Inventory the user-specified object and question within the nearest applicable
-project scope. Follow necessary rules, evidence, owners, and direct consumers;
-map only the responsibilities relevant to that question. Use all five for an
-overall audit, first adoption, or demonstrated broad scope/routing failure.
-Do not infer a project-wide deficiency from an uninspected responsibility.
+Inspect the named scope and its direct consumers. For an overall audit or adoption,
+cover purpose/scope, work/verification, authority/write routing, current evidence,
+and next action/recovery. For a narrow question cover the affected responsibilities.
 
-| Responsibility | Answer when relevant |
-|---|---|
-| Purpose and scope | What is this project or scope for, and what is excluded? |
-| Work and verification | How is work performed and proved? |
-| Authority and write routing | Where is each durable fact read, and where is it canonically written? |
-| Current state and evidence | What is true now, and what evidence supports it? |
-| Next action and recovery | Where and how does a later session resume? |
-
-| Field | Record |
-|---|---|
-| Logical responsibility | One of the five minimum responsibilities |
-| Read locations | Every source a reader is expected to consult |
-| Canonical write locus | The single owner for normative durable facts |
-| Update mode | How the relevant content or section is maintained |
-| Evidence | Code, tests, runtime output, Git state, or external source |
-| Confidence | Verified, partial, unverified, or `UNKNOWN` |
-| Conflict | Competing claim, scope, lifecycle, or owner |
-
-For an overall assessment, treat a repository with all five responsibilities
-and usable routing as sufficient even when filenames, language, or grouping
-differ from examples. Return `NOOP` if the inspected scope has no stale fact or
-broken route to repair; do not claim that a local check verified the whole
-repository.
+For each necessary responsibility identify its read location, canonical write owner,
+update mode, evidence and actual gap. A repository with usable routing for these
+responsibilities is sufficient irrespective of filenames or language.
+Return NOOP when the inspected scope already serves its purpose.
 
 ## Assess Content And Independent-File Necessity
 
-Ask two separate questions: does this content earn its maintenance cost, and
-does it need its own file? Useful content can live in an existing section.
-A distinct update cadence alone does not require a split when sections can
-represent it clearly.
+Determine whether content earns its maintenance cost and whether it needs a
+separate file. Keep, trim, merge, reference, regenerate or archive according to
+the reader's concrete decision and retention need.
+Use separate files when scope, audience, ownership or lifecycle cannot be expressed
+coherently in the existing container. Different update dates alone can use sections.
 
-For the affected content, inspect its purpose, the reader's actual decision or
-recovery need, existing authority owner, update trigger, maintenance cost, and
-retention obligations. Check duplicates within the same file as well as across
-files. A document's existence, length, or conventional name is not proof of
-necessity; low use is not proof that required evidence can be discarded.
-
-Choose the smallest useful recommendation:
-
-| Recommendation | When it serves the reader |
-|---|---|
-| Keep | A distinct decision, contract, evidence, or retention need is already served well |
-| Trim | Necessary content is obscured by repeated current facts or unnecessary narrative |
-| Merge into an existing owner | Content remains needed but a separate file adds no useful responsibility or boundary |
-| Reference | Another owner already maintains the fact; keep a link or bounded summary |
-| Generate a view | An existing reliable source and generation mechanism can supply the needed view |
-| Archive | Content is no longer current but history or a retention obligation still matters |
-
-Recommend a split only when independent responsibility, audience, permission,
-scope, ownership, or lifecycle cannot be served coherently in the existing
-container. Explain the reader benefit and ongoing cost. Reuse existing
-generators; do not build a general documentation platform for the audit.
-
-Before deletion, identify the exact content or file, inbound references,
-remaining responsibilities, history and retention obligations, and the
-authorization covering removal. If retention is unresolved, propose keeping
-or archiving it. Do not delete merely because a newer document exists.
+Before removal, identify the exact content, incoming references, remaining
+responsibility, retention obligation and covering authority. Preserve or archive
+while retention remains unresolved. Frozen evidence retains its original content;
+current owners point to corrected successors.
 
 ## Choose Owners And Update Modes
 
-For first adoption, understand the layout and missing responsibilities before
-proposing files. A combined owner can suffice. For an existing project, map
-current documents and external sources; the following modules are examples,
-not a file list or automatic migration.
-
-Activate a module by following this chain:
-
-```text
-material project event -> durable fact class -> existing canonical owner -> update mode
-```
-
-Update an existing owner when it can still serve the fact coherently. Propose
-a separate module only when the fact needs an independent lifecycle, update
-mode, owner, audience, scope, or historical record that the current owner
-cannot represent safely, including through separate sections.
-
-| Functional module | Activate or revisit when | Default update mode |
-|---|---|---|
-| Purpose and scope | first adoption or an accepted product or scope change | revise the current contract; preserve durable rationale in a decision record when needed |
-| Work and verification | a repeatable work method, acceptance rule, or check exists or changes | revise the current method; record time-bound results in the evidence owner |
-| Authority and routing | established owners or links need maintenance, or responsibility actually changes | maintain the established mapping within task authority; obtain missing authority for a new owner or material routing decision |
-| Current state and recovery | work spans sessions, pauses, transfers, or changes writer, gate, next action, or recovery target | replace one coherent current snapshot; keep execution history elsewhere |
-| Decisions | a non-obvious durable tradeoff or replacement needs rationale | preserve frozen rationale; record the successor and its scope in the current entry |
-| Evidence and results | a claim depends on repeatable checks, current acceptance, or comparison with older results | retain frozen results, add a bounded successor or correction, and update the current index |
-
-Generated projections are updated through their editable source and then
-regenerated. Externally owned facts are updated in that system; when it is
-unavailable, retain the mapping and report the fact as unverified or `UNKNOWN`.
-Use [Maintain And Recover](maintain-and-recover.md#choose-update-modes-by-content)
-for mixed documents and partial replacement, invalidity, and applicability.
+Use material event → fact class → existing owner → update mode.
+Purpose/accepted contracts are revised; current state is replaced coherently;
+dated evidence and rationale retain history; generated views change at their
+editable source. External facts stay with their source system and are marked
+unverified when inaccessible.
+See [content lifecycle](maintain-and-recover.md#choose-update-modes-by-content).
 
 ## Classify Claims Before Resolving Them
 
-Keep these classes separate:
-
-1. intended contract;
-2. actual implementation;
-3. current work state;
-4. verification evidence;
-5. historical decision and rationale.
-
-Prefer direct evidence for current behavior, but do not silently replace an
-accepted contract. Record a mismatch and preserve `UNKNOWN` when the available
-sources cannot resolve it.
+Compare intended contract, implementation, current state, verification and history
+as separate claims. Use direct evidence for current behavior; resolve a mismatch
+with an accepted contract at its decision owner.
 
 ## Audit Or Repair
 
-1. Confirm whether the request is read-only or permits updates to existing
-   canonical owners.
-2. Read declared precedence and ownership before choosing a winner.
-3. Identify stale duplicates, missing routes, and facts without a write locus.
-4. Check the applicability of time-bound claims and evidence, any invalidity
-   or replacement relationship, and whether the current entry points to the
-   applicable owner. A newer date alone cannot settle these questions.
-5. Check that the stated next action stays within the current gate and
-   authorization, and that a fresh reader can identify one trustworthy
-   recovery entry.
-6. Apply the primary outcome rules in `SKILL.md`. A completed read-only audit
-   remains `REPORT` when only a later write is blocked; any proposed structure
-   or authority change remains `PROPOSE`.
-
-Reversibility alone does not authorize a structural repair. Distinguish updating
-a pointer to its already-established successor from choosing a new successor or
-owner. Documents can exist and still lack a trustworthy recovery entry. If repair
-requires an uncovered authority or responsibility decision, return `PROPOSE`;
-complete an already-authorized repair without another approval question.
-
-Do not modify, relabel, or silently reinterpret an immutable historical
-artifact such as a tagged snapshot, archived report, signed record, or frozen
-release note. Correct or downgrade the current claim in its canonical owner
-and point to a later corrected revision while preserving the historical fact.
+Check current precedence, stale duplicates, missing entry/write routes, applicability
+and next-action authority. A factual link to the established successor can be
+repaired within maintenance scope. A competing owner or uncovered structural choice
+is a concrete proposal. Complete covered repairs and return their checked outcome.
 
 ## First Adoption
 
-First adoption means introducing a governance arrangement or responsibility map,
-not merely writing a project's first necessary usage note. A minimal explanation
-within an authorized implementation follows the shared maintenance rule. Preserve
-any explicit no-new-file or structural boundary in the actual task.
-
-1. Inspect the existing layout and gaps; verify authorization for the actual
-   target-project effects. If a material governance or authority decision remains
-   uncovered, present the smallest proposal. Reuse existing approval when sufficient.
-2. Reuse existing sources for every responsibility they already satisfy.
-3. Add only the missing routing or content.
-4. Prefer one combined project document when it is clearer than several empty
-   owners. Use the [single-file Starter](../assets/templates/project-doc-starter.md)
-   only as an adaptable starting point.
-5. If persistent continuity is authorized, merge the
-   [Continuity Anchor](../assets/templates/continuity-anchor.md) into the
-   existing project instruction or governance entry.
-6. For an overall adoption, verify that a fresh reader can locate all five
-   responsibilities without knowing the template names. A narrow addition need
-   only close its actual gap; it does not require a complete governance map.
+First adoption establishes a governance responsibility map. A first necessary
+usage note can use ordinary maintenance authority.
+Inspect existing layout and missing responsibilities, reuse sources, then add only
+the required content or routing. Adapt the [Starter](../assets/templates/project-doc-starter.md)
+when one combined guide is useful. Merge the [Continuity Anchor](../assets/templates/continuity-anchor.md)
+into the existing instruction entry only when continuity needs it.
+Verify the affected discovery path with a fresh reader for a material adoption.
 
 ## Structural Expansion
 
-Propose expansion only after a concrete event shows that the current routing is
-insufficient, such as:
-
-- a new independently governed subproject or monorepo scope;
-- incompatible owners or update needs that sections cannot safely express;
-- repeated conflicts caused by one file owning unrelated facts;
-- one responsibility dispersed across sources without a clear write locus;
-- a rename, migration, generator, or external owner changing edit location;
-- a durable interface, security, operational, or evidence domain becoming too
-  large for its current owner.
-
-Project age, file count, or a generic desire for "better docs" is not an
-activation event. Keep a combined owner when different facts still share one
-scope, owner, audience, and update lifecycle.
-
-State the user-visible benefit, affected owners, migration path, compatibility
-links, verification, and rollback before requesting authorization. Do not
-represent this as a maturity-level upgrade.
+Propose a new owner only for demonstrated independent scope, incompatible ownership,
+repeated conflicts, scattered authority, migration or a growing operational domain.
+State reader benefit, affected owners, migration/compatibility path, verification
+and rollback together. Project age and file count are not triggers.
 
 ## Special Sources
 
-- Generated documentation: locate and edit the generator input; report the
-  generated file as derived.
-- External Wiki or issue tracker: allow it to own a fact; when unavailable,
-  retain the mapping and mark the fact unverified.
-- Monorepo: use the nearest applicable instruction and responsibility map;
-  avoid promoting subproject facts into a root owner.
-- Multilingual docs: preserve the established language and canonical owner;
-  do not create translation/version publishing machinery.
+Use generator inputs for generated docs; the external system for its facts;
+nearest scope in a monorepo; and the established language/canonical owner for
+multilingual material.

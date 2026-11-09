@@ -1,5 +1,9 @@
 # Provenance And Transformation Boundary
 
+## v0.7.0 source candidate
+
+The candidate and its file inventory are bound by release/current.json and the source map. New rule text, conditional references and core-assessment tooling are repository-native revisions. Earlier release artifacts are pinned by release/historical-files.json. The candidate descriptor records the local qualification checkpoint. [State](docs/skills/manage-project-docs/STATE.md#current-candidate) points to the public release record.
+
 ## v0.5.0 project-knowledge maintenance
 
 The v0.5.0 source expands the package to seven files and the behavior

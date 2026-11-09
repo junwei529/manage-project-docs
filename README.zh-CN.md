@@ -1,9 +1,11 @@
 # Project Docs
 
+**v0.7.0** 精简当前入口和按需阅读的说明，按实际影响推进与审查。
+
 [English](README.md)
 
 **[最新发布](https://github.com/junwei529/manage-project-docs/releases/latest)**
-· [源码与验证状态](docs/skills/manage-project-docs/STATE.md#rule-confirmation-and-role-cooperation-follow-up)
+· [当前状态](docs/skills/manage-project-docs/STATE.md#current-candidate) · [验证范围](docs/skills/manage-project-docs/VERIFICATION.md#current-candidate)
 
 让有用的项目知识被下一次工作找到并采用。
 
@@ -56,7 +58,7 @@ Skill 可以被自动发现，但不是后台服务。需要判断保存价值�
 <summary>安装、版本与验证说明</summary>
 
 本仓库独立维护七文件源码 [`manage-project-docs` 包](skills/manage-project-docs/)。
-[当前源码及发布状态](docs/skills/manage-project-docs/STATE.md#rule-confirmation-and-role-cooperation-follow-up)
+[当前源码及发布状态](docs/skills/manage-project-docs/STATE.md#current-candidate)
 分别记录标签包、安装副本与历史公开发布。当前包和案例定义采用保留原始
 [来源身份](PROVENANCE.md)的独立 normalized-text 改写。
 

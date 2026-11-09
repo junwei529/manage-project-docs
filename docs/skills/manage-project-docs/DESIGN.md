@@ -1,5 +1,9 @@
 # Project Docs Design
 
+## v0.7.0 compact rules and core safeguards
+
+Current entries are short, history is linked, and conditional details load only for their actual use. Standing-rule decisions stay with the user. Core source evaluation uses a small declared scenario set and source-grounded independent answers rather than fixed legacy sentences. Remaining prose receives human review.
+
 ## Product Boundary
 
 Maintain useful, findable and reusable project knowledge while preserving authority.
